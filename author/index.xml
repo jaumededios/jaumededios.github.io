@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories | Jaume de Dios Pont</title>
-    <link>http://jaume.dedios.cat/categories/</link>
-      <atom:link href="http://jaume.dedios.cat/categories/index.xml" rel="self" type="application/rss+xml" />
-    <description>Categories</description>
+    <title>Jaume de Dios Pont</title>
+    <link>http://jaume.dedios.cat/author/</link>
+      <atom:link href="http://jaume.dedios.cat/author/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jaume de Dios Pont</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
       <url>http://jaume.dedios.cat/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_2.png</url>
-      <title>Categories</title>
-      <link>http://jaume.dedios.cat/categories/</link>
+      <title>Jaume de Dios Pont</title>
+      <link>http://jaume.dedios.cat/author/</link>
     </image>
     
   </channel>
