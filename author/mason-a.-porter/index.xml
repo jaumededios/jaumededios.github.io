@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mason A. Porter | Jaume de Dios Pont</title>
+    <link>http://jaume.dedios.cat/author/mason-a.-porter/</link>
+      <atom:link href="http://jaume.dedios.cat/author/mason-a.-porter/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mason A. Porter</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 26 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://jaume.dedios.cat/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_2.png</url>
+      <title>Mason A. Porter</title>
+      <link>http://jaume.dedios.cat/author/mason-a.-porter/</link>
+    </image>
+    
+    <item>
+      <title>Role Detection in Bicycle-Sharing Networks Using Multilayer Stochastic Block Models</title>
+      <link>http://jaume.dedios.cat/publication/bike-preprint/</link>
+      <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/publication/bike-preprint/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

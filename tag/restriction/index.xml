@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Restriction | Jaume de Dios Pont</title>
+    <link>http://jaume.dedios.cat/tag/restriction/</link>
+      <atom:link href="http://jaume.dedios.cat/tag/restriction/index.xml" rel="self" type="application/rss+xml" />
+    <description>Restriction</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 31 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://jaume.dedios.cat/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_2.png</url>
+      <title>Restriction</title>
+      <link>http://jaume.dedios.cat/tag/restriction/</link>
+    </image>
+    
+    <item>
+      <title>A geometric lemma for complex polynomial curves with applications in Fourier restriction theory</title>
+      <link>http://jaume.dedios.cat/publication/uniform-restriction-v1/</link>
+      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/publication/uniform-restriction-v1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

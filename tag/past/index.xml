@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Past | Jaume de Dios Pont</title>
+    <link>http://jaume.dedios.cat/tag/past/</link>
+      <atom:link href="http://jaume.dedios.cat/tag/past/index.xml" rel="self" type="application/rss+xml" />
+    <description>Past</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 29 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://jaume.dedios.cat/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_2.png</url>
+      <title>Past</title>
+      <link>http://jaume.dedios.cat/tag/past/</link>
+    </image>
+    
+    <item>
+      <title>Bachelor&#39;s thesis: Oscillatory integrals and the Kakeya Conjecture</title>
+      <link>http://jaume.dedios.cat/project/bachelors/</link>
+      <pubDate>Fri, 29 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/project/bachelors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Master&#39;s thesis: Quantum Loewner Evolution</title>
+      <link>http://jaume.dedios.cat/project/masters/</link>
+      <pubDate>Fri, 29 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/project/masters/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Role Detection in Bicycle-Sharing Networks Using Multilayer Stochastic Block Models</title>
+      <link>http://jaume.dedios.cat/project/bike/</link>
+      <pubDate>Fri, 29 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/project/bike/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

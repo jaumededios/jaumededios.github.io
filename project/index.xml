@@ -1,36 +1,71 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects | Jaume de Dios</title>
+    <title>Projects | Jaume de Dios Pont</title>
     <link>http://jaume.dedios.cat/project/</link>
       <atom:link href="http://jaume.dedios.cat/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jaume de Dios Pont 2020</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 30 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://jaume.dedios.cat/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>http://jaume.dedios.cat/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
       <link>http://jaume.dedios.cat/project/</link>
     </image>
     
     <item>
-      <title>External Project</title>
-      <link>http://jaume.dedios.cat/project/external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/project/external-project/</guid>
+      <title>Uniformity in Harmonic Analysis: Polynomial curves.</title>
+      <link>http://jaume.dedios.cat/project/field-uniformity/</link>
+      <pubDate>Sat, 30 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/project/field-uniformity/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Internal Project</title>
-      <link>http://jaume.dedios.cat/project/internal-project/</link>
+      <title>Bachelor&#39;s thesis: Oscillatory integrals and the Kakeya Conjecture</title>
+      <link>http://jaume.dedios.cat/project/bachelors/</link>
+      <pubDate>Fri, 29 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/project/bachelors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Master&#39;s thesis: Quantum Loewner Evolution</title>
+      <link>http://jaume.dedios.cat/project/masters/</link>
+      <pubDate>Fri, 29 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/project/masters/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Role Detection in Bicycle-Sharing Networks Using Multilayer Stochastic Block Models</title>
+      <link>http://jaume.dedios.cat/project/bike/</link>
+      <pubDate>Fri, 29 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/project/bike/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sparsity and training of overparametrised ReLu networks</title>
+      <link>http://jaume.dedios.cat/project/sparsity-nn/</link>
+      <pubDate>Fri, 29 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/project/sparsity-nn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decoupling properties of Cantor-type sets</title>
+      <link>http://jaume.dedios.cat/project/decoupling-cantor/</link>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/project/decoupling-cantor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monotonicity in decoupling</title>
+      <link>http://jaume.dedios.cat/project/monotonicity-decoupling/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/project/internal-project/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-</description>
+      <guid>http://jaume.dedios.cat/project/monotonicity-decoupling/</guid>
+      <description></description>
     </item>
     
   </channel>

@@ -3,11 +3,152 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://jaume.dedios.cat/author/</loc>
+    <loc>http://jaume.dedios.cat/publication-type/3/</loc>
+    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://jaume.dedios.cat/authors/</loc>
+    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/author/jaume-de-dios/</loc>
+    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/</loc>
+    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/author/joan-bruna/</loc>
+    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/tag/machine-learning/</loc>
+    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/publication/bruna-nn/</loc>
+    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/publication_types/</loc>
+    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/publication/</loc>
+    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/tags/</loc>
+    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/publication/uniform-restriction-v1/</loc>
+    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/tag/restriction/</loc>
+    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/tag/uniformity/</loc>
+    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/author/cassidy-mentus/</loc>
+    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/author/jane-carlen/</loc>
+    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/author/mason-a.-porter/</loc>
+    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/publication/bike-preprint/</loc>
+    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/author/shyr-shea-chang/</loc>
+    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/author/stephanie-wang/</loc>
+    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/tag/current/</loc>
+    <lastmod>2016-04-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/project/</loc>
+    <lastmod>2016-04-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/project/field-uniformity/</loc>
+    <lastmod>2016-04-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/project/bachelors/</loc>
+    <lastmod>2016-04-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/project/masters/</loc>
+    <lastmod>2016-04-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/tag/past/</loc>
+    <lastmod>2016-04-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/project/bike/</loc>
+    <lastmod>2016-04-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/project/sparsity-nn/</loc>
+    <lastmod>2016-04-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/project/decoupling-cantor/</loc>
+    <lastmod>2016-04-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/project/monotonicity-decoupling/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/author/</loc>
   </url>
   
   <url>
@@ -15,27 +156,11 @@
   </url>
   
   <url>
-    <loc>http://jaume.dedios.cat/</loc>
-  </url>
-  
-  <url>
     <loc>http://jaume.dedios.cat/post/</loc>
   </url>
   
   <url>
-    <loc>http://jaume.dedios.cat/publication_types/</loc>
-  </url>
-  
-  <url>
-    <loc>http://jaume.dedios.cat/publication/</loc>
-  </url>
-  
-  <url>
     <loc>http://jaume.dedios.cat/talk/</loc>
-  </url>
-  
-  <url>
-    <loc>http://jaume.dedios.cat/tags/</loc>
   </url>
   
 </urlset>

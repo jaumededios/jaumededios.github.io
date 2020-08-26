@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Current | Jaume de Dios Pont</title>
+    <link>http://jaume.dedios.cat/tag/current/</link>
+      <atom:link href="http://jaume.dedios.cat/tag/current/index.xml" rel="self" type="application/rss+xml" />
+    <description>Current</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 30 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://jaume.dedios.cat/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_2.png</url>
+      <title>Current</title>
+      <link>http://jaume.dedios.cat/tag/current/</link>
+    </image>
+    
+    <item>
+      <title>Uniformity in Harmonic Analysis: Polynomial curves.</title>
+      <link>http://jaume.dedios.cat/project/field-uniformity/</link>
+      <pubDate>Sat, 30 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/project/field-uniformity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sparsity and training of overparametrised ReLu networks</title>
+      <link>http://jaume.dedios.cat/project/sparsity-nn/</link>
+      <pubDate>Fri, 29 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/project/sparsity-nn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decoupling properties of Cantor-type sets</title>
+      <link>http://jaume.dedios.cat/project/decoupling-cantor/</link>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/project/decoupling-cantor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monotonicity in decoupling</title>
+      <link>http://jaume.dedios.cat/project/monotonicity-decoupling/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/project/monotonicity-decoupling/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

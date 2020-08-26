@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jaume de Dios | Jaume de Dios Pont</title>
+    <link>http://jaume.dedios.cat/author/jaume-de-dios/</link>
+      <atom:link href="http://jaume.dedios.cat/author/jaume-de-dios/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jaume de Dios</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 10 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://jaume.dedios.cat/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_2.png</url>
+      <title>Jaume de Dios</title>
+      <link>http://jaume.dedios.cat/author/jaume-de-dios/</link>
+    </image>
+    
+    <item>
+      <title>On Sparsity in Overparametrised Shallow ReLU Networks</title>
+      <link>http://jaume.dedios.cat/publication/bruna-nn/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/publication/bruna-nn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A geometric lemma for complex polynomial curves with applications in Fourier restriction theory</title>
+      <link>http://jaume.dedios.cat/publication/uniform-restriction-v1/</link>
+      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/publication/uniform-restriction-v1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Role Detection in Bicycle-Sharing Networks Using Multilayer Stochastic Block Models</title>
+      <link>http://jaume.dedios.cat/publication/bike-preprint/</link>
+      <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/publication/bike-preprint/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
