@@ -5,12 +5,28 @@
     <link>http://jaume.dedios.cat/</link>
       <atom:link href="http://jaume.dedios.cat/index.xml" rel="self" type="application/rss+xml" />
     <description>Jaume de Dios Pont</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 10 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 09 Sep 2020 00:00:01 +0000</lastBuildDate>
     <image>
       <url>http://jaume.dedios.cat/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_2.png</url>
       <title>Jaume de Dios Pont</title>
       <link>http://jaume.dedios.cat/</link>
     </image>
+    
+    <item>
+      <title>UCLA Math 32A: Calculus of Several Variables</title>
+      <link>http://jaume.dedios.cat/teaching/20f32a/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:01 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/teaching/20f32a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UCLA Math 131A: Calculus of Several Variables</title>
+      <link>http://jaume.dedios.cat/teaching/20f115a/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/teaching/20f115a/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>On Sparsity in Overparametrised Shallow ReLU Networks</title>

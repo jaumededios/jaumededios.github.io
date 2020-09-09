@@ -3,6 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://jaume.dedios.cat/tag/current/</loc>
+    <lastmod>2020-09-09T00:00:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/</loc>
+    <lastmod>2020-09-09T00:00:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/tags/</loc>
+    <lastmod>2020-09-09T00:00:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/teaching/</loc>
+    <lastmod>2020-09-09T00:00:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/teaching/20f32a/</loc>
+    <lastmod>2020-09-09T00:00:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/teaching/20f115a/</loc>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://jaume.dedios.cat/publication-type/3/</loc>
     <lastmod>2020-06-10T00:00:00+00:00</lastmod>
   </url>
@@ -14,11 +44,6 @@
   
   <url>
     <loc>http://jaume.dedios.cat/author/jaume-de-dios/</loc>
-    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jaume.dedios.cat/</loc>
     <lastmod>2020-06-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -44,11 +69,6 @@
   
   <url>
     <loc>http://jaume.dedios.cat/publication/</loc>
-    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jaume.dedios.cat/tags/</loc>
     <lastmod>2020-06-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -95,11 +115,6 @@
   <url>
     <loc>http://jaume.dedios.cat/author/stephanie-wang/</loc>
     <lastmod>2019-08-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jaume.dedios.cat/tag/current/</loc>
-    <lastmod>2016-04-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
