@@ -3,12 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://jaume.dedios.cat/tag/current/</loc>
-    <lastmod>2020-09-28T00:00:01+00:00</lastmod>
+    <loc>http://jaume.dedios.cat/</loc>
+    <lastmod>2020-12-07T17:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://jaume.dedios.cat/</loc>
+    <loc>http://jaume.dedios.cat/talk/</loc>
+    <lastmod>2020-12-07T17:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/talk/20201207-oars/</loc>
+    <lastmod>2020-12-07T17:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/talk/20201109-ubuab/</loc>
+    <lastmod>2020-11-09T15:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/talk/20201021-bgsmath/</loc>
+    <lastmod>2020-10-21T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/talk/20201019-nyu/</loc>
+    <lastmod>2020-10-19T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/tag/current/</loc>
     <lastmod>2020-09-28T00:00:01+00:00</lastmod>
   </url>
   
@@ -127,10 +152,6 @@
   
   <url>
     <loc>http://jaume.dedios.cat/post/</loc>
-  </url>
-  
-  <url>
-    <loc>http://jaume.dedios.cat/talk/</loc>
   </url>
   
 </urlset>

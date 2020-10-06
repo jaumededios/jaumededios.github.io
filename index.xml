@@ -5,12 +5,44 @@
     <link>http://jaume.dedios.cat/</link>
       <atom:link href="http://jaume.dedios.cat/index.xml" rel="self" type="application/rss+xml" />
     <description>Jaume de Dios Pont</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 28 Sep 2020 00:00:01 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 07 Dec 2020 17:00:00 +0000</lastBuildDate>
     <image>
       <url>http://jaume.dedios.cat/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_2.png</url>
       <title>Jaume de Dios Pont</title>
       <link>http://jaume.dedios.cat/</link>
     </image>
+    
+    <item>
+      <title>Uniform boundedness in operators parametrized by polynomial curves: Local field case* </title>
+      <link>http://jaume.dedios.cat/talk/20201207-oars/</link>
+      <pubDate>Mon, 07 Dec 2020 17:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/20201207-oars/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TBA* </title>
+      <link>http://jaume.dedios.cat/talk/20201109-ubuab/</link>
+      <pubDate>Mon, 09 Nov 2020 15:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/20201109-ubuab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What is decoupling, and why should I care about it?*  (Talk in catalan)</title>
+      <link>http://jaume.dedios.cat/talk/20201021-bgsmath/</link>
+      <pubDate>Wed, 21 Oct 2020 12:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/20201021-bgsmath/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Sparsity in Overparametrised Shallow ReLU Networks </title>
+      <link>http://jaume.dedios.cat/talk/20201019-nyu/</link>
+      <pubDate>Mon, 19 Oct 2020 14:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/20201019-nyu/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>UCLA Math 32A: Calculus of Several Variables</title>
@@ -29,11 +61,18 @@ Link to the
     </item>
     
     <item>
-      <title>UCLA Math 131A: Calculus of Several Variables</title>
+      <title>UCLA Math 131A: Analysis</title>
       <link>http://jaume.dedios.cat/teaching/20f115a/</link>
       <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
       <guid>http://jaume.dedios.cat/teaching/20f115a/</guid>
-      <description></description>
+      <description>&lt;p&gt;Lectures taught by 
+&lt;a href=&#34;https://www.math.ucla.edu/~jcameron/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;James Cameron&lt;/a&gt;.
+Link to the 
+&lt;a href=&#34;https://ccle.ucla.edu/course/view/20F-MATH131A-1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CCLE site&lt;/a&gt; for the class.&lt;/p&gt;
+&lt;p&gt;If you are emailing me, make sure to add  &lt;code&gt;MATH131A&lt;/code&gt;  to the subject so that I don&amp;rsquo;t miss it!&lt;/p&gt;
+&lt;h2 id=&#34;notes-for-the--ta-sessions&#34;&gt;Notes for the  TA Sessions&lt;/h2&gt;
+&lt;iframe src=&#34;https://drive.google.com/embeddedfolderview?id=1D9msBXMN_NKyTKDH00H27Llzr50JZ_cN#list&#34; style=&#34;width:100%; border:0; max-height: 800px;&#34;&gt;&lt;/iframe&gt;
+</description>
     </item>
     
     <item>
