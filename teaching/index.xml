@@ -5,7 +5,7 @@
     <link>http://jaume.dedios.cat/teaching/</link>
       <atom:link href="http://jaume.dedios.cat/teaching/index.xml" rel="self" type="application/rss+xml" />
     <description>Teachings</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 28 Sep 2020 00:00:01 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 20 Dec 2020 00:00:01 +0000</lastBuildDate>
     <image>
       <url>http://jaume.dedios.cat/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_2.png</url>
       <title>Teachings</title>
@@ -14,6 +14,40 @@
     
     <item>
       <title>UCLA Math 32A: Calculus of Several Variables</title>
+      <link>http://jaume.dedios.cat/teaching/21w32a/</link>
+      <pubDate>Sun, 20 Dec 2020 00:00:01 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/teaching/21w32a/</guid>
+      <description>&lt;p&gt;Lectures taught by 
+&lt;a href=&#34;https://www.math.ucla.edu/~suzuki/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Suzuki Fumiaki&lt;/a&gt;.
+Link to the 
+&lt;a href=&#34;https://ccle.ucla.edu/course/view/21W-MATH32A-1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CCLE site&lt;/a&gt; for the class.
+You might be interested in the 
+&lt;a href=&#34;http://jaume.dedios.cat/teaching/20f32a/&#34;&gt;notes for the same class in Fall 2020.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you are emailing me, make sure to add  &lt;code&gt;MATH32A&lt;/code&gt;  to the subject so that I don&amp;rsquo;t miss it!&lt;/p&gt;
+&lt;h2 id=&#34;notes-for-tuesday-section-1a&#34;&gt;Notes for Tuesday Section 1A&lt;/h2&gt;
+&lt;iframe src=&#34;https://drive.google.com/embeddedfolderview?id=1UNI81myljmBpRvXVmK9TqWsyJkkcOGPs#list&#34; style=&#34;width:100%; border:0; max-height: 800px;&#34;&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;notes-for-thursday-section-1b&#34;&gt;Notes for Thursday Section 1B&lt;/h2&gt;
+&lt;iframe src=&#34;https://drive.google.com/embeddedfolderview?id=1xCM9UNbj7mMxWbyOSDkF_AozrmUov04L#list&#34; style=&#34;width:100%; border:0; max-height: 800px;&#34;&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>UCLA Math 32B: Calculus of Several Variables</title>
+      <link>http://jaume.dedios.cat/teaching/21w32b/</link>
+      <pubDate>Sun, 20 Dec 2020 00:00:01 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/teaching/21w32b/</guid>
+      <description>&lt;p&gt;Lectures taught by 
+&lt;a href=&#34;https://www.math.ucla.edu/~suzuki/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;March Boedihardjo&lt;/a&gt;.
+Link to the 
+&lt;a href=&#34;https://ccle.ucla.edu/course/view/21W-MATH32B-1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CCLE site&lt;/a&gt; for the class.&lt;/p&gt;
+&lt;p&gt;If you are emailing me, make sure to add  &lt;code&gt;MATH32B&lt;/code&gt;  to the subject so that I don&amp;rsquo;t miss it!&lt;/p&gt;
+&lt;h2 id=&#34;notes-for-tuesday-section-1a&#34;&gt;Notes for Tuesday Section 1A&lt;/h2&gt;
+&lt;iframe src=&#34;https://drive.google.com/embeddedfolderview?id=1Twlae4GMWw7w-lPCeYt2Q11E2JqEtLXe#list&#34; style=&#34;width:100%; border:0; max-height: 800px;&#34;&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;notes-for-thursday-section-1b&#34;&gt;Notes for Thursday Section 1B&lt;/h2&gt;
+&lt;iframe src=&#34;https://drive.google.com/embeddedfolderview?id=1DX5HJbtYnMNreqB_P0BvkuGrLtpwIPiv#list&#34; style=&#34;width:100%; border:0; max-height: 800px;&#34;&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>UCLA Math 32A: Calculus of Several Variables - Fall 2020</title>
       <link>http://jaume.dedios.cat/teaching/20f32a/</link>
       <pubDate>Mon, 28 Sep 2020 00:00:01 +0000</pubDate>
       <guid>http://jaume.dedios.cat/teaching/20f32a/</guid>
@@ -29,7 +63,7 @@ Link to the
     </item>
     
     <item>
-      <title>UCLA Math 131A: Analysis</title>
+      <title>UCLA Math 131A: Analysis - Fall 2020</title>
       <link>http://jaume.dedios.cat/teaching/20f115a/</link>
       <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
       <guid>http://jaume.dedios.cat/teaching/20f115a/</guid>

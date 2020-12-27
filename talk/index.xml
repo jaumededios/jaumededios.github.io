@@ -5,7 +5,7 @@
     <link>http://jaume.dedios.cat/talk/</link>
       <atom:link href="http://jaume.dedios.cat/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 07 Dec 2020 17:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 20 Feb 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://jaume.dedios.cat/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_2.png</url>
       <title>Recent &amp; Upcoming Talks</title>
@@ -13,7 +13,15 @@
     </image>
     
     <item>
-      <title>Uniform boundedness in operators parametrized by polynomial curves: Local field case* </title>
+      <title>Uniform boundedness in operators parametrized by polynomial curves*</title>
+      <link>http://jaume.dedios.cat/talk/20220201-owfa/</link>
+      <pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/20220201-owfa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uniform boundedness in operators parametrized by polynomial curves</title>
       <link>http://jaume.dedios.cat/talk/20201207-oars/</link>
       <pubDate>Mon, 07 Dec 2020 17:00:00 +0000</pubDate>
       <guid>http://jaume.dedios.cat/talk/20201207-oars/</guid>
@@ -21,7 +29,7 @@
     </item>
     
     <item>
-      <title>TBA* </title>
+      <title>Uniform boundedness in operators parametrized by polynomial curves</title>
       <link>http://jaume.dedios.cat/talk/20201109-ubuab/</link>
       <pubDate>Mon, 09 Nov 2020 15:00:00 +0000</pubDate>
       <guid>http://jaume.dedios.cat/talk/20201109-ubuab/</guid>
@@ -29,7 +37,7 @@
     </item>
     
     <item>
-      <title>Decoupling and applications: from PDEs to Number Theory. (Talk in catalan)</title>
+      <title>Decoupling and applications: from PDEs to Number Theory.</title>
       <link>http://jaume.dedios.cat/talk/20201021-bgsmath/</link>
       <pubDate>Wed, 21 Oct 2020 12:00:00 +0000</pubDate>
       <guid>http://jaume.dedios.cat/talk/20201021-bgsmath/</guid>
