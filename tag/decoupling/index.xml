@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Decoupling | Jaume de Dios Pont</title>
+    <link>http://jaume.dedios.cat/tag/decoupling/</link>
+      <atom:link href="http://jaume.dedios.cat/tag/decoupling/index.xml" rel="self" type="application/rss+xml" />
+    <description>Decoupling</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 21 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://jaume.dedios.cat/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_2.png</url>
+      <title>Decoupling</title>
+      <link>http://jaume.dedios.cat/tag/decoupling/</link>
+    </image>
+    
+    <item>
+      <title>Decoupling for fractal subsets of the parabola</title>
+      <link>http://jaume.dedios.cat/publication/cantor-decoupling/</link>
+      <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/publication/cantor-decoupling/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
