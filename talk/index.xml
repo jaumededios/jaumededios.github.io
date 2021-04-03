@@ -5,7 +5,7 @@
     <link>http://jaume.dedios.cat/talk/</link>
       <atom:link href="http://jaume.dedios.cat/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 20 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 12 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://jaume.dedios.cat/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_2.png</url>
       <title>Recent &amp; Upcoming Talks</title>
@@ -13,10 +13,18 @@
     </image>
     
     <item>
-      <title>Uniform boundedness in operators parametrized by polynomial curves*</title>
+      <title>Decoupling for Cantor sets</title>
       <link>http://jaume.dedios.cat/talk/20220201-owfa/</link>
-      <pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
       <guid>http://jaume.dedios.cat/talk/20220201-owfa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uniform boundedness in operators parametrized by polynomial curves</title>
+      <link>http://jaume.dedios.cat/talk/20220211-ucd/</link>
+      <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/20220211-ucd/</guid>
       <description></description>
     </item>
     
