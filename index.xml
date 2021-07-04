@@ -5,7 +5,7 @@
     <link>http://jaume.dedios.cat/</link>
       <atom:link href="http://jaume.dedios.cat/index.xml" rel="self" type="application/rss+xml" />
     <description>Jaume de Dios Pont</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 12 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 11 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://jaume.dedios.cat/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_2.png</url>
       <title>Jaume de Dios Pont</title>
@@ -13,18 +13,50 @@
     </image>
     
     <item>
+      <title>Summer School on discrete analysis and complexity of quantum algorithms </title>
+      <link>http://jaume.dedios.cat/talk/202110_quantum/</link>
+      <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/202110_quantum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brascamp-Lieb inequalities Summer School</title>
+      <link>http://jaume.dedios.cat/talk/202109_kopp/</link>
+      <pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/202109_kopp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Harmonic Analysis and Analytic Number Theory Trimester Program</title>
+      <link>http://jaume.dedios.cat/talk/202108_him/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/202108_him/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Harmonic Analysis and Analytic Number Theory Trimester Program</title>
+      <link>http://jaume.dedios.cat/talk/202105_him/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/202105_him/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Decoupling for Cantor sets</title>
-      <link>http://jaume.dedios.cat/talk/20220201-owfa/</link>
+      <link>http://jaume.dedios.cat/talk/20210201-owfa/</link>
       <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/talk/20220201-owfa/</guid>
+      <guid>http://jaume.dedios.cat/talk/20210201-owfa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Uniform boundedness in operators parametrized by polynomial curves</title>
-      <link>http://jaume.dedios.cat/talk/20220211-ucd/</link>
+      <link>http://jaume.dedios.cat/talk/20210211-ucd/</link>
       <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/talk/20220211-ucd/</guid>
+      <guid>http://jaume.dedios.cat/talk/20210211-ucd/</guid>
       <description></description>
     </item>
     
@@ -118,9 +150,9 @@ Link to the
     
     <item>
       <title>On Sparsity in Overparametrised Shallow ReLU Networks </title>
-      <link>http://jaume.dedios.cat/talk/20201019-nyu/</link>
+      <link>http://jaume.dedios.cat/talk/20201019_cds/</link>
       <pubDate>Mon, 19 Oct 2020 14:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/talk/20201019-nyu/</guid>
+      <guid>http://jaume.dedios.cat/talk/20201019_cds/</guid>
       <description></description>
     </item>
     

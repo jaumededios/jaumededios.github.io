@@ -1,48 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recent &amp; Upcoming Talks | Jaume de Dios Pont</title>
-    <link>http://jaume.dedios.cat/talk/</link>
-      <atom:link href="http://jaume.dedios.cat/talk/index.xml" rel="self" type="application/rss+xml" />
-    <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 11 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <title>Talk | Jaume de Dios Pont</title>
+    <link>http://jaume.dedios.cat/tag/talk/</link>
+      <atom:link href="http://jaume.dedios.cat/tag/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Talk</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 12 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://jaume.dedios.cat/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_2.png</url>
-      <title>Recent &amp; Upcoming Talks</title>
-      <link>http://jaume.dedios.cat/talk/</link>
+      <title>Talk</title>
+      <link>http://jaume.dedios.cat/tag/talk/</link>
     </image>
-    
-    <item>
-      <title>Summer School on discrete analysis and complexity of quantum algorithms </title>
-      <link>http://jaume.dedios.cat/talk/202110_quantum/</link>
-      <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/talk/202110_quantum/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Brascamp-Lieb inequalities Summer School</title>
-      <link>http://jaume.dedios.cat/talk/202109_kopp/</link>
-      <pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/talk/202109_kopp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Harmonic Analysis and Analytic Number Theory Trimester Program</title>
-      <link>http://jaume.dedios.cat/talk/202108_him/</link>
-      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/talk/202108_him/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Harmonic Analysis and Analytic Number Theory Trimester Program</title>
-      <link>http://jaume.dedios.cat/talk/202105_him/</link>
-      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/talk/202105_him/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Decoupling for Cantor sets</title>
