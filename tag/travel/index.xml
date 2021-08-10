@@ -13,34 +13,98 @@
     </image>
     
     <item>
-      <title>Summer School on discrete analysis and complexity of quantum algorithms </title>
-      <link>http://jaume.dedios.cat/talk/202110_quantum/</link>
+      <title>Summer School on discrete analysis and complexity of quantum algorithms</title>
+      <link>http://jaume.dedios.cat/talk/quantum2021/</link>
       <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/talk/202110_quantum/</guid>
+      <guid>http://jaume.dedios.cat/talk/quantum2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Summer School on discrete analysis and complexity of quantum algorithms</title>
+      <link>http://jaume.dedios.cat/yaml/md_travel/quantum2021/</link>
+      <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/yaml/md_travel/quantum2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Summer School on discrete analysis and complexity of quantum algorithms </title>
+      <link>http://jaume.dedios.cat/yaml/old_talk/202110_quantum/</link>
+      <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/yaml/old_talk/202110_quantum/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Brascamp-Lieb inequalities Summer School</title>
-      <link>http://jaume.dedios.cat/talk/202109_kopp/</link>
+      <link>http://jaume.dedios.cat/talk/kopp2021/</link>
       <pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/talk/202109_kopp/</guid>
+      <guid>http://jaume.dedios.cat/talk/kopp2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brascamp-Lieb inequalities Summer School</title>
+      <link>http://jaume.dedios.cat/yaml/md_travel/kopp2021/</link>
+      <pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/yaml/md_travel/kopp2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brascamp-Lieb inequalities Summer School</title>
+      <link>http://jaume.dedios.cat/yaml/old_talk/202109_kopp/</link>
+      <pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/yaml/old_talk/202109_kopp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Harmonic Analysis and Analytic Number Theory Trimester Program</title>
-      <link>http://jaume.dedios.cat/talk/202108_him/</link>
+      <link>http://jaume.dedios.cat/yaml/old_talk/202108_him/</link>
       <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/talk/202108_him/</guid>
+      <guid>http://jaume.dedios.cat/yaml/old_talk/202108_him/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Harmonic Analysis and Analytic Number Theory, Dual trimester program</title>
+      <link>http://jaume.dedios.cat/talk/him2021su2/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/him2021su2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Harmonic Analysis and Analytic Number Theory, Dual trimester program</title>
+      <link>http://jaume.dedios.cat/yaml/md_travel/him2021su2/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/yaml/md_travel/him2021su2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Harmonic Analysis and Analytic Number Theory Trimester Program</title>
-      <link>http://jaume.dedios.cat/talk/202105_him/</link>
+      <link>http://jaume.dedios.cat/yaml/old_talk/202105_him/</link>
       <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/talk/202105_him/</guid>
+      <guid>http://jaume.dedios.cat/yaml/old_talk/202105_him/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Harmonic Analysis and Analytic Number Theory, Dual trimester program</title>
+      <link>http://jaume.dedios.cat/talk/him2021su1/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/him2021su1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Harmonic Analysis and Analytic Number Theory, Dual trimester program</title>
+      <link>http://jaume.dedios.cat/yaml/md_travel/him2021su1/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/yaml/md_travel/him2021su1/</guid>
       <description></description>
     </item>
     

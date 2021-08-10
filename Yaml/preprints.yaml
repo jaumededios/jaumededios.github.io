@@ -1,0 +1,131 @@
+- Acorr2021:
+  title : "On classical inequalities for autocorrelations and autoconvolutions"
+  type: Preprint
+  arxiv: "arXiv:2106.13873"
+  url : "https://arxiv.org/abs/2106.13873"
+  date: "2021-06-21"
+  abstract: "In this paper we study an autocorrelation inequality proposed by Barnard and Steinerberger. The 
+             study of these problems is motivated by a classical problem in additive combinatorics. We 
+             establish the existence of extremizers to this inequality, for a general class of weights, 
+             including Gaussian functions (as studied by the second author and Ramos) and characteristic 
+             function (as originally studied by Barnard and Steinerberger). Moreover, via a discretization 
+             argument and numerical analysis, we find some almost optimal approximation for the best constant 
+             allowed in this inequality. We also discuss some other related problem about autoconvolutions."
+  authors:
+    - Jaume de Dios
+    - José Madrid
+
+- Curves2020:
+  title : "A geometric lemma for complex polynomial curves with applications in Fourier restriction theory"
+  type: Preprint
+  arxiv: "arXiv:2003.14140"
+  url : "https://arxiv.org/abs/2003.14140"
+  date: "2020-03-31"
+  abstract: "The aim of this paper is to prove a uniform Fourier restriction estimate for certain 2−dimensional
+             surfaces in R<sup>2n</sup>. These surfaces are the image of complex polynomial curves, equipped 
+             with the complex equivalent to the affine arclength measure. This result is a complex-polynomial 
+             counterpart to a previous result by Stovall [Sto16] in the real setting. As a means to prove this 
+             theorem we provide an alternative proof of a geometric inequality by Dendrinos and Wright [DW10] 
+             that extends the result to complex polynomials."
+  authors:
+    - Jaume de Dios
+
+- Curves2020:
+  title : "A geometric lemma for complex polynomial curves with applications in Fourier restriction theory"
+  type: Preprint
+  arxiv: "arXiv:2003.14140"
+  url : "https://arxiv.org/abs/2003.14140"
+  date: "2020-03-31"
+  abstract: "The aim of this paper is to prove a uniform Fourier restriction estimate for certain 2−dimensional
+             surfaces in R<sup>2n</sup>. These surfaces are the image of complex polynomial curves, equipped 
+             with the complex equivalent to the affine arclength measure. This result is a complex-polynomial 
+             counterpart to a previous result by Stovall [Sto16] in the real setting. As a means to prove this 
+             theorem we provide an alternative proof of a geometric inequality by Dendrinos and Wright [DW10] 
+             that extends the result to complex polynomials."
+  authors:
+    - Jaume de Dios
+
+- Cantor2020:
+  title : "Decoupling for fractal subsets of the parabola"
+  type: Preprint
+  arxiv: "arXiv:2012.11458"
+  url : "https://arxiv.org/abs/2012.11458"
+  date: "2020-12-21"
+  abstract: "We consider decoupling for a fractal subset of the parabola. We reduce studying
+             l2Lp decoupling for a fractal subset on the parabola {(t,t2):0≤t≤1} to studying 
+             l2Lp/3 decoupling for the projection of this subset to the interval [0,1]. This 
+             generalizes the decoupling theorem of Bourgain-Demeter in the case of the 
+             parabola. Due to the sparsity and fractal like structure, this allows us to 
+             improve upon Bourgain-Demeter's decoupling theorem for the parabola. In the case
+             when p/3 is an even integer we derive theoretical and computational tools to 
+             explicitly compute the associated decoupling constant for this projection to 
+             [0,1]. Our ideas are inspired by the recent work on ellipsephic sets by Biggs 
+             using nested efficient congruencing."
+  authors:
+    - Alan Chang
+    - Jaume de Dios
+    - Rachel Greenfeld
+    - Asgar Jamneshan
+    - Zane Kun Li
+    - José Madrid
+
+- Bruna2020:
+  title : "On Sparsity in Overparametrised Shallow ReLU Networks"
+  type: Preprint
+  arxiv: "2006.10225"
+  url : "https://arxiv.org/abs/2006.10225"
+  date: "2020-06-10"
+  abstract: "The analysis of neural network training beyond their linearization regime
+             remains an outstanding open question, even in the simplest setup of a single 
+             hidden-layer. The limit of infinitely wide networks provides an appealing route 
+             forward through the mean-field perspective, but a key challenge is to bring 
+             learning guarantees back to the finite-neuron setting, where practical algorithms 
+             operate.
+             Towards closing this gap, and focusing on shallow neural networks, in this work
+             we study the ability of different regularisation strategies to capture solutions 
+             requiring only a finite amount of neurons, even on the infinitely wide regime. 
+             Specifically, we consider (i) a form of implicit regularisation obtained by 
+             injecting noise into training targets [Blanc et al.~19], and (ii) the 
+             variation-norm regularisation [Bach~17], compatible with the mean-field scaling. 
+             Under mild assumptions on the activation function (satisfied for instance with 
+             ReLUs), we establish that both schemes are minimised by functions having only a 
+             finite number of neurons, irrespective of the amount of overparametrisation. 
+             We study the consequences of such property and describe the settings where one 
+             form of regularisation is favorable over the other."
+  authors:
+    - Joan Bruna
+    - Jaume de Dios
+
+- Bikes2019:
+  title : "Role Detection in Bicycle-Sharing Networks Using Multilayer Stochastic Block Models"
+  type: Preprint
+  arxiv: "arXiv:1908.09440"
+  url : "https://arxiv.org/abs/1908.09440"
+  date: "2019-08-26"
+  abstract: "Urban spatial networks are complex systems with interdependent roles of 
+             neighborhoods and methods of transportation between them. In this paper, we 
+             classify docking stations in bicycle-sharing networks to gain insight into the 
+             spatial delineations of three major United States cities from human mobility 
+             dynamics. We propose novel timedependent stochastic block models, with 
+             degree-heterogeneous blocks and either mixed or discrete block membership, which
+             (1) detect the roles served by bicycle-sharing docking stations and (2) describe
+             the traffic within and between blocks of stations over the course of a day. Our 
+             models produce concise descriptions of daily bicycle-sharing usage patterns in
+             urban environments. They successfully uncover work and home districts, and they 
+             also reveal dynamics of such districts that are particular to each city. When we 
+             look for more than two roles, we uncover blocks with expected uses, such as 
+             leisure activity, as well as previously unknown structures. Our time-dependent 
+             SBMs also reveal how the functional roles of bicycle-sharing stations are 
+             influenced by surrounding public transportation infrastructure. Our work has 
+             direct application to the design and maintenance of bicycle-sharing systems, and
+             it can be applied more broadly to community detection in temporal and multilayer 
+             networks."
+  authors:
+    - Jane Carlen
+    - Jaume de Dios
+    -  Cassidy Mentus
+    - "Shyr-Shea Chang"
+    - Stephanie Wang
+    - Mason A. Porter
+
+

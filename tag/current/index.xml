@@ -13,51 +13,93 @@
     </image>
     
     <item>
-      <title>Summer School on discrete analysis and complexity of quantum algorithms </title>
-      <link>http://jaume.dedios.cat/talk/202110_quantum/</link>
+      <title>Summer School on discrete analysis and complexity of quantum algorithms</title>
+      <link>http://jaume.dedios.cat/talk/quantum2021/</link>
       <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/talk/202110_quantum/</guid>
+      <guid>http://jaume.dedios.cat/talk/quantum2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Summer School on discrete analysis and complexity of quantum algorithms</title>
+      <link>http://jaume.dedios.cat/yaml/md_travel/quantum2021/</link>
+      <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/yaml/md_travel/quantum2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Summer School on discrete analysis and complexity of quantum algorithms </title>
+      <link>http://jaume.dedios.cat/yaml/old_talk/202110_quantum/</link>
+      <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/yaml/old_talk/202110_quantum/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Brascamp-Lieb inequalities Summer School</title>
-      <link>http://jaume.dedios.cat/talk/202109_kopp/</link>
+      <link>http://jaume.dedios.cat/talk/kopp2021/</link>
       <pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/talk/202109_kopp/</guid>
+      <guid>http://jaume.dedios.cat/talk/kopp2021/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Brascamp-Lieb inequalities Summer School</title>
+      <link>http://jaume.dedios.cat/yaml/md_travel/kopp2021/</link>
+      <pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/yaml/md_travel/kopp2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brascamp-Lieb inequalities Summer School</title>
+      <link>http://jaume.dedios.cat/yaml/old_talk/202109_kopp/</link>
+      <pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/yaml/old_talk/202109_kopp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uniform boundedness in operators parametrized by polynomial curves</title>
+      <link>http://jaume.dedios.cat/talk/paw210816/</link>
+      <pubDate>Mon, 16 Aug 2021 15:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/paw210816/</guid>
+      <description>&lt;p&gt;Multiple results in harmonic analysis involving integrals of functions over curves (such as restriction theorems, convolution estimates, maximal function estimates or decoupling estimates) depend strongly on the non-vanishing of the torsion of the associated curve. Over the past years there has been considerable interest in extending these results to a degenerate case where the torsion vanishes at a finite number of points by using the affine arc-length as an alternative integration measure. As a model case, multiple results have been proven in which the coordinate functions of the curve are polynomials. In this case one expects the bounds of the operators to depend only on the degree of the polynomial. In this talk I will introduce and motivate the concept of affine arclength measure, provide new decomposition theorems for polynomial curves over characteristic zero local fields, and provide some applications to uniformity results in harmonic analysis.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Uniform boundedness in operators parametrized by polynomial curves</title>
+      <link>http://jaume.dedios.cat/yaml/md_talk/paw210816/</link>
+      <pubDate>Mon, 16 Aug 2021 15:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/yaml/md_talk/paw210816/</guid>
+      <description>&lt;p&gt;Multiple results in harmonic analysis involving integrals of functions over curves (such as restriction theorems, convolution estimates, maximal function estimates or decoupling estimates) depend strongly on the non-vanishing of the torsion of the associated curve. Over the past years there has been considerable interest in extending these results to a degenerate case where the torsion vanishes at a finite number of points by using the affine arc-length as an alternative integration measure. As a model case, multiple results have been proven in which the coordinate functions of the curve are polynomials. In this case one expects the bounds of the operators to depend only on the degree of the polynomial. In this talk I will introduce and motivate the concept of affine arclength measure, provide new decomposition theorems for polynomial curves over characteristic zero local fields, and provide some applications to uniformity results in harmonic analysis.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Harmonic Analysis and Analytic Number Theory Trimester Program</title>
-      <link>http://jaume.dedios.cat/talk/202108_him/</link>
+      <link>http://jaume.dedios.cat/yaml/old_talk/202108_him/</link>
       <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/talk/202108_him/</guid>
+      <guid>http://jaume.dedios.cat/yaml/old_talk/202108_him/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Harmonic Analysis and Analytic Number Theory Trimester Program</title>
-      <link>http://jaume.dedios.cat/talk/202105_him/</link>
+      <title>Harmonic Analysis and Analytic Number Theory, Dual trimester program</title>
+      <link>http://jaume.dedios.cat/talk/him2021su1/</link>
       <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/talk/202105_him/</guid>
+      <guid>http://jaume.dedios.cat/talk/him2021su1/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>UCLA Math 33B: Differential equations</title>
-      <link>http://jaume.dedios.cat/teaching/21s33b/</link>
-      <pubDate>Sun, 20 Dec 2020 00:00:01 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/teaching/21s33b/</guid>
-      <description>&lt;p&gt;Lectures taught by 
-&lt;a href=&#34;http://www.math.ucla.edu/~chwang&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chengxi Wang&lt;/a&gt;.
-Link to the  
-&lt;a href=&#34;https://ccle.ucla.edu/course/view/21S-MATH33B-1?section=15&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CCLE site&lt;/a&gt; for the class.&lt;/p&gt;
-&lt;p&gt;If you are emailing me, make sure to add  &lt;code&gt;MATH33B&lt;/code&gt;  to the subject so that I don&amp;rsquo;t miss it!&lt;/p&gt;
-&lt;h2 id=&#34;notes-for-tuesday-section-1c&#34;&gt;Notes for Tuesday Section 1C&lt;/h2&gt;
-&lt;iframe src=&#34;https://drive.google.com/embeddedfolderview?id=1QK7600zL4GPaFioY63UveLIVEs3gWRiX#list&#34; style=&#34;width:100%; border:0; max-height: 800px;&#34;&gt;&lt;/iframe&gt;
-&lt;h2 id=&#34;notes-for-thursday-section-1d&#34;&gt;Notes for Thursday Section 1D&lt;/h2&gt;
-&lt;iframe src=&#34;https://drive.google.com/embeddedfolderview?id=1mmYHg_ePNlTxZOK8Lfd9DCleaOQVGg61#list&#34; style=&#34;width:100%; border:0; max-height: 800px;&#34;&gt;&lt;/iframe&gt;</description>
+      <title>Harmonic Analysis and Analytic Number Theory, Dual trimester program</title>
+      <link>http://jaume.dedios.cat/yaml/md_travel/him2021su1/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/yaml/md_travel/him2021su1/</guid>
+      <description></description>
     </item>
     
   </channel>

@@ -18,7 +18,17 @@
   </url>
   
   <url>
-    <loc>http://jaume.dedios.cat/talk/202110_quantum/</loc>
+    <loc>http://jaume.dedios.cat/talk/quantum2021/</loc>
+    <lastmod>2021-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/yaml/md_travel/quantum2021/</loc>
+    <lastmod>2021-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/yaml/old_talk/202110_quantum/</loc>
     <lastmod>2021-10-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -33,37 +43,102 @@
   </url>
   
   <url>
-    <loc>http://jaume.dedios.cat/talk/202109_kopp/</loc>
+    <loc>http://jaume.dedios.cat/yaml/</loc>
+    <lastmod>2021-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/talk/kopp2021/</loc>
     <lastmod>2021-09-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://jaume.dedios.cat/talk/202108_him/</loc>
-    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
+    <loc>http://jaume.dedios.cat/yaml/md_travel/kopp2021/</loc>
+    <lastmod>2021-09-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://jaume.dedios.cat/talk/202105_him/</loc>
-    <lastmod>2021-05-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jaume.dedios.cat/talk/20210201-owfa/</loc>
-    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jaume.dedios.cat/tag/past/</loc>
-    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
+    <loc>http://jaume.dedios.cat/yaml/old_talk/202109_kopp/</loc>
+    <lastmod>2021-09-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://jaume.dedios.cat/tag/talk/</loc>
+    <lastmod>2021-08-16T15:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/talk/paw210816/</loc>
+    <lastmod>2021-08-16T15:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/yaml/md_talk/paw210816/</loc>
+    <lastmod>2021-08-16T15:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/yaml/old_talk/202108_him/</loc>
+    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/talk/him2021su2/</loc>
+    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/yaml/md_travel/him2021su2/</loc>
+    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/tag/past/</loc>
+    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/yaml/old_talk/202105_him/</loc>
+    <lastmod>2021-05-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/talk/him2021su1/</loc>
+    <lastmod>2021-05-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/yaml/md_travel/him2021su1/</loc>
+    <lastmod>2021-05-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/talk/fro210312/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://jaume.dedios.cat/talk/20210211-ucd/</loc>
+    <loc>http://jaume.dedios.cat/yaml/md_talk/fro210312/</loc>
+    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/yaml/old_talk/20210201-owfa/</loc>
+    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/talk/ucd210211/</loc>
+    <lastmod>2021-02-11T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/yaml/md_talk/ucd210211/</loc>
+    <lastmod>2021-02-11T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/yaml/old_talk/20210211-ucd/</loc>
     <lastmod>2021-02-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -148,22 +223,62 @@
   </url>
   
   <url>
-    <loc>http://jaume.dedios.cat/talk/20201207-oars/</loc>
+    <loc>http://jaume.dedios.cat/talk/oars201207/</loc>
     <lastmod>2020-12-07T17:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://jaume.dedios.cat/talk/20201109-ubuab/</loc>
+    <loc>http://jaume.dedios.cat/yaml/md_talk/oars201207/</loc>
+    <lastmod>2020-12-07T17:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/yaml/old_talk/20201207-oars/</loc>
+    <lastmod>2020-12-07T17:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/talk/ubuab201109/</loc>
     <lastmod>2020-11-09T15:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://jaume.dedios.cat/talk/20201021-bgsmath/</loc>
+    <loc>http://jaume.dedios.cat/yaml/md_talk/ubuab201109/</loc>
+    <lastmod>2020-11-09T15:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/yaml/old_talk/20201109-ubuab/</loc>
+    <lastmod>2020-11-09T15:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/talk/simba201021/</loc>
     <lastmod>2020-10-21T12:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://jaume.dedios.cat/talk/20201019_cds/</loc>
+    <loc>http://jaume.dedios.cat/yaml/md_talk/simba201021/</loc>
+    <lastmod>2020-10-21T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/yaml/old_talk/20201021-bgsmath/</loc>
+    <lastmod>2020-10-21T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/talk/cds201019/</loc>
+    <lastmod>2020-10-19T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/yaml/md_talk/cds201019/</loc>
+    <lastmod>2020-10-19T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jaume.dedios.cat/yaml/old_talk/20201019_cds/</loc>
     <lastmod>2020-10-19T14:00:00+00:00</lastmod>
   </url>
   

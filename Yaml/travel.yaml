@@ -1,0 +1,31 @@
+HIM2021Su2:
+  title: "Harmonic Analysis and Analytic Number Theory, Dual trimester program"
+  url: "https://www.him.uni-bonn.de/programs/current-trimester-program/harmonic-analysis-and-analytic-number-theory/description/"
+  location: "Haudroff Mathematical Institute, Bonn, Germany"
+  tags: [Past]
+  date: "2021-08-01"
+  date_end: "2021-08-20"
+
+HIM2021Su1:
+  title: "Harmonic Analysis and Analytic Number Theory, Dual trimester program"
+  url: "https://www.him.uni-bonn.de/programs/current-trimester-program/harmonic-analysis-and-analytic-number-theory/description/"
+  location: "Haudroff Mathematical Institute, Bonn, Germany"
+  tags: [Current]
+  date: "2021-05-03"
+  date_end: "2021-06-26"
+
+Kopp2021:
+  title: "Brascamp-Lieb inequalities Summer School"
+  url: "https://www.math.uni-bonn.de/ag/ana/WiSe2122/BL-school/"
+  location: "Wolffhotel, Kopp, Germany"
+  tags: [Current]
+  date: "2021-09-26"
+  date_end: "2021-10-01"
+
+Quantum2021:
+  title: "Summer School on discrete analysis and complexity of quantum algorithms"
+  url: "https://sites.google.com/view/paata/quantum"
+  location: "Online"
+  tags: [Current]
+  date: "2021-10-11"
+  date_end: "2021-10-15"

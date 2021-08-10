@@ -1,0 +1,138 @@
+
+PAW210816:
+  title: "Uniform boundedness in operators parametrized by polynomial curves"
+  type: Workshop
+  event:    Uniform boundedness in operators parametrized by polynomial curves
+  event_url: "https://sites.google.com/view/paw-seminar"
+  abstract: "Multiple results in harmonic analysis involving integrals of functions over curves (such as restriction
+theorems, convolution estimates, maximal function estimates or decoupling estimates) depend strongly
+on the non-vanishing of the torsion of the associated curve. Over the past years there has been considerable interest in extending these results to a degenerate case where the torsion vanishes at a finite
+number of points by using the affine arc-length as an alternative integration measure. As a model case,
+multiple results have been proven in which the coordinate functions of the curve are polynomials. In
+this case one expects the bounds of the operators to depend only on the degree of the polynomial.
+In this talk I will introduce and motivate the concept of affine arclength measure, provide new
+decomposition theorems for polynomial curves over characteristic zero local fields, and provide some
+applications to uniformity results in harmonic analysis."
+  tags: ["Current"]
+  date: "2021-08-16T15:00:00Z"
+  date_end:  "2021-08-16T16:00:00Z"
+  time_zone: "EST"
+
+
+FRO210312:
+  title: "Decoupling for Cantor Sets"
+  type: Workshop
+  event:  Fourier restriction online 2021
+  event_url: " https://sites.google.com/view/restriction2021/"
+  abstract: "In this talk we discuss sharp ℓ2L2n estimates for Cantor sets. These estimates
+             are related to the work of Biggs bounding the number of solutions to a certain
+             type of Diophantine equations for integers contained in Ellipsephic sets, sets
+             of numbers missing certain digits in base p. We discuss the connection between
+             both problems, and exploit it to find computational methods to find sharp
+             decoupling estimates. Joint work with A. Chang, R. Greenfeld, A. Jamneshan, Z.K.
+             Li and J. Madrid."
+  tags: ["Past"]
+  date: "2021-03-12T00:00:00Z"
+  date_end:  "2021-03-12T02:00:00Z"
+  time_zone: "UTC"
+
+UCD210211:
+  title: "Uniform boundedness in operators parametrized by polynomial curves"
+  type: Seminar
+  event:  "UC Davis Student-Run Analysis & PDE"
+  abstract: "Multiple results in harmonic analysis involving integrals of functions over curves (such as restriction
+theorems, convolution estimates, maximal function estimates or decoupling estimates) depend strongly
+on the non-vanishing of the torsion of the associated curve. Over the past years there has been considerable interest in extending these results to a degenerate case where the torsion vanishes at a finite
+number of points by using the affine arc-length as an alternative integration measure. As a model case,
+multiple results have been proven in which the coordinate functions of the curve are polynomials. In
+this case one expects the bounds of the operators to depend only on the degree of the polynomial.
+In this talk I will introduce and motivate the concept of affine arclength measure, provide new
+decomposition theorems for polynomial curves over characteristic zero local fields, and provide some
+applications to uniformity results in harmonic analysis."
+  tags: ["Past"]
+  date: "2021-02-11T14:00:00Z"
+  date_end:   "2021-02-11T15:00:00Z"
+  time_zone: "PST"
+
+OARS201207:
+  title: "Uniform boundedness in operators parametrized by polynomial curves"
+  type: Seminar
+  event: Seminari d'Anàlisi UB-UAB
+  event_url: "https://sites.google.com/view/o-a-r-s"
+  abstract: "Multiple results in harmonic analysis involving integrals of functions over curves (such as restriction
+theorems, convolution estimates, maximal function estimates or decoupling estimates) depend strongly
+on the non-vanishing of the torsion of the associated curve. Over the past years there has been considerable interest in extending these results to a degenerate case where the torsion vanishes at a finite
+number of points by using the affine arc-length as an alternative integration measure. As a model case,
+multiple results have been proven in which the coordinate functions of the curve are polynomials. In
+this case one expects the bounds of the operators to depend only on the degree of the polynomial.
+In this talk I will introduce and motivate the concept of affine arclength measure, provide new
+decomposition theorems for polynomial curves over characteristic zero local fields, and provide some
+applications to uniformity results in harmonic analysis."
+  tags: ["Past"]
+  date: "2020-12-07T17:00:00Z"
+  date_end:  "2020-12-07T18:00:00Z"
+  time_zone: "CEST"
+
+UBUAB201109:
+  title: "Uniform boundedness in operators parametrized by polynomial curves"
+  type: Seminar
+  event: Seminari d'Anàlisi UB-UAB
+  abstract: ""
+  tags: ["Past"]
+  date: "2020-11-09T15:00:00Z"
+  date_end:  "2020-11-09T16:00:00Z"
+  time_zone: "CEST"
+
+SiMBa201021:
+  title: "Decoupling and applications: from PDEs to Number Theory."
+  type: Seminar
+  event: SIMBa seminar (UB / BGSMATH)
+  event_url: http://www.ub.edu/simba/en/
+  abstract: "Decoupling estimates were introduced by Wolff [1] in order to improve local
+              smoothing estimates for the wave equation. Since then, they have found
+              multiple applications in analysis: from PDEs and restriction theory, to
+              additive number theory, where Bourgain, Demeter and Guth[2] used decoupling-type
+              estimates to prove the main conjecture of the Vinogradov mean value theorem for
+              d>3.
+
+              In this talk I will explain what decoupling estimates are, I will talk about its
+              applications to the Vinogradov Mean Value theorem and local smoothing, and I
+              will explain the main ingredients that go into (most) decoupling proofs
+
+              [1] Wolff, T. (2000). Local smoothing type estimates on Lp for large p. Geometric
+              & Functional Analysis GAFA
+
+              [2] Bourgain, J., Demeter, C., & Guth, L. (2016). Proof of the main conjecture in
+              Vinogradov's mean value theorem for degrees higher than three. Annals of
+              Mathematics, 633-682."
+  tags: ["Past"]
+  date: "2020-10-21T12:00:00Z"
+  date_end: "2020-10-21T13:00:00Z"
+  time_zone: "CEST"
+
+CDS201019:
+  title: On Sparsity in Overparametrised Shallow ReLU Networks
+  type: Seminar
+  event: NYU, MaD Group Meeting 
+  abstract: "The analysis of neural network training beyond their linearization regime
+             remains an outstanding open question, even in the simplest setup of a 
+             single hidden-layer. The limit of infinitely wide networks provides an
+             appealing route forward through the mean-field perspective, but a key
+             challenge is to bring learning guarantees back to the finite-neuron
+             setting, where practical algorithms operate.
+             Towards closing this gap, and focusing on shallow neural networks, in
+             this work we study the ability of different regularisation strategies
+             to capture solutions requiring only a finite amount of neurons, even on
+             the infinitely wide regime. Specifically, we consider (i) a form of
+             implicit regularisation obtained by injecting noise into training targets
+             [Blanc et al.~19], and (ii) the variation-norm regularisation [Bach~17],
+             compatible with the mean-field scaling. Under mild assumptions on the
+             activation function (satisfied for instance with ReLUs), we establish that
+             both schemes are minimised by functions having only a finite number of
+             neurons, irrespective of the amount of overparametrisation. We study the
+             consequences of such property and describe the settings where one form of
+             regularisation is favorable over the other."
+  tags: ["Past"]
+  date: "2020-10-19T14:00:00Z"
+  date_end: "2020-10-19T15:00:00Z"
+  time_zone: "EST"
