@@ -1,16 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recent &amp; Upcoming Talks | Jaume de Dios Pont</title>
+    <title>Talks | Jaume de Dios Pont</title>
     <link>http://jaume.dedios.cat/talk/</link>
       <atom:link href="http://jaume.dedios.cat/talk/index.xml" rel="self" type="application/rss+xml" />
-    <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 11 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <description>Talks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 23 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://jaume.dedios.cat/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_2.png</url>
-      <title>Recent &amp; Upcoming Talks</title>
+      <url>http://jaume.dedios.cat/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_3.png</url>
+      <title>Talks</title>
       <link>http://jaume.dedios.cat/talk/</link>
     </image>
+    
+    <item>
+      <title>Interactions between Geometric measure theory, Singular integrals, and PDE</title>
+      <link>http://jaume.dedios.cat/talk/him2022w/</link>
+      <pubDate>Sun, 23 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/him2022w/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The sensitivity theorem</title>
+      <link>http://jaume.dedios.cat/talk/uclap2021f/</link>
+      <pubDate>Tue, 16 Nov 2021 15:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/uclap2021f/</guid>
+      <description>&lt;p&gt;he sensitivity theorem (former sensitivity conjecture) relates multiple ways to quantify the complexity, or lack of &amp;ldquo;smoothness&amp;rdquo;, of a boolean function f:{0,1}^n -&amp;gt; f : The minimum degree of a polynomial p(x):R^n -&amp;gt; R that extends f, the sensitivity s(f), and the block sensitivity bs(f).
+In 2019, H.Huang solved the conjecture with a remarkably short proof. I will give a self-contained explanation of this proof, and motivate the importance of the (former) conjecture by relating it to other measures of complexity for boolean functions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Decoupling, Cantor sets, and additive combinatorics </title>
+      <link>http://jaume.dedios.cat/talk/vhas2021/</link>
+      <pubDate>Wed, 20 Oct 2021 15:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/vhas2021/</guid>
+      <description>&lt;p&gt;Decoupling and discrete restriction inequalities have been very fruitful in recent years to solve problems in additive combinatorics and analytic number theory. In this talk I will present some work in decoupling for Cantor sets, including Cantor sets on a parabola, decoupling for product sets, and give applications of these results to additive combinatorics. Time permitting, I will present some open problems.
+Contains joint work with Alan Chang (Princeton), Rachel Greenfeld (UCLA), Asgar Jamneshan (Koç University), Zane Li (IU Bloomington), José Ramón Madrid Padilla (UCLA).&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Summer School on discrete analysis and complexity of quantum algorithms</title>

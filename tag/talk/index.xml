@@ -5,27 +5,38 @@
     <link>http://jaume.dedios.cat/tag/talk/</link>
       <atom:link href="http://jaume.dedios.cat/tag/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Talk</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 16 Aug 2021 15:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 16 Nov 2021 15:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://jaume.dedios.cat/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_2.png</url>
+      <url>http://jaume.dedios.cat/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_3.png</url>
       <title>Talk</title>
       <link>http://jaume.dedios.cat/tag/talk/</link>
     </image>
+    
+    <item>
+      <title>The sensitivity theorem</title>
+      <link>http://jaume.dedios.cat/talk/uclap2021f/</link>
+      <pubDate>Tue, 16 Nov 2021 15:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/uclap2021f/</guid>
+      <description>&lt;p&gt;he sensitivity theorem (former sensitivity conjecture) relates multiple ways to quantify the complexity, or lack of &amp;ldquo;smoothness&amp;rdquo;, of a boolean function f:{0,1}^n -&amp;gt; f : The minimum degree of a polynomial p(x):R^n -&amp;gt; R that extends f, the sensitivity s(f), and the block sensitivity bs(f).
+In 2019, H.Huang solved the conjecture with a remarkably short proof. I will give a self-contained explanation of this proof, and motivate the importance of the (former) conjecture by relating it to other measures of complexity for boolean functions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Decoupling, Cantor sets, and additive combinatorics </title>
+      <link>http://jaume.dedios.cat/talk/vhas2021/</link>
+      <pubDate>Wed, 20 Oct 2021 15:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/vhas2021/</guid>
+      <description>&lt;p&gt;Decoupling and discrete restriction inequalities have been very fruitful in recent years to solve problems in additive combinatorics and analytic number theory. In this talk I will present some work in decoupling for Cantor sets, including Cantor sets on a parabola, decoupling for product sets, and give applications of these results to additive combinatorics. Time permitting, I will present some open problems.
+Contains joint work with Alan Chang (Princeton), Rachel Greenfeld (UCLA), Asgar Jamneshan (Koç University), Zane Li (IU Bloomington), José Ramón Madrid Padilla (UCLA).&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Uniform boundedness in operators parametrized by polynomial curves</title>
       <link>http://jaume.dedios.cat/talk/paw210816/</link>
       <pubDate>Mon, 16 Aug 2021 15:00:00 +0000</pubDate>
       <guid>http://jaume.dedios.cat/talk/paw210816/</guid>
-      <description>&lt;p&gt;Multiple results in harmonic analysis involving integrals of functions over curves (such as restriction theorems, convolution estimates, maximal function estimates or decoupling estimates) depend strongly on the non-vanishing of the torsion of the associated curve. Over the past years there has been considerable interest in extending these results to a degenerate case where the torsion vanishes at a finite number of points by using the affine arc-length as an alternative integration measure. As a model case, multiple results have been proven in which the coordinate functions of the curve are polynomials. In this case one expects the bounds of the operators to depend only on the degree of the polynomial. In this talk I will introduce and motivate the concept of affine arclength measure, provide new decomposition theorems for polynomial curves over characteristic zero local fields, and provide some applications to uniformity results in harmonic analysis.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Uniform boundedness in operators parametrized by polynomial curves</title>
-      <link>http://jaume.dedios.cat/yaml/md_talk/paw210816/</link>
-      <pubDate>Mon, 16 Aug 2021 15:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/yaml/md_talk/paw210816/</guid>
       <description>&lt;p&gt;Multiple results in harmonic analysis involving integrals of functions over curves (such as restriction theorems, convolution estimates, maximal function estimates or decoupling estimates) depend strongly on the non-vanishing of the torsion of the associated curve. Over the past years there has been considerable interest in extending these results to a degenerate case where the torsion vanishes at a finite number of points by using the affine arc-length as an alternative integration measure. As a model case, multiple results have been proven in which the coordinate functions of the curve are polynomials. In this case one expects the bounds of the operators to depend only on the degree of the polynomial. In this talk I will introduce and motivate the concept of affine arclength measure, provide new decomposition theorems for polynomial curves over characteristic zero local fields, and provide some applications to uniformity results in harmonic analysis.&lt;/p&gt;
 </description>
     </item>
@@ -40,46 +51,12 @@
     </item>
     
     <item>
-      <title>Decoupling for Cantor Sets</title>
-      <link>http://jaume.dedios.cat/yaml/md_talk/fro210312/</link>
-      <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/yaml/md_talk/fro210312/</guid>
-      <description>&lt;p&gt;In this talk we discuss sharp ℓ2L2n estimates for Cantor sets. These estimates are related to the work of Biggs bounding the number of solutions to a certain type of Diophantine equations for integers contained in Ellipsephic sets, sets of numbers missing certain digits in base p. We discuss the connection between both problems, and exploit it to find computational methods to find sharp decoupling estimates. Joint work with A. Chang, R. Greenfeld, A. Jamneshan, Z.K. Li and J. Madrid.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Decoupling for Cantor sets</title>
-      <link>http://jaume.dedios.cat/yaml/old_talk/20210201-owfa/</link>
-      <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/yaml/old_talk/20210201-owfa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Uniform boundedness in operators parametrized by polynomial curves</title>
       <link>http://jaume.dedios.cat/talk/ucd210211/</link>
       <pubDate>Thu, 11 Feb 2021 14:00:00 +0000</pubDate>
       <guid>http://jaume.dedios.cat/talk/ucd210211/</guid>
       <description>&lt;p&gt;Multiple results in harmonic analysis involving integrals of functions over curves (such as restriction theorems, convolution estimates, maximal function estimates or decoupling estimates) depend strongly on the non-vanishing of the torsion of the associated curve. Over the past years there has been considerable interest in extending these results to a degenerate case where the torsion vanishes at a finite number of points by using the affine arc-length as an alternative integration measure. As a model case, multiple results have been proven in which the coordinate functions of the curve are polynomials. In this case one expects the bounds of the operators to depend only on the degree of the polynomial. In this talk I will introduce and motivate the concept of affine arclength measure, provide new decomposition theorems for polynomial curves over characteristic zero local fields, and provide some applications to uniformity results in harmonic analysis.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Uniform boundedness in operators parametrized by polynomial curves</title>
-      <link>http://jaume.dedios.cat/yaml/md_talk/ucd210211/</link>
-      <pubDate>Thu, 11 Feb 2021 14:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/yaml/md_talk/ucd210211/</guid>
-      <description>&lt;p&gt;Multiple results in harmonic analysis involving integrals of functions over curves (such as restriction theorems, convolution estimates, maximal function estimates or decoupling estimates) depend strongly on the non-vanishing of the torsion of the associated curve. Over the past years there has been considerable interest in extending these results to a degenerate case where the torsion vanishes at a finite number of points by using the affine arc-length as an alternative integration measure. As a model case, multiple results have been proven in which the coordinate functions of the curve are polynomials. In this case one expects the bounds of the operators to depend only on the degree of the polynomial. In this talk I will introduce and motivate the concept of affine arclength measure, provide new decomposition theorems for polynomial curves over characteristic zero local fields, and provide some applications to uniformity results in harmonic analysis.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Uniform boundedness in operators parametrized by polynomial curves</title>
-      <link>http://jaume.dedios.cat/yaml/old_talk/20210211-ucd/</link>
-      <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/yaml/old_talk/20210211-ucd/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -93,42 +70,9 @@
     
     <item>
       <title>Uniform boundedness in operators parametrized by polynomial curves</title>
-      <link>http://jaume.dedios.cat/yaml/md_talk/oars201207/</link>
-      <pubDate>Mon, 07 Dec 2020 17:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/yaml/md_talk/oars201207/</guid>
-      <description>&lt;p&gt;Multiple results in harmonic analysis involving integrals of functions over curves (such as restriction theorems, convolution estimates, maximal function estimates or decoupling estimates) depend strongly on the non-vanishing of the torsion of the associated curve. Over the past years there has been considerable interest in extending these results to a degenerate case where the torsion vanishes at a finite number of points by using the affine arc-length as an alternative integration measure. As a model case, multiple results have been proven in which the coordinate functions of the curve are polynomials. In this case one expects the bounds of the operators to depend only on the degree of the polynomial. In this talk I will introduce and motivate the concept of affine arclength measure, provide new decomposition theorems for polynomial curves over characteristic zero local fields, and provide some applications to uniformity results in harmonic analysis.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Uniform boundedness in operators parametrized by polynomial curves</title>
-      <link>http://jaume.dedios.cat/yaml/old_talk/20201207-oars/</link>
-      <pubDate>Mon, 07 Dec 2020 17:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/yaml/old_talk/20201207-oars/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Uniform boundedness in operators parametrized by polynomial curves</title>
       <link>http://jaume.dedios.cat/talk/ubuab201109/</link>
       <pubDate>Mon, 09 Nov 2020 15:00:00 +0000</pubDate>
       <guid>http://jaume.dedios.cat/talk/ubuab201109/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Uniform boundedness in operators parametrized by polynomial curves</title>
-      <link>http://jaume.dedios.cat/yaml/md_talk/ubuab201109/</link>
-      <pubDate>Mon, 09 Nov 2020 15:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/yaml/md_talk/ubuab201109/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Uniform boundedness in operators parametrized by polynomial curves</title>
-      <link>http://jaume.dedios.cat/yaml/old_talk/20201109-ubuab/</link>
-      <pubDate>Mon, 09 Nov 2020 15:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/yaml/old_talk/20201109-ubuab/</guid>
       <description></description>
     </item>
     
@@ -145,55 +89,12 @@ In this talk I will explain what decoupling estimates are, I will talk about its
     </item>
     
     <item>
-      <title>Decoupling and applications: from PDEs to Number Theory.</title>
-      <link>http://jaume.dedios.cat/yaml/md_talk/simba201021/</link>
-      <pubDate>Wed, 21 Oct 2020 12:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/yaml/md_talk/simba201021/</guid>
-      <description>&lt;p&gt;Decoupling estimates were introduced by Wolff [1] in order to improve local smoothing estimates for the wave equation. Since then, they have found multiple applications in analysis: from PDEs and restriction theory, to additive number theory, where Bourgain, Demeter and Guth[2] used decoupling-type estimates to prove the main conjecture of the Vinogradov mean value theorem for d&amp;gt;3.
-In this talk I will explain what decoupling estimates are, I will talk about its applications to the Vinogradov Mean Value theorem and local smoothing, and I will explain the main ingredients that go into (most) decoupling proofs
-[1] Wolff, T. (2000). Local smoothing type estimates on Lp for large p. Geometric &amp;amp; Functional Analysis GAFA
-[2] Bourgain, J., Demeter, C., &amp;amp; Guth, L. (2016). Proof of the main conjecture in Vinogradov&amp;rsquo;s mean value theorem for degrees higher than three. Annals of Mathematics, 633-682.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Decoupling and applications: from PDEs to Number Theory.</title>
-      <link>http://jaume.dedios.cat/yaml/old_talk/20201021-bgsmath/</link>
-      <pubDate>Wed, 21 Oct 2020 12:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/yaml/old_talk/20201021-bgsmath/</guid>
-      <description>&lt;p&gt;&lt;em&gt;(The talk is aimed at early graduate students)&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Decoupling estimates were introduced by Wolff [1] in order to improve local smoothing estimates for the wave equation. Since then, they have found multiple applications in analysis: from PDEs and restriction theory, to additive number theory, where Bourgain, Demeter and Guth[2] used decoupling-type estimates to prove the main conjecture of the Vinogradov mean value theorem for d&amp;gt;3.&lt;/p&gt;
-&lt;p&gt;In this talk I will explain what decoupling estimates are, I will talk about its applications to the Vinogradov Mean Value theorem and local smoothing, and I will explain the main ingredients that go into (most) decoupling proofs&lt;/p&gt;
-&lt;p&gt;[1] Wolff, T. (2000). Local smoothing type estimates on Lp for large p. Geometric &amp;amp; Functional Analysis GAFA
-&lt;br/&gt;
-[2] Bourgain, J., Demeter, C., &amp;amp; Guth, L. (2016). Proof of the main conjecture in Vinogradov&amp;rsquo;s mean value theorem for degrees higher than three. Annals of Mathematics, 633-682.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>On Sparsity in Overparametrised Shallow ReLU Networks</title>
       <link>http://jaume.dedios.cat/talk/cds201019/</link>
       <pubDate>Mon, 19 Oct 2020 14:00:00 +0000</pubDate>
       <guid>http://jaume.dedios.cat/talk/cds201019/</guid>
       <description>&lt;p&gt;The analysis of neural network training beyond their linearization regime remains an outstanding open question, even in the simplest setup of a single hidden-layer. The limit of infinitely wide networks provides an appealing route forward through the mean-field perspective, but a key challenge is to bring learning guarantees back to the finite-neuron setting, where practical algorithms operate. Towards closing this gap, and focusing on shallow neural networks, in this work we study the ability of different regularisation strategies to capture solutions requiring only a finite amount of neurons, even on the infinitely wide regime. Specifically, we consider (i) a form of implicit regularisation obtained by injecting noise into training targets [Blanc et al.~19], and (ii) the variation-norm regularisation [Bach~17], compatible with the mean-field scaling. Under mild assumptions on the activation function (satisfied for instance with ReLUs), we establish that both schemes are minimised by functions having only a finite number of neurons, irrespective of the amount of overparametrisation. We study the consequences of such property and describe the settings where one form of regularisation is favorable over the other.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>On Sparsity in Overparametrised Shallow ReLU Networks</title>
-      <link>http://jaume.dedios.cat/yaml/md_talk/cds201019/</link>
-      <pubDate>Mon, 19 Oct 2020 14:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/yaml/md_talk/cds201019/</guid>
-      <description>&lt;p&gt;The analysis of neural network training beyond their linearization regime remains an outstanding open question, even in the simplest setup of a single hidden-layer. The limit of infinitely wide networks provides an appealing route forward through the mean-field perspective, but a key challenge is to bring learning guarantees back to the finite-neuron setting, where practical algorithms operate. Towards closing this gap, and focusing on shallow neural networks, in this work we study the ability of different regularisation strategies to capture solutions requiring only a finite amount of neurons, even on the infinitely wide regime. Specifically, we consider (i) a form of implicit regularisation obtained by injecting noise into training targets [Blanc et al.~19], and (ii) the variation-norm regularisation [Bach~17], compatible with the mean-field scaling. Under mild assumptions on the activation function (satisfied for instance with ReLUs), we establish that both schemes are minimised by functions having only a finite number of neurons, irrespective of the amount of overparametrisation. We study the consequences of such property and describe the settings where one form of regularisation is favorable over the other.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>On Sparsity in Overparametrised Shallow ReLU Networks </title>
-      <link>http://jaume.dedios.cat/yaml/old_talk/20201019_cds/</link>
-      <pubDate>Mon, 19 Oct 2020 14:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/yaml/old_talk/20201019_cds/</guid>
-      <description></description>
     </item>
     
   </channel>

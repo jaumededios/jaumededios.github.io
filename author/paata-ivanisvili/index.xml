@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paata Ivanisvili | Jaume de Dios Pont</title>
+    <link>http://jaume.dedios.cat/author/paata-ivanisvili/</link>
+      <atom:link href="http://jaume.dedios.cat/author/paata-ivanisvili/index.xml" rel="self" type="application/rss+xml" />
+    <description>Paata Ivanisvili</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 17 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://jaume.dedios.cat/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_3.png</url>
+      <title>Paata Ivanisvili</title>
+      <link>http://jaume.dedios.cat/author/paata-ivanisvili/</link>
+    </image>
+    
+    <item>
+      <title>Additive energies on discrete cubes</title>
+      <link>http://jaume.dedios.cat/publication/add2021/</link>
+      <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/publication/add2021/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

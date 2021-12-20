@@ -1,0 +1,18 @@
+{
+  "name": "Jaume de Dios Pont",
+  "short_name": "Jaume de Dios Pont",
+  "lang": "en-us",
+  "theme_color": "#1e52f3",
+  "background_color": "#1e52f3",
+  "icons": [{
+    "src": "/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_192x192_fill_lanczos_center_3.png",
+    "sizes": "192x192",
+    "type": "image/png"
+    }, {
+    "src": "/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_3.png",
+    "sizes": "512x512",
+    "type": "image/png"
+     }],
+  "display": "standalone",
+  "start_url": "/?utm_source=web_app_manifest"
+}

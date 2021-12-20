@@ -5,12 +5,28 @@
     <link>http://jaume.dedios.cat/teaching/</link>
       <atom:link href="http://jaume.dedios.cat/teaching/index.xml" rel="self" type="application/rss+xml" />
     <description>Teachings</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 20 Dec 2020 00:00:01 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 30 Mar 2021 00:00:01 +0000</lastBuildDate>
     <image>
-      <url>http://jaume.dedios.cat/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_2.png</url>
+      <url>http://jaume.dedios.cat/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_3.png</url>
       <title>Teachings</title>
       <link>http://jaume.dedios.cat/teaching/</link>
     </image>
+    
+    <item>
+      <title>UCLA Math 33B: Differential equations - Spring 2021</title>
+      <link>http://jaume.dedios.cat/teaching/21s33b/</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:01 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/teaching/21s33b/</guid>
+      <description>&lt;p&gt;Lectures taught by 
+&lt;a href=&#34;http://www.math.ucla.edu/~chwang&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chengxi Wang&lt;/a&gt;.
+Link to the  
+&lt;a href=&#34;https://ccle.ucla.edu/course/view/21S-MATH33B-1?section=15&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CCLE site&lt;/a&gt; for the class.&lt;/p&gt;
+&lt;p&gt;If you are emailing me, make sure to add  &lt;code&gt;MATH33B&lt;/code&gt;  to the subject so that I don&amp;rsquo;t miss it!&lt;/p&gt;
+&lt;h2 id=&#34;notes-for-tuesday-section-1c&#34;&gt;Notes for Tuesday Section 1C&lt;/h2&gt;
+&lt;iframe src=&#34;https://drive.google.com/embeddedfolderview?id=1QK7600zL4GPaFioY63UveLIVEs3gWRiX#list&#34; style=&#34;width:100%; border:0; max-height: 800px;&#34;&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;notes-for-thursday-section-1d&#34;&gt;Notes for Thursday Section 1D&lt;/h2&gt;
+&lt;iframe src=&#34;https://drive.google.com/embeddedfolderview?id=1mmYHg_ePNlTxZOK8Lfd9DCleaOQVGg61#list&#34; style=&#34;width:100%; border:0; max-height: 800px;&#34;&gt;&lt;/iframe&gt;</description>
+    </item>
     
     <item>
       <title>UCLA Math 32A: Calculus of Several Variables - Winter 2021</title>
@@ -44,22 +60,6 @@ Link to the
 &lt;iframe src=&#34;https://drive.google.com/embeddedfolderview?id=1Ug8EnMM3HF-htUmBlA9LdSlH9jWmF-Fv#list&#34; style=&#34;width:100%; border:0; max-height: 800px;&#34;&gt;&lt;/iframe&gt;
 &lt;h2 id=&#34;notes-for-thursday-section-1b&#34;&gt;Notes for Thursday Section 1B&lt;/h2&gt;
 &lt;iframe src=&#34;https://drive.google.com/embeddedfolderview?id=16f8nwBBcojiw4yeHTdY75nqM7lZTC-rw#list&#34; style=&#34;width:100%; border:0; max-height: 800px;&#34;&gt;&lt;/iframe&gt;</description>
-    </item>
-    
-    <item>
-      <title>UCLA Math 33B: Differential equations</title>
-      <link>http://jaume.dedios.cat/teaching/21s33b/</link>
-      <pubDate>Sun, 20 Dec 2020 00:00:01 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/teaching/21s33b/</guid>
-      <description>&lt;p&gt;Lectures taught by 
-&lt;a href=&#34;http://www.math.ucla.edu/~chwang&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chengxi Wang&lt;/a&gt;.
-Link to the  
-&lt;a href=&#34;https://ccle.ucla.edu/course/view/21S-MATH33B-1?section=15&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CCLE site&lt;/a&gt; for the class.&lt;/p&gt;
-&lt;p&gt;If you are emailing me, make sure to add  &lt;code&gt;MATH33B&lt;/code&gt;  to the subject so that I don&amp;rsquo;t miss it!&lt;/p&gt;
-&lt;h2 id=&#34;notes-for-tuesday-section-1c&#34;&gt;Notes for Tuesday Section 1C&lt;/h2&gt;
-&lt;iframe src=&#34;https://drive.google.com/embeddedfolderview?id=1QK7600zL4GPaFioY63UveLIVEs3gWRiX#list&#34; style=&#34;width:100%; border:0; max-height: 800px;&#34;&gt;&lt;/iframe&gt;
-&lt;h2 id=&#34;notes-for-thursday-section-1d&#34;&gt;Notes for Thursday Section 1D&lt;/h2&gt;
-&lt;iframe src=&#34;https://drive.google.com/embeddedfolderview?id=1mmYHg_ePNlTxZOK8Lfd9DCleaOQVGg61#list&#34; style=&#34;width:100%; border:0; max-height: 800px;&#34;&gt;&lt;/iframe&gt;</description>
     </item>
     
     <item>
