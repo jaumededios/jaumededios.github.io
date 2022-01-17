@@ -1,0 +1,7 @@
+[Bar98] F. Barthe, On a reverse form of the Brascamp-Lieb inequality, Invent. Math. 137 (1998), 335-361.
+[BCCT09] J. Bennett, A. Carbery, M. Christ, and T. Tao, The BrascampLieb inequalities: finiteness, structure and extremals, Geom. Funct.
+Anal. 17.5 (2008), pp. 13431415.
+[FJ17] A. Figalli and D. Jerison, Quantitative stability for the Brunn–Minkowski inequality, Adv. Math. 314 (2017), 1-47.
+[Leh14] J. Lehec., Short probabilistic proof of the Brascamp-Lieb and Barthe theorems, Canad. Math. Bull. 57.3 (2014), pp. 585597.
+[BC18] F. Bach, L. Chizat, On the Global Convergence of Gradient Descent for Over-parameterized Models using Optimal Transport, Advances in Neural Information Processing Systems 31 (2018)
+[DLLM19] Y. Dukler, W. Li, A. Lin, G. Montufar, {W}asserstein of {W}asserstein Loss for Learning Generative Models,Proceedings of Machine Learning Research, 97 (2019), 1716-1725.
