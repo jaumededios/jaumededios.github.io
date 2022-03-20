@@ -5,12 +5,75 @@
     <link>http://jaume.dedios.cat/tag/past/</link>
       <atom:link href="http://jaume.dedios.cat/tag/past/index.xml" rel="self" type="application/rss+xml" />
     <description>Past</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 16 Nov 2021 15:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 14 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://jaume.dedios.cat/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_3.png</url>
       <title>Past</title>
       <link>http://jaume.dedios.cat/tag/past/</link>
     </image>
+    
+    <item>
+      <title>ETH Zurich</title>
+      <link>http://jaume.dedios.cat/talk/ethz/</link>
+      <pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/ethz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The convex hull of space curves with totally positive torsion</title>
+      <link>http://jaume.dedios.cat/talk/bcam22/</link>
+      <pubDate>Wed, 09 Mar 2022 15:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/bcam22/</guid>
+      <description>&lt;p&gt;Decoupling and discrete restriction inequalities have been very fruitful in recent years to solve problems in additive combinatorics and analytic number theory. In this talk I will present some work in decoupling for Cantor sets, including Cantor sets on a parabola, decoupling for product sets, and give applications of these results to additive combinatorics. Time permitting, I will present some open problems.
+Contains joint work with Alan Chang (Princeton), Rachel Greenfeld (UCLA), Asgar Jamneshan (Koç University), Zane Li (IU Bloomington), José Ramón Madrid Padilla (UCLA).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Basque Center for Applied Mathematics</title>
+      <link>http://jaume.dedios.cat/talk/bcam/</link>
+      <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/bcam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The convex hull of space curves with totally positive torsion</title>
+      <link>http://jaume.dedios.cat/talk/uab22/</link>
+      <pubDate>Mon, 07 Mar 2022 15:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/uab22/</guid>
+      <description>&lt;p&gt;Decoupling and discrete restriction inequalities have been very fruitful in recent years to solve problems in additive combinatorics and analytic number theory. In this talk I will present some work in decoupling for Cantor sets, including Cantor sets on a parabola, decoupling for product sets, and give applications of these results to additive combinatorics. Time permitting, I will present some open problems.
+Contains joint work with Alan Chang (Princeton), Rachel Greenfeld (UCLA), Asgar Jamneshan (Koç University), Zane Li (IU Bloomington), José Ramón Madrid Padilla (UCLA).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Decoupling, Cantor sets, and additive combinatorics </title>
+      <link>http://jaume.dedios.cat/talk/bristol22/</link>
+      <pubDate>Thu, 17 Feb 2022 15:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/bristol22/</guid>
+      <description>&lt;p&gt;Decoupling and discrete restriction inequalities have been very fruitful in recent years to solve problems in additive combinatorics and analytic number theory. In this talk I will present some work in decoupling for Cantor sets, including Cantor sets on a parabola, decoupling for product sets, and give applications of these results to additive combinatorics. Time permitting, I will present some open problems.
+Contains joint work with Alan Chang (Princeton), Rachel Greenfeld (UCLA), Asgar Jamneshan (Koç University), Zane Li (IU Bloomington), José Ramón Madrid Padilla (UCLA).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Decoupling for Cantor sets on the parabola</title>
+      <link>http://jaume.dedios.cat/talk/bonn22/</link>
+      <pubDate>Thu, 03 Feb 2022 12:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/bonn22/</guid>
+      <description>&lt;p&gt;Decoupling estimates aim to study the &amp;ldquo;amount of cancellation&amp;rdquo; that can occur when we add up functions whose Fourier transforms are supported in different regions of space. In this talk I will describe decoupling estimates for a Cantor set supported in the parabola. I will discuss how both curvature and sparsity (or lack of arithmetic structure) can separately give rise to decoupling estimates, and how these two sources of &amp;ldquo;cancellation&amp;rdquo; can be combined to obtain improved estimates for sets that have both sparsity and curvature. No knowledge of what a decoupling estimate is will be assumed. Based on joint work with Alan Chang, Rachel Greenfeld, Asgar Jamneshan, José Madrid and Zane Li&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Interactions between Geometric measure theory, Singular integrals, and PDE</title>
+      <link>http://jaume.dedios.cat/talk/him2022w/</link>
+      <pubDate>Sun, 23 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/him2022w/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The sensitivity theorem</title>
@@ -23,7 +86,7 @@ In 2019, H.Huang solved the conjecture with a remarkably short proof. I will giv
     </item>
     
     <item>
-      <title>Decoupling, Cantor sets, and additive combinatorics </title>
+      <title>Decoupling, Cantor sets and additive combinatorics</title>
       <link>http://jaume.dedios.cat/talk/vhas2021/</link>
       <pubDate>Wed, 20 Oct 2021 15:00:00 +0000</pubDate>
       <guid>http://jaume.dedios.cat/talk/vhas2021/</guid>
