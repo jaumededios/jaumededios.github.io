@@ -5,7 +5,7 @@
     <link>http://jaume.dedios.cat/tag/current/</link>
       <atom:link href="http://jaume.dedios.cat/tag/current/index.xml" rel="self" type="application/rss+xml" />
     <description>Current</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 23 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 02 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://jaume.dedios.cat/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_3.png</url>
       <title>Current</title>
@@ -13,10 +13,58 @@
     </image>
     
     <item>
-      <title>Interactions between Geometric measure theory, Singular integrals, and PDE</title>
-      <link>http://jaume.dedios.cat/talk/him2022w/</link>
-      <pubDate>Sun, 23 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/talk/him2022w/</guid>
+      <title>Nodal domains and landscape functions</title>
+      <link>http://jaume.dedios.cat/talk/bonn/</link>
+      <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/bonn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Harmonic analysis on manifolds summer school</title>
+      <link>http://jaume.dedios.cat/talk/madison/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/madison/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fourier Analysis @200</title>
+      <link>http://jaume.dedios.cat/talk/edinburgh/</link>
+      <pubDate>Thu, 23 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/edinburgh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Workshop on Analysis and PDEs</title>
+      <link>http://jaume.dedios.cat/talk/verdera/</link>
+      <pubDate>Thu, 23 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/verdera/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Princeton Machine Learning Theory Summer School 2022</title>
+      <link>http://jaume.dedios.cat/talk/princeton_ml/</link>
+      <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/princeton_ml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analysis on the hypercube with applications to quantum computing</title>
+      <link>http://jaume.dedios.cat/talk/aim_hypercube/</link>
+      <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/aim_hypercube/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CBMS Conference</title>
+      <link>http://jaume.dedios.cat/talk/cbms/</link>
+      <pubDate>Sat, 21 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/cbms/</guid>
       <description></description>
     </item>
     

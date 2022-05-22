@@ -2,22 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://jaume.dedios.cat/tag/current/</loc>
+    <lastmod>2022-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/</loc>
+    <lastmod>2022-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/talk/bonn/</loc>
+    <lastmod>2022-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/tags/</loc>
+    <lastmod>2022-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/talk/</loc>
+    <lastmod>2022-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/tag/travel/</loc>
+    <lastmod>2022-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/talk/madison/</loc>
+    <lastmod>2022-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/talk/edinburgh/</loc>
+    <lastmod>2022-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/talk/verdera/</loc>
+    <lastmod>2022-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/talk/princeton_ml/</loc>
+    <lastmod>2022-06-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/talk/aim_hypercube/</loc>
+    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/talk/cbms/</loc>
+    <lastmod>2022-05-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://jaume.dedios.cat/talk/ethz/</loc>
     <lastmod>2022-03-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://jaume.dedios.cat/</loc>
-    <lastmod>2022-03-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://jaume.dedios.cat/tag/past/</loc>
-    <lastmod>2022-03-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jaume.dedios.cat/tags/</loc>
-    <lastmod>2022-03-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jaume.dedios.cat/talk/</loc>
-    <lastmod>2022-03-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jaume.dedios.cat/tag/travel/</loc>
     <lastmod>2022-03-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jaume.dedios.cat/tag/talk/</loc>
