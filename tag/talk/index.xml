@@ -5,12 +5,21 @@
     <link>http://jaume.dedios.cat/tag/talk/</link>
       <atom:link href="http://jaume.dedios.cat/tag/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Talk</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 09 Mar 2022 15:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 15 Sep 2022 15:30:00 +0000</lastBuildDate>
     <image>
       <url>http://jaume.dedios.cat/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_3.png</url>
       <title>Talk</title>
       <link>http://jaume.dedios.cat/tag/talk/</link>
     </image>
+    
+    <item>
+      <title>Decoupling, Cantor sets, and additive combinatorics </title>
+      <link>http://jaume.dedios.cat/talk/umn22/</link>
+      <pubDate>Thu, 15 Sep 2022 15:30:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/umn22/</guid>
+      <description>&lt;p&gt;Decoupling and discrete restriction inequalities have been very fruitful in recent years to solve problems in additive combinatorics and analytic number theory. In this talk I will present some work in decoupling for Cantor sets, including Cantor sets on a parabola, decoupling for product sets, and give applications of these results to additive combinatorics. Time permitting, I will present some open problems.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The convex hull of space curves with totally positive torsion</title>

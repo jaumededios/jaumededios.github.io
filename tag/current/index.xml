@@ -5,12 +5,20 @@
     <link>http://jaume.dedios.cat/tag/current/</link>
       <atom:link href="http://jaume.dedios.cat/tag/current/index.xml" rel="self" type="application/rss+xml" />
     <description>Current</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 02 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 17 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://jaume.dedios.cat/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_3.png</url>
       <title>Current</title>
       <link>http://jaume.dedios.cat/tag/current/</link>
     </image>
+    
+    <item>
+      <title>Stanford University</title>
+      <link>http://jaume.dedios.cat/talk/stanford/</link>
+      <pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/stanford/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Nodal domains and landscape functions</title>
@@ -21,26 +29,10 @@
     </item>
     
     <item>
-      <title>Harmonic analysis on manifolds summer school</title>
-      <link>http://jaume.dedios.cat/talk/madison/</link>
-      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/talk/madison/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>COLT</title>
-      <link>http://jaume.dedios.cat/talk/colt22/</link>
-      <pubDate>Sat, 02 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/talk/colt22/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fourier Analysis @200</title>
-      <link>http://jaume.dedios.cat/talk/edinburgh/</link>
-      <pubDate>Thu, 23 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/talk/edinburgh/</guid>
+      <title>University of Minneapolis</title>
+      <link>http://jaume.dedios.cat/talk/umn/</link>
+      <pubDate>Wed, 07 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/umn/</guid>
       <description></description>
     </item>
     

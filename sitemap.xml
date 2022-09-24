@@ -3,22 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://jaume.dedios.cat/tag/current/</loc>
-    <lastmod>2022-10-02T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jaume.dedios.cat/</loc>
-    <lastmod>2022-10-02T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/talk/stanford/</loc>
+    <lastmod>2022-10-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/tags/</loc>
+    <lastmod>2022-10-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/talk/</loc>
+    <lastmod>2022-10-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/tag/travel/</loc>
+    <lastmod>2022-10-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jaume.dedios.cat/talk/bonn/</loc>
     <lastmod>2022-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://jaume.dedios.cat/tags/</loc>
-    <lastmod>2022-10-02T00:00:00+00:00</lastmod>
+    <loc>http://jaume.dedios.cat/talk/umn22/</loc>
+    <lastmod>2022-09-15T15:30:00+00:00</lastmod>
   </url><url>
-    <loc>http://jaume.dedios.cat/talk/</loc>
-    <lastmod>2022-10-02T00:00:00+00:00</lastmod>
+    <loc>http://jaume.dedios.cat/tag/past/</loc>
+    <lastmod>2022-09-15T15:30:00+00:00</lastmod>
   </url><url>
-    <loc>http://jaume.dedios.cat/tag/travel/</loc>
-    <lastmod>2022-10-02T00:00:00+00:00</lastmod>
+    <loc>http://jaume.dedios.cat/tag/talk/</loc>
+    <lastmod>2022-09-15T15:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/talk/umn/</loc>
+    <lastmod>2022-09-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jaume.dedios.cat/talk/madison/</loc>
     <lastmod>2022-08-01T00:00:00+00:00</lastmod>
@@ -27,9 +42,6 @@
     <lastmod>2022-07-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jaume.dedios.cat/talk/edinburgh/</loc>
-    <lastmod>2022-06-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jaume.dedios.cat/tag/past/</loc>
     <lastmod>2022-06-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jaume.dedios.cat/talk/verdera/</loc>
@@ -46,9 +58,6 @@
   </url><url>
     <loc>http://jaume.dedios.cat/talk/ethz/</loc>
     <lastmod>2022-03-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jaume.dedios.cat/tag/talk/</loc>
-    <lastmod>2022-03-09T15:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jaume.dedios.cat/talk/bcam22/</loc>
     <lastmod>2022-03-09T15:00:00+00:00</lastmod>
