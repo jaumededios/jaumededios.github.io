@@ -5,12 +5,52 @@
     <link>http://jaume.dedios.cat/tag/past/</link>
       <atom:link href="http://jaume.dedios.cat/tag/past/index.xml" rel="self" type="application/rss+xml" />
     <description>Past</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 15 Sep 2022 15:30:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://jaume.dedios.cat/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_3.png</url>
       <title>Past</title>
       <link>http://jaume.dedios.cat/tag/past/</link>
     </image>
+    
+    <item>
+      <title>NTNU</title>
+      <link>http://jaume.dedios.cat/talk/ntnu/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/ntnu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microsoft Reseach Internship</title>
+      <link>http://jaume.dedios.cat/talk/microsoft-reseach/</link>
+      <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/microsoft-reseach/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>University of Rochester</title>
+      <link>http://jaume.dedios.cat/talk/rochester/</link>
+      <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/rochester/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stanford University</title>
+      <link>http://jaume.dedios.cat/talk/stanford/</link>
+      <pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/stanford/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nodal domains and landscape functions</title>
+      <link>http://jaume.dedios.cat/talk/bonn/</link>
+      <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/bonn/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Decoupling, Cantor sets, and additive combinatorics </title>
@@ -19,6 +59,14 @@
       <guid>http://jaume.dedios.cat/talk/umn22/</guid>
       <description>&lt;p&gt;Decoupling and discrete restriction inequalities have been very fruitful in recent years to solve problems in additive combinatorics and analytic number theory. In this talk I will present some work in decoupling for Cantor sets, including Cantor sets on a parabola, decoupling for product sets, and give applications of these results to additive combinatorics. Time permitting, I will present some open problems.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>University of Minneapolis</title>
+      <link>http://jaume.dedios.cat/talk/umn/</link>
+      <pubDate>Wed, 07 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/umn/</guid>
+      <description></description>
     </item>
     
     <item>
