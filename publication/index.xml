@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jaume de Dios Pont</title>
+    <link>http://jaume.dedios.cat/publication/</link>
+      <atom:link href="http://jaume.dedios.cat/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jaume de Dios Pont</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 05 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://jaume.dedios.cat/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_3.png</url>
+      <title>Jaume de Dios Pont</title>
+      <link>http://jaume.dedios.cat/publication/</link>
+    </image>
+    
+    <item>
+      <title>Predicting quantum channels over general product distributions</title>
+      <link>http://jaume.dedios.cat/publication/channels2024/</link>
+      <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/publication/channels2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Periodicity and decidability of translational tilings by rational polygonal sets</title>
+      <link>http://jaume.dedios.cat/publication/tiling2024/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/publication/tiling2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Query lower bounds for log-concave sampling</title>
+      <link>http://jaume.dedios.cat/publication/lowerbounds2023/</link>
+      <pubDate>Wed, 05 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/publication/lowerbounds2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uniform Fourier Restriction Estimate for Simple Curves of Bounded Frequency</title>
+      <link>http://jaume.dedios.cat/publication/fourierfrequency2023/</link>
+      <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/publication/fourierfrequency2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A new proof of the description of the convex hull of space curves with totally positive torsion</title>
+      <link>http://jaume.dedios.cat/publication/convexhull2022/</link>
+      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/publication/convexhull2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Additive energies on discrete cubes</title>
+      <link>http://jaume.dedios.cat/publication/discretecubes2021/</link>
+      <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/publication/discretecubes2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On classical inequalities for autocorrelations and autoconvolutions</title>
+      <link>http://jaume.dedios.cat/publication/acorr2021/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/publication/acorr2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decoupling for fractal subsets of the parabola</title>
+      <link>http://jaume.dedios.cat/publication/cantor2020/</link>
+      <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/publication/cantor2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Sparsity in Overparametrised Shallow ReLU Networks</title>
+      <link>http://jaume.dedios.cat/publication/bruna2020/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/publication/bruna2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A geometric lemma for complex polynomial curves with applications in Fourier restriction theory</title>
+      <link>http://jaume.dedios.cat/publication/curves2020/</link>
+      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/publication/curves2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Role Detection in Bicycle-Sharing Networks Using Multilayer Stochastic Block Models</title>
+      <link>http://jaume.dedios.cat/publication/bikes2019/</link>
+      <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/publication/bikes2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

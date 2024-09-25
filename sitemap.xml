@@ -2,28 +2,89 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://jaume.dedios.cat/talk/bonn_24_fall/</loc>
+    <lastmod>2024-10-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://jaume.dedios.cat/tag/current/</loc>
+    <lastmod>2024-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/</loc>
+    <lastmod>2024-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/tags/</loc>
+    <lastmod>2024-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/talk/</loc>
+    <lastmod>2024-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/tag/travel/</loc>
+    <lastmod>2024-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/talk/mfo_24/</loc>
+    <lastmod>2024-10-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/publication/</loc>
+    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://jaume.dedios.cat/publication-type/3/</loc>
+    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/authors/</loc>
+    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/author/hsin-yuan-huang/</loc>
+    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/author/jane-lange/</loc>
+    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/author/jaume-de-dios/</loc>
+    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/author/jerry-li/</loc>
+    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/author/jun-ting-hsieh/</loc>
+    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/publication/channels2024/</loc>
+    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/publication_types/</loc>
+    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/author/sitan-chen/</loc>
+    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/author/jan-grebik/</loc>
+    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/author/jose-madrid/</loc>
+    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/publication/tiling2024/</loc>
+    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/author/rachel-greenfeld/</loc>
+    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/tag/past/</loc>
+    <lastmod>2024-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/talk/bonn_24_summer/</loc>
+    <lastmod>2024-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/talk/bac_24/</loc>
+    <lastmod>2024-06-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/talk/bonn_24_01/</loc>
     <lastmod>2024-01-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jaume.dedios.cat/talk/bonn_again/</loc>
     <lastmod>2024-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://jaume.dedios.cat/</loc>
-    <lastmod>2024-01-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jaume.dedios.cat/tags/</loc>
-    <lastmod>2024-01-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jaume.dedios.cat/talk/</loc>
-    <lastmod>2024-01-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jaume.dedios.cat/tag/travel/</loc>
-    <lastmod>2024-01-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://jaume.dedios.cat/talk/ntnu/</loc>
-    <lastmod>2023-10-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jaume.dedios.cat/tag/past/</loc>
     <lastmod>2023-10-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jaume.dedios.cat/talk/microsoft-reseach/</loc>
@@ -31,6 +92,27 @@
   </url><url>
     <loc>http://jaume.dedios.cat/talk/rochester/</loc>
     <lastmod>2023-05-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/author/chen-lu/</loc>
+    <lastmod>2023-04-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/author/jaume-de-dios-pont/</loc>
+    <lastmod>2023-04-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/publication/lowerbounds2023/</loc>
+    <lastmod>2023-04-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/author/shyam-narayanan/</loc>
+    <lastmod>2023-04-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/author/sinho-chewi/</loc>
+    <lastmod>2023-04-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/author/helge-j%C3%B8rgen-samuelsen/</loc>
+    <lastmod>2023-03-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/publication/fourierfrequency2023/</loc>
+    <lastmod>2023-03-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jaume.dedios.cat/talk/stanford/</loc>
     <lastmod>2022-10-17T00:00:00+00:00</lastmod>
@@ -86,35 +168,16 @@
     <loc>http://jaume.dedios.cat/talk/bonn22/</loc>
     <lastmod>2022-02-03T12:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://jaume.dedios.cat/publication/convexhull2022/</loc>
+    <lastmod>2022-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/author/paata-ivanisvili/</loc>
+    <lastmod>2022-01-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://jaume.dedios.cat/talk/him2022w/</loc>
     <lastmod>2022-01-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://jaume.dedios.cat/publication/</loc>
-    <lastmod>2021-12-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url><url>
-    <loc>http://jaume.dedios.cat/publication-type/3/</loc>
-    <lastmod>2021-12-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jaume.dedios.cat/publication/add2021/</loc>
-    <lastmod>2021-12-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jaume.dedios.cat/authors/</loc>
-    <lastmod>2021-12-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jaume.dedios.cat/author/jaume-de-dios/</loc>
-    <lastmod>2021-12-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jaume.dedios.cat/author/jose-madrid/</loc>
-    <lastmod>2021-12-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jaume.dedios.cat/author/paata-ivanisvili/</loc>
-    <lastmod>2021-12-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jaume.dedios.cat/publication_types/</loc>
-    <lastmod>2021-12-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jaume.dedios.cat/author/rachel-greenfeld/</loc>
+    <loc>http://jaume.dedios.cat/publication/discretecubes2021/</loc>
     <lastmod>2021-12-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jaume.dedios.cat/talk/uclap2021f/</loc>

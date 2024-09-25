@@ -5,7 +5,7 @@
     <link>http://jaume.dedios.cat/author/jaume-de-dios/</link>
       <atom:link href="http://jaume.dedios.cat/author/jaume-de-dios/index.xml" rel="self" type="application/rss+xml" />
     <description>Jaume de Dios</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 17 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 05 Sep 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://jaume.dedios.cat/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_3.png</url>
       <title>Jaume de Dios</title>
@@ -13,10 +13,42 @@
     </image>
     
     <item>
+      <title>Predicting quantum channels over general product distributions</title>
+      <link>http://jaume.dedios.cat/publication/channels2024/</link>
+      <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/publication/channels2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Periodicity and decidability of translational tilings by rational polygonal sets</title>
+      <link>http://jaume.dedios.cat/publication/tiling2024/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/publication/tiling2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uniform Fourier Restriction Estimate for Simple Curves of Bounded Frequency</title>
+      <link>http://jaume.dedios.cat/publication/fourierfrequency2023/</link>
+      <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/publication/fourierfrequency2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A new proof of the description of the convex hull of space curves with totally positive torsion</title>
+      <link>http://jaume.dedios.cat/publication/convexhull2022/</link>
+      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/publication/convexhull2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Additive energies on discrete cubes</title>
-      <link>http://jaume.dedios.cat/publication/add2021/</link>
+      <link>http://jaume.dedios.cat/publication/discretecubes2021/</link>
       <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/publication/add2021/</guid>
+      <guid>http://jaume.dedios.cat/publication/discretecubes2021/</guid>
       <description></description>
     </item>
     

@@ -5,12 +5,44 @@
     <link>http://jaume.dedios.cat/tag/past/</link>
       <atom:link href="http://jaume.dedios.cat/tag/past/index.xml" rel="self" type="application/rss+xml" />
     <description>Past</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 08 Jul 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://jaume.dedios.cat/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_3.png</url>
       <title>Past</title>
       <link>http://jaume.dedios.cat/tag/past/</link>
     </image>
+    
+    <item>
+      <title>Uniformity and Stability of Oscillatory Integrals</title>
+      <link>http://jaume.dedios.cat/talk/bonn_24_summer/</link>
+      <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/bonn_24_summer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Barcelona Analysis Conference</title>
+      <link>http://jaume.dedios.cat/talk/bac_24/</link>
+      <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/bac_24/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dual Trimester Program: Synergies between modern probability, geometric analysis and stochastic geometry</title>
+      <link>http://jaume.dedios.cat/talk/bonn_24_01/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/bonn_24_01/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dual Trimester Program: Synergies between modern probability, geometric analysis and stochastic geometry</title>
+      <link>http://jaume.dedios.cat/talk/bonn_again/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/bonn_again/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>NTNU</title>

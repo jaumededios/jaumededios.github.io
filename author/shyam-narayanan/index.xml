@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shyam Narayanan | Jaume de Dios Pont</title>
+    <link>http://jaume.dedios.cat/author/shyam-narayanan/</link>
+      <atom:link href="http://jaume.dedios.cat/author/shyam-narayanan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Shyam Narayanan</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 05 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://jaume.dedios.cat/images/icon_hu6ba56707d279018d02d3c3fbb548984d_135469_512x512_fill_lanczos_center_3.png</url>
+      <title>Shyam Narayanan</title>
+      <link>http://jaume.dedios.cat/author/shyam-narayanan/</link>
+    </image>
+    
+    <item>
+      <title>Query lower bounds for log-concave sampling</title>
+      <link>http://jaume.dedios.cat/publication/lowerbounds2023/</link>
+      <pubDate>Wed, 05 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/publication/lowerbounds2023/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
