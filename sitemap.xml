@@ -25,7 +25,6 @@
   </url><url>
     <loc>http://jaume.dedios.cat/publication/</loc>
     <lastmod>2024-09-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url><url>
     <loc>http://jaume.dedios.cat/publication-type/3/</loc>
     <lastmod>2024-09-05T00:00:00+00:00</lastmod>
@@ -57,10 +56,10 @@
     <loc>http://jaume.dedios.cat/author/sitan-chen/</loc>
     <lastmod>2024-09-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://jaume.dedios.cat/author/jan-grebik/</loc>
+    <loc>http://jaume.dedios.cat/author/jan-greb%C3%ADk/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://jaume.dedios.cat/author/jose-madrid/</loc>
+    <loc>http://jaume.dedios.cat/author/jos%C3%A9-madrid/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jaume.dedios.cat/publication/tiling2024/</loc>
@@ -278,6 +277,8 @@
   </url><url>
     <loc>http://jaume.dedios.cat/author/stephanie-wang/</loc>
     <lastmod>2019-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/author/</loc>
   </url><url>
     <loc>http://jaume.dedios.cat/author/</loc>
   </url><url>

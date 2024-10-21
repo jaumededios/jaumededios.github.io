@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>José Madrid | Jaume de Dios Pont</title>
+    <link>http://jaume.dedios.cat/author/jos%C3%A9-madrid/</link>
+      <atom:link href="http://jaume.dedios.cat/author/jos%C3%A9-madrid/index.xml" rel="self" type="application/rss+xml" />
+    <description>José Madrid</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 04 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://jaume.dedios.cat/images/icon_hu16030646754297185528.png</url>
+      <title>José Madrid</title>
+      <link>http://jaume.dedios.cat/author/jos%C3%A9-madrid/</link>
+    </image>
+    
+    <item>
+      <title>Periodicity and decidability of translational tilings by rational polygonal sets</title>
+      <link>http://jaume.dedios.cat/publication/tiling2024/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/publication/tiling2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A new proof of the description of the convex hull of space curves with totally positive torsion</title>
+      <link>http://jaume.dedios.cat/publication/convexhull2022/</link>
+      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/publication/convexhull2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Additive energies on discrete cubes</title>
+      <link>http://jaume.dedios.cat/publication/discretecubes2021/</link>
+      <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/publication/discretecubes2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On classical inequalities for autocorrelations and autoconvolutions</title>
+      <link>http://jaume.dedios.cat/publication/acorr2021/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/publication/acorr2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decoupling for fractal subsets of the parabola</title>
+      <link>http://jaume.dedios.cat/publication/cantor2020/</link>
+      <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/publication/cantor2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

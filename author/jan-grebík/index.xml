@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jan Grebík, | Jaume de Dios Pont</title>
+    <link>http://jaume.dedios.cat/author/jan-greb%C3%ADk/</link>
+      <atom:link href="http://jaume.dedios.cat/author/jan-greb%C3%ADk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jan Grebík,</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 04 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://jaume.dedios.cat/images/icon_hu16030646754297185528.png</url>
+      <title>Jan Grebík,</title>
+      <link>http://jaume.dedios.cat/author/jan-greb%C3%ADk/</link>
+    </image>
+    
+    <item>
+      <title>Periodicity and decidability of translational tilings by rational polygonal sets</title>
+      <link>http://jaume.dedios.cat/publication/tiling2024/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/publication/tiling2024/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
