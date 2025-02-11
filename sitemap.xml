@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://jaume.dedios.cat/talk/lyon_25_march/</loc>
-    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+    <loc>http://jaume.dedios.cat/talk/clouds24/</loc>
+    <lastmod>2025-03-17T17:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jaume.dedios.cat/tag/current/</loc>
-    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-17T17:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jaume.dedios.cat/</loc>
-    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-17T17:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jaume.dedios.cat/tags/</loc>
-    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-17T17:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/tag/talk/</loc>
+    <lastmod>2025-03-17T17:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jaume.dedios.cat/talk/</loc>
+    <lastmod>2025-03-17T17:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/talk/lyon_25_march/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jaume.dedios.cat/tag/travel/</loc>
@@ -141,9 +147,6 @@
     <lastmod>2022-10-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jaume.dedios.cat/talk/umn22/</loc>
-    <lastmod>2022-09-15T15:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jaume.dedios.cat/tag/talk/</loc>
     <lastmod>2022-09-15T15:30:00+00:00</lastmod>
   </url><url>
     <loc>http://jaume.dedios.cat/talk/umn/</loc>
