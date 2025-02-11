@@ -5,12 +5,36 @@
     <link>http://jaume.dedios.cat/tag/past/</link>
       <atom:link href="http://jaume.dedios.cat/tag/past/index.xml" rel="self" type="application/rss+xml" />
     <description>Past</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 08 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 13 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://jaume.dedios.cat/images/icon_hu16030646754297185528.png</url>
       <title>Past</title>
       <link>http://jaume.dedios.cat/tag/past/</link>
     </image>
+    
+    <item>
+      <title>Seminari d&#39;Analisi UAB-UB</title>
+      <link>http://jaume.dedios.cat/talk/bcn_25_jan/</link>
+      <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/bcn_25_jan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Boolean Analysis in Computer Science</title>
+      <link>http://jaume.dedios.cat/talk/bonn_24_fall/</link>
+      <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/bonn_24_fall/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arbeitsgemeinschaft: Quantum Signal Processing and Nonlinear Fourier Analysis</title>
+      <link>http://jaume.dedios.cat/talk/mfo_24/</link>
+      <pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/mfo_24/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Uniformity and Stability of Oscillatory Integrals</title>

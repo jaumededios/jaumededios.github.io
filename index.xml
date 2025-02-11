@@ -5,12 +5,68 @@
     <link>http://jaume.dedios.cat/</link>
       <atom:link href="http://jaume.dedios.cat/index.xml" rel="self" type="application/rss+xml" />
     <description>Jaume de Dios Pont</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 11 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://jaume.dedios.cat/images/icon_hu16030646754297185528.png</url>
       <title>Jaume de Dios Pont</title>
       <link>http://jaume.dedios.cat/</link>
     </image>
+    
+    <item>
+      <title>Camille Jordan Institute in Lyon (Analysis Seminar)</title>
+      <link>http://jaume.dedios.cat/talk/lyon_25_march/</link>
+      <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/lyon_25_march/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>University of Edinburgh (Analysis Seminar)</title>
+      <link>http://jaume.dedios.cat/talk/edin_25_march/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/edin_25_march/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Virginia Tech (Analysis Seminar)</title>
+      <link>http://jaume.dedios.cat/talk/jose_25_feb/</link>
+      <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/jose_25_feb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simon&#39;s collaboration on wave localization: Annual Meeting.</title>
+      <link>http://jaume.dedios.cat/talk/ny_simons_25_wave/</link>
+      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/ny_simons_25_wave/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MPS Workshop on Computation in Mathematics</title>
+      <link>http://jaume.dedios.cat/talk/ny_simons_25_computation/</link>
+      <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/ny_simons_25_computation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Seminari d&#39;Analisi UAB-UB</title>
+      <link>http://jaume.dedios.cat/talk/bcn_25_jan/</link>
+      <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/bcn_25_jan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Convex sets can have interior hot spots</title>
+      <link>http://jaume.dedios.cat/publication/hotspots2024/</link>
+      <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/publication/hotspots2024/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Boolean Analysis in Computer Science</title>
