@@ -5,12 +5,68 @@
     <link>http://jaume.dedios.cat/tag/travel/</link>
       <atom:link href="http://jaume.dedios.cat/tag/travel/index.xml" rel="self" type="application/rss+xml" />
     <description>Travel</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 26 Aug 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://jaume.dedios.cat/images/icon_hu16030646754297185528.png</url>
       <title>Travel</title>
       <link>http://jaume.dedios.cat/tag/travel/</link>
     </image>
+    
+    <item>
+      <title>UK Spectral Theory Network Worksho</title>
+      <link>http://jaume.dedios.cat/talk/uk_25/</link>
+      <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/uk_25/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Workshop on spectral geometry, PDEs and mathematical physics</title>
+      <link>http://jaume.dedios.cat/talk/haagen_25/</link>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/haagen_25/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flatiron Institute</title>
+      <link>http://jaume.dedios.cat/talk/ny_irina_25/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/ny_irina_25/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fourier Analysis and Beyond I</title>
+      <link>http://jaume.dedios.cat/talk/rio_25/</link>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/rio_25/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Summer school in PDE and Probability</title>
+      <link>http://jaume.dedios.cat/talk/paris_25/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/paris_25/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Valentia Matematica</title>
+      <link>http://jaume.dedios.cat/talk/valentia_25/</link>
+      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/valentia_25/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modern trends in Fourier Analysis</title>
+      <link>http://jaume.dedios.cat/talk/barcelona_25/</link>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/barcelona_25/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Camille Jordan Institute in Lyon (Analysis Seminar)</title>
@@ -97,14 +153,6 @@
       <link>http://jaume.dedios.cat/talk/bonn_24_01/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://jaume.dedios.cat/talk/bonn_24_01/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dual Trimester Program: Synergies between modern probability, geometric analysis and stochastic geometry</title>
-      <link>http://jaume.dedios.cat/talk/bonn_again/</link>
-      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/talk/bonn_again/</guid>
       <description></description>
     </item>
     

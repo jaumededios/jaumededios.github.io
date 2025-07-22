@@ -5,7 +5,7 @@
     <link>http://jaume.dedios.cat/tag/talk/</link>
       <atom:link href="http://jaume.dedios.cat/tag/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Talk</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 17 Mar 2025 17:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 31 Jul 2025 09:00:00 +0000</lastBuildDate>
     <image>
       <url>http://jaume.dedios.cat/images/icon_hu16030646754297185528.png</url>
       <title>Talk</title>
@@ -14,15 +14,26 @@
     
     <item>
       <title>Convex sets can have interior hot spots</title>
-      <link>http://jaume.dedios.cat/talk/clouds24/</link>
-      <pubDate>Mon, 17 Mar 2025 17:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/talk/clouds24/</guid>
-      <description>&lt;p&gt;A homogeneous, insulated object with a non-uniform initial tempera- ture will eventually reach thermal equilibrium. The Hot Spots conjecture addresses which point in the object takes the longest to reach this equi- librium: Where is the maximum temperature attained as time progresses? Rauch initially conjectured that points attaining the maximum temperature would approach the boundary for larger times. Burdzy and Werner disproved the conjecture for planar domains with holes. Kawohl, and later Ban ̃uelos- Burdzy, conjectured that the conjecture should still hold for convex sets of all dimensions. This talk will draw inspiration from a recurrent theme in convex anal- ysis: almost every dimension-free result in convex analysis has a natural log-concave extension. We will motivate and construct the log-concave ana- log of the Hot Spots conjecture, and then disprove it. Using this log-concave construction, we will show that the hot spots conjecture for convex sets is false in high dimensions.&lt;/p&gt;
+      <link>http://jaume.dedios.cat/talk/montreal25/</link>
+      <pubDate>Thu, 31 Jul 2025 09:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/montreal25/</guid>
+      <description>&lt;p&gt;A homogeneous, insulated object with a non-uniform initial temperature will eventually reach thermal equilibrium.  Which point in the object takes the longest to reach this equilibrium? Intuition tells us that points &amp;ldquo;in the middle&amp;rdquo; of the material will generically reach this equilibrium temperature faster, and points &amp;ldquo;far from the middle&amp;rdquo; (i.e. at the boundary) should take more time to reach this temperature. The hot spots conjecture is a formalization of this intuition.&lt;/p&gt;
+&lt;p&gt;Rauch initially conjectured that points attaining the maximum temperature in the material would approach the boundary as time goes to infinity. Burdzy and Werner later disproved the conjecture for planar domains with holes. The general consensus, however, was that the conjecture should still hold for convex sets of all dimensions.&lt;/p&gt;
+&lt;p&gt;This talk will draw inspiration from a recurrent theme in convex analysis: most dimension-free results in convex analysis have a natural log-concave extension. We will motivate and construct the log-concave analog of the Hot Spots conjecture, and then disprove it. Using this log-concave construction, we will argue that the hot spots conjecture for convex sets is false in high enough dimensions.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Decoupling, Cantor sets, and additive combinatorics </title>
+      <title>Convex sets can have interior hot spots</title>
+      <link>http://jaume.dedios.cat/talk/clouds24/</link>
+      <pubDate>Mon, 17 Mar 2025 17:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/clouds24/</guid>
+      <description>&lt;p&gt;A homogeneous, insulated object with a non-uniform initial temperature will eventually reach thermal equilibrium. The Hot Spots conjecture addresses which point in the object takes the longest to reach this equilibrium: Where is the maximum temperature attained as time progresses? Rauch initially conjectured that points attaining the maximum temperature would approach the boundary for larger times. Burdzy and Werner disproved the conjecture for planar domains with holes. Kawohl, and later Banuelos- Burdzy, conjectured that the conjecture should still hold for convex sets of all dimensions. This talk will draw inspiration from a recurrent theme in convex anal- ysis: almost every dimension-free result in convex analysis has a natural log-concave extension. We will motivate and construct the log-concave ana- log of the Hot Spots conjecture, and then disprove it. Using this log-concave construction, we will show that the hot spots conjecture for convex sets is false in high dimensions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Decoupling, Cantor sets, and additive combinatorics</title>
       <link>http://jaume.dedios.cat/talk/umn22/</link>
       <pubDate>Thu, 15 Sep 2022 15:30:00 +0000</pubDate>
       <guid>http://jaume.dedios.cat/talk/umn22/</guid>
@@ -51,7 +62,7 @@ Contains joint work with Alan Chang (Princeton), Rachel Greenfeld (UCLA), Asgar 
     </item>
     
     <item>
-      <title>Decoupling, Cantor sets, and additive combinatorics </title>
+      <title>Decoupling, Cantor sets, and additive combinatorics</title>
       <link>http://jaume.dedios.cat/talk/bristol22/</link>
       <pubDate>Thu, 17 Feb 2022 15:00:00 +0000</pubDate>
       <guid>http://jaume.dedios.cat/talk/bristol22/</guid>
@@ -130,7 +141,8 @@ Contains joint work with Alan Chang (Princeton), Rachel Greenfeld (UCLA), Asgar 
       <link>http://jaume.dedios.cat/talk/ubuab201109/</link>
       <pubDate>Mon, 09 Nov 2020 15:00:00 +0000</pubDate>
       <guid>http://jaume.dedios.cat/talk/ubuab201109/</guid>
-      <description></description>
+      <description>&lt;p&gt;nan&lt;/p&gt;
+</description>
     </item>
     
     <item>

@@ -5,12 +5,93 @@
     <link>http://jaume.dedios.cat/tag/past/</link>
       <atom:link href="http://jaume.dedios.cat/tag/past/index.xml" rel="self" type="application/rss+xml" />
     <description>Past</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 13 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 30 Jun 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://jaume.dedios.cat/images/icon_hu16030646754297185528.png</url>
       <title>Past</title>
       <link>http://jaume.dedios.cat/tag/past/</link>
     </image>
+    
+    <item>
+      <title>Fourier Analysis and Beyond I</title>
+      <link>http://jaume.dedios.cat/talk/rio_25/</link>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/rio_25/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Summer school in PDE and Probability</title>
+      <link>http://jaume.dedios.cat/talk/paris_25/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/paris_25/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Valentia Matematica</title>
+      <link>http://jaume.dedios.cat/talk/valentia_25/</link>
+      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/valentia_25/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modern trends in Fourier Analysis</title>
+      <link>http://jaume.dedios.cat/talk/barcelona_25/</link>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/barcelona_25/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Convex sets can have interior hot spots</title>
+      <link>http://jaume.dedios.cat/talk/clouds24/</link>
+      <pubDate>Mon, 17 Mar 2025 17:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/clouds24/</guid>
+      <description>&lt;p&gt;A homogeneous, insulated object with a non-uniform initial temperature will eventually reach thermal equilibrium. The Hot Spots conjecture addresses which point in the object takes the longest to reach this equilibrium: Where is the maximum temperature attained as time progresses? Rauch initially conjectured that points attaining the maximum temperature would approach the boundary for larger times. Burdzy and Werner disproved the conjecture for planar domains with holes. Kawohl, and later Banuelos- Burdzy, conjectured that the conjecture should still hold for convex sets of all dimensions. This talk will draw inspiration from a recurrent theme in convex anal- ysis: almost every dimension-free result in convex analysis has a natural log-concave extension. We will motivate and construct the log-concave ana- log of the Hot Spots conjecture, and then disprove it. Using this log-concave construction, we will show that the hot spots conjecture for convex sets is false in high dimensions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Camille Jordan Institute in Lyon (Analysis Seminar)</title>
+      <link>http://jaume.dedios.cat/talk/lyon_25_march/</link>
+      <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/lyon_25_march/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>University of Edinburgh (Analysis Seminar)</title>
+      <link>http://jaume.dedios.cat/talk/edin_25_march/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/edin_25_march/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Virginia Tech (Analysis Seminar)</title>
+      <link>http://jaume.dedios.cat/talk/jose_25_feb/</link>
+      <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/jose_25_feb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simon&#39;s collaboration on wave localization: Annual Meeting.</title>
+      <link>http://jaume.dedios.cat/talk/ny_simons_25_wave/</link>
+      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/ny_simons_25_wave/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MPS Workshop on Computation in Mathematics</title>
+      <link>http://jaume.dedios.cat/talk/ny_simons_25_computation/</link>
+      <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://jaume.dedios.cat/talk/ny_simons_25_computation/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Seminari d&#39;Analisi UAB-UB</title>
@@ -61,14 +142,6 @@
     </item>
     
     <item>
-      <title>Dual Trimester Program: Synergies between modern probability, geometric analysis and stochastic geometry</title>
-      <link>http://jaume.dedios.cat/talk/bonn_again/</link>
-      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://jaume.dedios.cat/talk/bonn_again/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>NTNU</title>
       <link>http://jaume.dedios.cat/talk/ntnu/</link>
       <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
@@ -109,7 +182,7 @@
     </item>
     
     <item>
-      <title>Decoupling, Cantor sets, and additive combinatorics </title>
+      <title>Decoupling, Cantor sets, and additive combinatorics</title>
       <link>http://jaume.dedios.cat/talk/umn22/</link>
       <pubDate>Thu, 15 Sep 2022 15:30:00 +0000</pubDate>
       <guid>http://jaume.dedios.cat/talk/umn22/</guid>
@@ -218,7 +291,7 @@ Contains joint work with Alan Chang (Princeton), Rachel Greenfeld (UCLA), Asgar 
     </item>
     
     <item>
-      <title>Decoupling, Cantor sets, and additive combinatorics </title>
+      <title>Decoupling, Cantor sets, and additive combinatorics</title>
       <link>http://jaume.dedios.cat/talk/bristol22/</link>
       <pubDate>Thu, 17 Feb 2022 15:00:00 +0000</pubDate>
       <guid>http://jaume.dedios.cat/talk/bristol22/</guid>
@@ -387,7 +460,8 @@ Link to the
       <link>http://jaume.dedios.cat/talk/ubuab201109/</link>
       <pubDate>Mon, 09 Nov 2020 15:00:00 +0000</pubDate>
       <guid>http://jaume.dedios.cat/talk/ubuab201109/</guid>
-      <description></description>
+      <description>&lt;p&gt;nan&lt;/p&gt;
+</description>
     </item>
     
     <item>

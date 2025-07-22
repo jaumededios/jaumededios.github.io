@@ -2,28 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://jaume.dedios.cat/tag/current/</loc>
+    <lastmod>2025-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/</loc>
+    <lastmod>2025-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/tags/</loc>
+    <lastmod>2025-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/talk/</loc>
+    <lastmod>2025-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/tag/travel/</loc>
+    <lastmod>2025-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/talk/uk_25/</loc>
+    <lastmod>2025-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/talk/montreal25/</loc>
+    <lastmod>2025-07-31T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/tag/talk/</loc>
+    <lastmod>2025-07-31T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/talk/haagen_25/</loc>
+    <lastmod>2025-07-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/talk/ny_irina_25/</loc>
+    <lastmod>2025-07-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/talk/rio_25/</loc>
+    <lastmod>2025-06-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/tag/past/</loc>
+    <lastmod>2025-06-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/talk/paris_25/</loc>
+    <lastmod>2025-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/talk/valentia_25/</loc>
+    <lastmod>2025-06-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jaume.dedios.cat/talk/barcelona_25/</loc>
+    <lastmod>2025-06-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://jaume.dedios.cat/talk/clouds24/</loc>
     <lastmod>2025-03-17T17:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://jaume.dedios.cat/tag/current/</loc>
-    <lastmod>2025-03-17T17:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jaume.dedios.cat/</loc>
-    <lastmod>2025-03-17T17:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jaume.dedios.cat/tags/</loc>
-    <lastmod>2025-03-17T17:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jaume.dedios.cat/tag/talk/</loc>
-    <lastmod>2025-03-17T17:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jaume.dedios.cat/talk/</loc>
-    <lastmod>2025-03-17T17:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://jaume.dedios.cat/talk/lyon_25_march/</loc>
-    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jaume.dedios.cat/tag/travel/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jaume.dedios.cat/talk/edin_25_march/</loc>
@@ -37,9 +64,6 @@
   </url><url>
     <loc>http://jaume.dedios.cat/talk/ny_simons_25_computation/</loc>
     <lastmod>2025-02-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jaume.dedios.cat/tag/past/</loc>
-    <lastmod>2025-01-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jaume.dedios.cat/talk/bcn_25_jan/</loc>
     <lastmod>2025-01-13T00:00:00+00:00</lastmod>
@@ -105,9 +129,6 @@
     <lastmod>2024-06-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jaume.dedios.cat/talk/bonn_24_01/</loc>
-    <lastmod>2024-01-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jaume.dedios.cat/talk/bonn_again/</loc>
     <lastmod>2024-01-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jaume.dedios.cat/talk/ntnu/</loc>
