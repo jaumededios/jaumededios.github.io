@@ -84,31 +84,10 @@
     });
   </script>
   <script>
-  // Preload bib on hover so click can copy synchronously (Safari requirement)
-  var bibCache = {};
-  document.addEventListener('mouseover', function(e) {
-    var btn = e.target.closest('.bibtex-btn');
-    if (!btn) return;
-    var id = btn.getAttribute('data-arxiv');
-    if (id && !bibCache[id]) {
-      fetch('/bib/' + id + '.bib').then(function(r) { return r.text(); }).then(function(t) { bibCache[id] = t.trim(); });
-    }
-  });
-  function copyBibtex(btn, arxivId) {
-    var bib = bibCache[arxivId];
-    if (bib) {
-      doCopy(bib, btn);
-    } else {
-      // Fallback: fetch then copy via textarea (works in Safari)
-      fetch('/bib/' + arxivId + '.bib').then(function(r) { return r.text(); }).then(function(t) {
-        bibCache[arxivId] = t.trim();
-        doCopy(t.trim(), btn);
-      });
-    }
-  }
-  function doCopy(text, btn) {
+  function copyBibtex(btn) {
+    var bib = btn.getAttribute('data-bib');
     var ta = document.createElement('textarea');
-    ta.value = text;
+    ta.value = bib;
     ta.style.position = 'fixed';
     ta.style.left = '-9999px';
     document.body.appendChild(ta);
