@@ -207,18 +207,18 @@ def gen_positions(records):
         end = r.get("end", "")
         details = tex_escape_light(r.get("details", ""))
 
-        # Compact date format for hint column
+        # Compact date: "May--Sep '23" for month-level, "2023--2025" for year-level
         start_fmt = format_date_compact(start) if "-" in start else start
         end_fmt = format_date_compact(end) if end and "-" in end else end
         
         date_str = start_fmt
         if end_fmt and end_fmt.lower() != "present":
-            date_str += f" -- {end_fmt}"
-        else:
-            date_str += " -- "
+            date_str += f"--{end_fmt}"
+        elif not end_fmt or end_fmt.lower() == "present":
+            date_str += "--"
 
-        details_clean = details.rstrip('.')
-        lines.append(f"  \\cventry{{show}}{{{date_str}\\phantom{{ --}}}}{{{institution}}}{{{title}}}{{{details_clean}}}{{}}{{}}%")
+        details_part = f". {details.rstrip('.')}" if details else ""
+        lines.append(f"  \\cvitem{{show}}{{{date_str}}}{{\\textbf{{{institution}}}, \\emph{{{title}}}{details_part}}}%")
     return "\n".join(lines) + "\n"
 
 
@@ -253,10 +253,12 @@ def gen_awards(records):
         institution = tex_escape_light(r.get("institution", ""))
         details = tex_escape_light(r.get("details", ""))
 
-        lines.append(
-            f"  \\cventry{{show}}{{{year}}}{{{award}}}{{{institution}}}{{}}{{}}"
-            f"{{{details}}}%"
-        )
+        parts = [f"\\textbf{{{award}}}"]
+        if institution:
+            parts.append(institution)
+        if details:
+            parts.append(details.rstrip('.'))
+        lines.append(f"  \\cvitem{{show}}{{{year}}}{{{', '.join(parts)}}}%")
     return "\n".join(lines) + "\n"
 
 
