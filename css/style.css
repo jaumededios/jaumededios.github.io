@@ -387,6 +387,7 @@ article em { font-style: italic; }
   margin-top: 3rem;
 }
 .footer a { color: var(--accent); }
+.build-info { font-size: 0.7em; opacity: 0.45; margin-top: 0.5rem; }
 
 /* ---- Mobile hamburger ---- */
 .nav-toggle {
