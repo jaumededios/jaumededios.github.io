@@ -207,15 +207,21 @@ def gen_positions(records):
         end = r.get("end", "")
         details = tex_escape_light(r.get("details", ""))
 
-        # Compact date: "May--Sep '23" for month-level, "2023--2025" for year-level
+        # Compact date: "May--Sep '23" for same-year month ranges
         start_fmt = format_date_compact(start) if "-" in start else start
         end_fmt = format_date_compact(end) if end and "-" in end else end
+        start_year = start[:4] if start else ""
+        end_year = end[:4] if end else ""
         
-        date_str = start_fmt
         if end_fmt and end_fmt.lower() != "present":
-            date_str += f"--{end_fmt}"
+            # Same year with months: "May--Sep '23"
+            if start_year == end_year and "'" in start_fmt and "'" in end_fmt:
+                start_month = start_fmt.split(" ")[0]  # "May"
+                date_str = f"{start_month}--{end_fmt}"
+            else:
+                date_str = f"{start_fmt}--{end_fmt}"
         elif not end_fmt or end_fmt.lower() == "present":
-            date_str += "--"
+            date_str = f"{start_fmt}--"
 
         details_part = f". {details.rstrip('.')}" if details else ""
         lines.append(f"  \\cvitem{{show}}{{{date_str}}}{{\\textbf{{{institution}}}, \\emph{{{title}}}{details_part}}}%")
