@@ -18,7 +18,7 @@ date: 2024-01-01
 </div>
 
 <div class="talk-item">
-  <h3>TBD</h3>
+  <h3>Recent progress on the hot spots conjecture</h3>
   <div class="talk-meta">
     <span class="talk-type">Conference</span>
     <span class="talk-event">COST mSPACE Kick-off Meeting (Milan)</span>
@@ -36,7 +36,7 @@ date: 2024-01-01
 </div>
 
 <div class="talk-item">
-  <h3>TBD</h3>
+  <h3>Recent progress on the hot spots conjecture</h3>
   <div class="talk-meta">
     <span class="talk-type">Seminar</span>
     <span class="talk-event">Brown University</span>
@@ -125,7 +125,7 @@ date: 2024-01-01
   <h3>Generació de variables aleatòries</h3>
   <div class="talk-meta">
     <span class="talk-type">Minicourse</span>
-    <span class="talk-event">Valentia Matemàtica</span>
+    <span class="talk-event">Valentia Matemàtica Summer School</span>
     <span class="talk-date">Jun 16, 2025</span>
   </div>
 </div>

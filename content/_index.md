@@ -18,32 +18,13 @@ If you're in the New York area and would like to chat, feel free to send me an e
 ---
 
 <!-- BEGIN UPCOMING_TALKS -->
-<div class="section-header"><h2>Upcoming Talks</h2><a class="see-all-btn" href="{{< ref \"/talks\" >}}">See all talks →</a></div>
+<div class="section-header"><h2>Upcoming Talks & Travel</h2></div>
 
 <div class="upcoming-compact">
-  <div class="upcoming-row">
-    <span class="upcoming-row-title"><a href="https://www.simonsfoundation.org/event/simons-collaboration-on-the-localization-of-waves-annual-meeting-2026/" target="_blank">Some Extreme Regimes of the Laplace Operator</a></span>
-    <span class="upcoming-row-meta">Flatiron Institute · Feb 19</span>
+  <div class="upcoming-row upcoming-talk">
+    <span class="upcoming-row-title">Talk: <a href="https://www.simonsfoundation.org/event/simons-collaboration-on-the-localization-of-waves-annual-meeting-2026/" target="_blank">Some Extreme Regimes of the Laplace Operator</a></span>
+    <span class="upcoming-row-meta">Simons Foundation · Feb 19</span>
   </div>
-  <div class="upcoming-row">
-    <span class="upcoming-row-title">TBD</span>
-    <span class="upcoming-row-meta">Milan · Mar 16</span>
-  </div>
-  <div class="upcoming-row">
-    <span class="upcoming-row-title">TBD</span>
-    <span class="upcoming-row-meta">SMS, Brig · Mar 25</span>
-  </div>
-  <div class="upcoming-row">
-    <span class="upcoming-row-title">TBD</span>
-    <span class="upcoming-row-meta">Brown University · May 01</span>
-  </div>
-</div>
-<!-- END UPCOMING_TALKS -->
-
-<!-- BEGIN UPCOMING_TRAVEL -->
-<div class="section-header"><h2>Upcoming Travel</h2><a class="see-all-btn" href="{{< ref \"/travel\" >}}">See all travel →</a></div>
-
-<div class="upcoming-compact">
   <div class="upcoming-row">
     <span class="upcoming-row-title"><a href="https://www.newton.ac.uk/event/sgc/" target="_blank">Isaac Newton Institute - Geometric Spectral theory and Applications</a></span>
     <span class="upcoming-row-meta">Cambridge, UK · Feb 21 – Mar 08</span>
@@ -52,17 +33,31 @@ If you're in the New York area and would like to chat, feel free to send me an e
     <span class="upcoming-row-title"><a href="https://sites.google.com/view/mspacekickoff/" target="_blank">COST mSPACE Kick-off Meeting</a></span>
     <span class="upcoming-row-meta">Milan, Italy · Mar 16–19</span>
   </div>
+  <div class="upcoming-row upcoming-talk">
+    <span class="upcoming-row-title">Talk: Recent progress on the hot spots conjecture</span>
+    <span class="upcoming-row-meta">Milan · Mar 16</span>
+  </div>
   <div class="upcoming-row">
     <span class="upcoming-row-title"><a href="https://unidistance.ch/en/mathematics-and-computer-science/event/sms-spring-meeting-formalization-and-proof-assistants" target="_blank">SMS Spring Meeting: Formalization and Proof Assistants</a></span>
     <span class="upcoming-row-meta">UniDistance Suisse, Brig, Switzerland · Mar 25–27</span>
   </div>
+  <div class="upcoming-row upcoming-talk">
+    <span class="upcoming-row-title">Talk: TBD</span>
+    <span class="upcoming-row-meta">SMS, Brig · Mar 25</span>
+  </div>
   <div class="upcoming-row">
     <span class="upcoming-row-title">Visit to Brown University</span>
     <span class="upcoming-row-meta">Brown University, Providence, RI · May 01–02</span>
+  </div>
+  <div class="upcoming-row upcoming-talk">
+    <span class="upcoming-row-title">Talk: Recent progress on the hot spots conjecture</span>
+    <span class="upcoming-row-meta">Brown University · May 01</span>
   </div>
   <div class="upcoming-row">
     <span class="upcoming-row-title"><a href="https://icerm.brown.edu/program/topical_workshop/tw-26-ttfa" target="_blank">ICERM: Techniques and Tools for the Formalization of Analysis</a></span>
     <span class="upcoming-row-meta">ICERM, Providence, RI · May 11–15</span>
   </div>
 </div>
-<!-- END UPCOMING_TRAVEL -->
+<!-- END UPCOMING_TALKS -->
+
+

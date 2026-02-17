@@ -196,96 +196,97 @@ def build_cv_json(publications, talks, travel):
 
 # ─── Homepage upcoming sections ───
 
-def gen_upcoming_talks_html(talks, max_items=5):
-    """Generate the upcoming talks HTML block for _index.md."""
+def gen_upcoming_combined_html(talks, travel):
+    """Generate a combined 'Upcoming Talks & Travel' section for _index.md.
+    
+    Travel sorted by end date. Talks appear after travel on the same start date,
+    prefixed with 'Talk:' to look like sub-items of travel.
+    """
     today = date.today()
-    upcoming = []
-    for r in talks:
-        d = parse_date(r.get("date", ""))
-        if d and d >= today:
-            upcoming.append((d, r))
-    upcoming.sort(key=lambda x: x[0])
-    upcoming = upcoming[:max_items]
 
-    lines = []
-    lines.append('<!-- BEGIN UPCOMING_TALKS -->')
-    lines.append('<div class="section-header"><h2>Upcoming Talks</h2><a class="see-all-btn" href="{{< ref \\"/talks\\" >}}">See all talks →</a></div>')
-    lines.append('')
-    lines.append('<div class="upcoming-compact">')
-
-    for d, r in upcoming:
-        title = r.get("title", "").strip() or "TBD"
-        url = r.get("url", "").strip()
-        event = r.get("event", "").strip()
-        short_loc = r.get("short_location", "").strip() or event
-        date_str = format_month_day(d)
-
-        if title and title.upper() != "TBD" and url:
-            title_html = f'<a href="{url}" target="_blank">{title}</a>'
-        elif title.upper() == "TBD" or not title:
-            # For TBD, link the event if we have a URL
-            if url and event:
-                title_html = "TBD"
-                event = f'<a href="{url}" target="_blank">{event}</a>'
-            else:
-                title_html = "TBD"
-        else:
-            title_html = title
-
-        meta = f"{short_loc} · {date_str}" if short_loc else date_str
-
-        lines.append('  <div class="upcoming-row">')
-        lines.append(f'    <span class="upcoming-row-title">{title_html}</span>')
-        lines.append(f'    <span class="upcoming-row-meta">{meta}</span>')
-        lines.append('  </div>')
-
-    lines.append('</div>')
-    lines.append('<!-- END UPCOMING_TALKS -->')
-    return "\n".join(lines)
-
-
-def gen_upcoming_travel_html(travel, max_items=5):
-    """Generate the upcoming travel HTML block for _index.md."""
-    today = date.today()
-    upcoming = []
+    # Collect travel items with end_date for sorting
+    travel_items = []
     for r in travel:
         d = parse_date(r.get("date", ""))
         if d and d >= today:
-            upcoming.append((d, r))
-    upcoming.sort(key=lambda x: x[0])
-    upcoming = upcoming[:max_items]
+            d_end = parse_date(r.get("date_end", "")) or d
+            travel_items.append((d_end, d, "travel", r))
+
+    # Collect talk items (sort key = start date, after travel)
+    talk_items = []
+    for r in talks:
+        d = parse_date(r.get("date", ""))
+        if d and d >= today:
+            talk_items.append((d, d, "talk", r))
+
+    # For each talk, find if it falls within a travel date range; if so, sort it
+    # right after that travel (using travel's end_date + 0.5 day offset).
+    # Otherwise sort by its own date.
+    for i, (d, d_start, typ, r) in enumerate(talk_items):
+        best_end = None
+        for t_end, t_start, _, tr in travel_items:
+            if t_start <= d <= t_end:
+                if best_end is None or t_end < best_end:
+                    best_end = t_end
+        if best_end:
+            # Sort just after the matching travel's end date
+            talk_items[i] = (best_end, d, "talk", r)
+    
+    # Sort: by first key (end_date), then type (travel=0 before talk=1)
+    combined = travel_items + talk_items
+    combined.sort(key=lambda x: (x[0], 0 if x[2] == "travel" else 1))
 
     lines = []
-    lines.append('<!-- BEGIN UPCOMING_TRAVEL -->')
-    lines.append('<div class="section-header"><h2>Upcoming Travel</h2><a class="see-all-btn" href="{{< ref \\"/travel\\" >}}">See all travel →</a></div>')
+    lines.append('<!-- BEGIN UPCOMING_TALKS -->')
+    lines.append('<div class="section-header"><h2>Upcoming Talks & Travel</h2></div>')
     lines.append('')
     lines.append('<div class="upcoming-compact">')
 
-    for d, r in upcoming:
-        title = r.get("title", "").strip()
-        url = r.get("url", "").strip()
-        location = r.get("location", "").strip()
-        d_end = parse_date(r.get("date_end", ""))
+    for sort_key, start_date, item_type, r in combined:
+        if item_type == "travel":
+            title = r.get("title", "").strip()
+            url = r.get("url", "").strip()
+            location = r.get("location", "").strip()
+            d_end = parse_date(r.get("date_end", ""))
 
-        if url:
-            title_html = f'<a href="{url}" target="_blank">{title}</a>'
+            if url:
+                title_html = f'<a href="{url}" target="_blank">{title}</a>'
+            else:
+                title_html = title
+
+            if d_end:
+                date_str = format_date_range(start_date, d_end)
+            else:
+                date_str = format_month_day(start_date)
+
+            meta = f"{location} · {date_str}" if location else date_str
+
+            lines.append('  <div class="upcoming-row">')
+            lines.append(f'    <span class="upcoming-row-title">{title_html}</span>')
+            lines.append(f'    <span class="upcoming-row-meta">{meta}</span>')
+            lines.append('  </div>')
         else:
-            title_html = title
+            title = r.get("title", "").strip() or "TBD"
+            url = r.get("url", "").strip()
+            short_loc = r.get("short_location", "").strip() or r.get("event", "").strip()
+            date_str = format_month_day(start_date)
 
-        if d_end:
-            date_str = format_date_range(d, d_end)
-        else:
-            date_str = format_month_day(d)
+            if title and title.upper() != "TBD" and url:
+                title_html = f'Talk: <a href="{url}" target="_blank">{title}</a>'
+            elif title.upper() == "TBD":
+                title_html = "Talk: TBD"
+            else:
+                title_html = f"Talk: {title}"
 
-        meta = f"{location} · {date_str}" if location else date_str
+            meta = f"{short_loc} · {date_str}" if short_loc else date_str
 
-        lines.append('  <div class="upcoming-row">')
-        lines.append(f'    <span class="upcoming-row-title">{title_html}</span>')
-        lines.append(f'    <span class="upcoming-row-meta">{meta}</span>')
-        lines.append('  </div>')
+            lines.append('  <div class="upcoming-row upcoming-talk">')
+            lines.append(f'    <span class="upcoming-row-title">{title_html}</span>')
+            lines.append(f'    <span class="upcoming-row-meta">{meta}</span>')
+            lines.append('  </div>')
 
     lines.append('</div>')
-    lines.append('<!-- END UPCOMING_TRAVEL -->')
+    lines.append('<!-- END UPCOMING_TALKS -->')
     return "\n".join(lines)
 
 
@@ -294,41 +295,18 @@ def update_index_md(talks, travel):
     index_path = PROJECT_DIR / "content" / "_index.md"
     content = index_path.read_text(encoding="utf-8")
 
-    talks_html = gen_upcoming_talks_html(talks)
-    travel_html = gen_upcoming_travel_html(travel)
+    combined_html = gen_upcoming_combined_html(talks, travel)
 
-    # Replace or insert upcoming talks
+    # Replace the talks section (which now contains everything)
     pattern_talks = r'<!-- BEGIN UPCOMING_TALKS -->.*?<!-- END UPCOMING_TALKS -->'
     if re.search(pattern_talks, content, re.DOTALL):
-        content = re.sub(pattern_talks, talks_html, content, flags=re.DOTALL)
+        content = re.sub(pattern_talks, combined_html, content, flags=re.DOTALL)
     else:
-        # Match from section-header "Upcoming Talks" to next section-header or end
-        old_talks_pattern = (
-            r'<div class="section-header"><h2>Upcoming Talks</h2>.*?</div>\s*\n+'
-            r'<div class="upcoming-compact">\s*\n'
-            r'(?:.*?\n)*?'
-            r'</div>'
-        )
-        if re.search(old_talks_pattern, content):
-            content = re.sub(old_talks_pattern, talks_html, content)
-        else:
-            print("WARNING: Could not find upcoming talks section in _index.md", file=sys.stderr)
+        print("WARNING: Could not find upcoming talks section in _index.md", file=sys.stderr)
 
-    # Replace or insert upcoming travel
+    # Remove the old travel section if it exists
     pattern_travel = r'<!-- BEGIN UPCOMING_TRAVEL -->.*?<!-- END UPCOMING_TRAVEL -->'
-    if re.search(pattern_travel, content, re.DOTALL):
-        content = re.sub(pattern_travel, travel_html, content, flags=re.DOTALL)
-    else:
-        old_travel_pattern = (
-            r'<div class="section-header"><h2>Upcoming Travel</h2>.*?</div>\s*\n+'
-            r'<div class="upcoming-compact">\s*\n'
-            r'(?:.*?\n)*?'
-            r'</div>'
-        )
-        if re.search(old_travel_pattern, content):
-            content = re.sub(old_travel_pattern, travel_html, content)
-        else:
-            print("WARNING: Could not find upcoming travel section in _index.md", file=sys.stderr)
+    content = re.sub(pattern_travel, '', content, flags=re.DOTALL)
 
     index_path.write_text(content, encoding="utf-8")
     print(f"  Updated {index_path}")
