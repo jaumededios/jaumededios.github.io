@@ -238,7 +238,7 @@ def gen_upcoming_combined_html(talks, travel):
 
     lines = []
     lines.append('<!-- BEGIN UPCOMING_TALKS -->')
-    lines.append('<div class="section-header"><h2>Upcoming Talks & Travel</h2></div>')
+    lines.append('<div class="section-header"><h2>Upcoming Talks & Travel</h2><span class="see-all-links"><a class="see-all-btn" href="{{< ref \\"/talks\\" >}}">All talks →</a> <a class="see-all-btn" href="{{< ref \\"/travel\\" >}}">All travel →</a></span></div>')
     lines.append('')
     lines.append('<div class="upcoming-compact">')
 

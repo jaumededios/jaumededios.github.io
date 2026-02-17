@@ -18,7 +18,7 @@ If you're in the New York area and would like to chat, feel free to send me an e
 ---
 
 <!-- BEGIN UPCOMING_TALKS -->
-<div class="section-header"><h2>Upcoming Talks & Travel</h2></div>
+<div class="section-header"><h2>Upcoming Talks & Travel</h2><span class="see-all-links"><a class="see-all-btn" href="{{< ref \"/talks\" >}}">All talks →</a> <a class="see-all-btn" href="{{< ref \"/travel\" >}}">All travel →</a></span></div>
 
 <div class="upcoming-compact">
   <div class="upcoming-row">
