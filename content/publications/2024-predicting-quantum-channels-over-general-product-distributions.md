@@ -5,6 +5,7 @@ type: "paper"
 authors: "Sitan Chen, Jaume de Dios, Jun-Ting Hsieh, Hsin-Yuan Huang, Jane Lange, Jerry Li"
 year: "2024"
 arxiv: "2409.03684"
+featured_image: "/img/papers/predicting-quantum-channels-over-general-product-distributions.png"
 description: "We investigate the problem of predicting the output behavior of unknown quantum channels. Given query access to an n-qubit channel E and an observable O, we aim to learn the mapping ρ↦Tr(OE[ρ]) to within a small error for most ρ sampled from a distribution D. Previously, Huang, Chen, and Preskill..."
 paper_url: "https://arxiv.org/abs/2409.03684"
 
