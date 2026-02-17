@@ -84,23 +84,29 @@
     });
   </script>
   <script>
+  // Preload bib on hover so click can copy synchronously (Safari requirement)
+  var bibCache = {};
+  document.addEventListener('mouseover', function(e) {
+    var btn = e.target.closest('.bibtex-btn');
+    if (!btn) return;
+    var id = btn.getAttribute('data-arxiv');
+    if (id && !bibCache[id]) {
+      fetch('/bib/' + id + '.bib').then(function(r) { return r.text(); }).then(function(t) { bibCache[id] = t.trim(); });
+    }
+  });
   function copyBibtex(btn, arxivId) {
-    fetch('/bib/' + arxivId + '.bib')
-      .then(function(r) { return r.text(); })
-      .then(function(bib) {
-        bib = bib.trim();
-        if (navigator.clipboard && navigator.clipboard.writeText) {
-          navigator.clipboard.writeText(bib).then(function() {
-            showCopied(btn);
-          }).catch(function() {
-            fallbackCopy(bib, btn);
-          });
-        } else {
-          fallbackCopy(bib, btn);
-        }
+    var bib = bibCache[arxivId];
+    if (bib) {
+      doCopy(bib, btn);
+    } else {
+      // Fallback: fetch then copy via textarea (works in Safari)
+      fetch('/bib/' + arxivId + '.bib').then(function(r) { return r.text(); }).then(function(t) {
+        bibCache[arxivId] = t.trim();
+        doCopy(t.trim(), btn);
       });
+    }
   }
-  function fallbackCopy(text, btn) {
+  function doCopy(text, btn) {
     var ta = document.createElement('textarea');
     ta.value = text;
     ta.style.position = 'fixed';
@@ -109,15 +115,9 @@
     ta.select();
     document.execCommand('copy');
     document.body.removeChild(ta);
-    showCopied(btn);
-  }
-  function showCopied(btn) {
     btn.textContent = 'Copied!';
     btn.classList.add('copied');
-    setTimeout(function() {
-      btn.textContent = 'BibTeX';
-      btn.classList.remove('copied');
-    }, 2000);
+    setTimeout(function() { btn.textContent = 'BibTeX'; btn.classList.remove('copied'); }, 2000);
   }
   </script>
 </body>

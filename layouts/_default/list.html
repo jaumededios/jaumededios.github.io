@@ -30,7 +30,7 @@
       <div class="entry-links">
         {{ with .Params.arxiv }}<a href="https://arxiv.org/abs/{{ . }}" target="_blank">arXiv:{{ . }}</a>{{ end }}
         {{ with .Params.pdf }}<a href="{{ . }}" target="_blank">PDF</a>{{ end }}
-        {{ with .Params.arxiv }}<button class="bibtex-btn" onclick="copyBibtex(this, '{{ . }}')" >BibTeX</button>{{ end }}
+        {{ with .Params.arxiv }}<button class="bibtex-btn" data-arxiv="{{ . }}" onclick="copyBibtex(this, '{{ . }}')">BibTeX</button>{{ end }}
       </div>
       {{ end }}
     </div>
