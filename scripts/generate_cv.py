@@ -304,8 +304,11 @@ def gen_talks(records):
         "",
     ]
 
-    # Filter empty rows
+    from datetime import date as _date
+    today = _date.today()
+    # Filter empty rows and future talks
     records = [r for r in records if r.get("title", "").strip()]
+    records = [r for r in records if not r.get("date", "") or r.get("date", "")[:10] <= today.isoformat()]
 
     # Group by block
     blocks = defaultdict(list)
@@ -372,7 +375,10 @@ def gen_talks(records):
 
 
 def gen_travel(records):
-    from datetime import datetime
+    from datetime import datetime, date as _date
+    today = _date.today()
+    # Filter out future travel
+    records = [r for r in records if not r.get("date", "") or r.get("date", "")[:10] <= today.isoformat()]
     lines = [
         "\\vspace{1em}",
         "\\section{Research Visits ($> 1$ week)}",
