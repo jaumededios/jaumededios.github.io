@@ -3,15 +3,7 @@
 {{ .Content }}
 
 {{ $pages := .Pages.ByDate.Reverse }}
-{{ $currentYear := "" }}
 {{ range $pages }}
-  {{ $year := (dateFormat "2006" .Date) }}
-  {{ if ne $year $currentYear }}
-    {{ if ne $currentYear "" }}</div>{{ end }}
-    <div class="year-group">
-    <div class="year-label">{{ $year }}</div>
-    {{ $currentYear = $year }}
-  {{ end }}
   <div class="entry{{ with .Params.featured_image }} has-image{{ end }}">
     {{ with .Params.featured_image }}
     <div class="entry-image">
@@ -36,5 +28,4 @@
     </div>
   </div>
 {{ end }}
-{{ if ne $currentYear "" }}</div>{{ end }}
 {{ end }}
