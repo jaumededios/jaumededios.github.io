@@ -271,10 +271,14 @@ h1.page-title {
   margin-bottom: 0.3rem;
 }
 .entry-desc {
-  font-size: 0.92rem;
-  line-height: 1.6;
+  font-size: 0.85rem;
+  line-height: 1.5;
   margin-bottom: 0.5rem;
-  color: var(--text);
+  color: var(--text-secondary);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .entry-links {
   display: flex;
