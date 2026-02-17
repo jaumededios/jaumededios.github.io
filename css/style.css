@@ -594,6 +594,13 @@ article em { font-style: italic; }
   white-space: nowrap;
   flex-shrink: 0;
 }
+.upcoming-talk {
+  padding-left: 1.5rem;
+  font-size: 0.9em;
+}
+.upcoming-talk .upcoming-row-title {
+  font-weight: 400;
+}
 @media (max-width: 640px) {
   .upcoming-row { flex-direction: column; gap: 0; }
   .upcoming-row-title { white-space: normal; }
