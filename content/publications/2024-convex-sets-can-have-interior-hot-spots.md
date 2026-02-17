@@ -5,6 +5,7 @@ type: "preprint"
 authors: "Jaume de Dios"
 year: "2024"
 arxiv: "2412.06344"
+description: "The hot spots conjecture asserts that for any convex bounded domain $\\Omega$ in $\\mathbb{R}^d$, the first non-trivial Neumann eigenfunction of the Laplace operator in $\\Omega$ attains its maximum at the boundary. We construct counterexamples to the conjecture for all sufficiently large values of..."
 paper_url: "https://arxiv.org/abs/2412.06344"
 featured_image: "/images/papers/convex-sets-can-have-interior-hot-spots.png"
 ---

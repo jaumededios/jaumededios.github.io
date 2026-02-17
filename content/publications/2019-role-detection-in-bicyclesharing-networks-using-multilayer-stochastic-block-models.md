@@ -5,6 +5,7 @@ type: "preprint"
 authors: "Jane Carlen, Jaume de Dios, Cassidy Mentus, Shyr-Shea Chang, Stephanie Wang, Mason A. Porter"
 year: "2019"
 arxiv: "1908.09440"
+description: "Urban spatial networks are complex systems with interdependent roles of neighborhoods and methods of transportation between them. In this paper, we classify docking stations in bicycle-sharing networks to gain insight into the spatial delineations of three major United States cities from human..."
 paper_url: "https://arxiv.org/abs/1908.09440"
 featured_image: "/images/papers/bike-preprint.png"
 ---

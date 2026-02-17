@@ -5,6 +5,7 @@ type: "preprint"
 authors: "Jaume de Dios"
 year: "2020"
 arxiv: "2003.14140"
+description: "The aim of this paper is to prove a uniform Fourier restriction estimate for certain 2−dimensional surfaces in R2n. These surfaces are the image of complex polynomial curves, equipped with the complex equivalent to the affine arclength measure. This result is a complex-polynomial counterpart to a..."
 paper_url: "https://arxiv.org/abs/2003.14140"
 featured_image: "/images/papers/curves2020.png"
 ---
