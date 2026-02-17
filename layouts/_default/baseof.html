@@ -88,15 +88,36 @@
     fetch('/bib/' + arxivId + '.bib')
       .then(function(r) { return r.text(); })
       .then(function(bib) {
-        navigator.clipboard.writeText(bib.trim()).then(function() {
-          btn.textContent = 'Copied!';
-          btn.classList.add('copied');
-          setTimeout(function() {
-            btn.textContent = 'BibTeX';
-            btn.classList.remove('copied');
-          }, 2000);
-        });
+        bib = bib.trim();
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(bib).then(function() {
+            showCopied(btn);
+          }).catch(function() {
+            fallbackCopy(bib, btn);
+          });
+        } else {
+          fallbackCopy(bib, btn);
+        }
       });
+  }
+  function fallbackCopy(text, btn) {
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.position = 'fixed';
+    ta.style.left = '-9999px';
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand('copy');
+    document.body.removeChild(ta);
+    showCopied(btn);
+  }
+  function showCopied(btn) {
+    btn.textContent = 'Copied!';
+    btn.classList.add('copied');
+    setTimeout(function() {
+      btn.textContent = 'BibTeX';
+      btn.classList.remove('copied');
+    }, 2000);
   }
   </script>
 </body>
