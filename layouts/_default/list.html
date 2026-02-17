@@ -28,7 +28,7 @@
       {{ with .Params.description }}<p class="entry-desc">{{ . }}</p>{{ end }}
       {{ if or .Params.arxiv .Params.pdf }}
       <div class="entry-links">
-        {{ with .Params.arxiv }}<a href="https://arxiv.org/abs/{{ . }}" target="_blank">arXiv</a>{{ end }}
+        {{ with .Params.arxiv }}<a href="https://arxiv.org/abs/{{ . }}" target="_blank">arXiv:{{ . }}</a>{{ end }}
         {{ with .Params.pdf }}<a href="{{ . }}" target="_blank">PDF</a>{{ end }}
       </div>
       {{ end }}
