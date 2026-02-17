@@ -1,0 +1,56 @@
+{
+  "Convex sets can have interior hot spots": {
+    "filename": "convex-sets-can-have-interior-hot-spots.png",
+    "path": "/img/papers/convex-sets-can-have-interior-hot-spots.png",
+    "alt": "Convex sets can have interior hot spots",
+    "original_url": "https://jaume.dedios.cat/publication/hotspots2024/featured_hu1278507089189442982.png"
+  },
+  "Periodicity and decidability of translational tilings by rational polygonal sets": {
+    "filename": "periodicity-and-decidability-of-translational-tilings-by-rational-polygonal-sets.png",
+    "path": "/img/papers/periodicity-and-decidability-of-translational-tilings-by-rational-polygonal-sets.png",
+    "alt": "Periodicity and decidability of translational tilings by rational polygonal sets",
+    "original_url": "https://jaume.dedios.cat/publication/tiling2024/featured_hu7796568207230063441.png"
+  },
+  "Query lower bounds for log-concave sampling": {
+    "filename": "query-lower-bounds-for-log-concave-sampling.png",
+    "path": "/img/papers/query-lower-bounds-for-log-concave-sampling.png",
+    "alt": "Query lower bounds for log-concave sampling",
+    "original_url": "https://jaume.dedios.cat/publication/lowerbounds2023/featured_hu5700461784478294751.png"
+  },
+  "A new proof of the description of the convex hull of space curves with totally positive torsion": {
+    "filename": "a-new-proof-of-the-description-of-the-convex-hull-of-space-curves-with-totally-positive-torsion.png",
+    "path": "/img/papers/a-new-proof-of-the-description-of-the-convex-hull-of-space-curves-with-totally-positive-torsion.png",
+    "alt": "A new proof of the description of the convex hull of space curves with totally positive torsion",
+    "original_url": "https://jaume.dedios.cat/publication/convexhull2022/featured_hu6553095740852176405.png"
+  },
+  "On classical inequalities for autocorrelations and autoconvolutions": {
+    "filename": "on-classical-inequalities-for-autocorrelations-and-autoconvolutions.png",
+    "path": "/img/papers/on-classical-inequalities-for-autocorrelations-and-autoconvolutions.png",
+    "alt": "On classical inequalities for autocorrelations and autoconvolutions",
+    "original_url": "https://jaume.dedios.cat/publication/acorr2021/featured_hu14415168409685030709.png"
+  },
+  "Decoupling for fractal subsets of the parabola": {
+    "filename": "decoupling-for-fractal-subsets-of-the-parabola.png",
+    "path": "/img/papers/decoupling-for-fractal-subsets-of-the-parabola.png",
+    "alt": "Decoupling for fractal subsets of the parabola",
+    "original_url": "https://jaume.dedios.cat/publication/cantor2020/featured_hu13423700332841833467.png"
+  },
+  "On Sparsity in Overparametrised Shallow ReLU Networks": {
+    "filename": "on-sparsity-in-overparametrised-shallow-relu-networks.png",
+    "path": "/img/papers/on-sparsity-in-overparametrised-shallow-relu-networks.png",
+    "alt": "On Sparsity in Overparametrised Shallow ReLU Networks",
+    "original_url": "https://jaume.dedios.cat/publication/bruna2020/featured_hu3354643144835629779.png"
+  },
+  "A geometric lemma for complex polynomial curves with applications in Fourier restriction theory": {
+    "filename": "a-geometric-lemma-for-complex-polynomial-curves-with-applications-in-fourier-restriction-theory.png",
+    "path": "/img/papers/a-geometric-lemma-for-complex-polynomial-curves-with-applications-in-fourier-restriction-theory.png",
+    "alt": "A geometric lemma for complex polynomial curves with applications in Fourier restriction theory",
+    "original_url": "https://jaume.dedios.cat/publication/curves2020/featured_hu1126761956328346450.png"
+  },
+  "Role Detection in Bicycle-Sharing Networks Using Multilayer Stochastic Block Models": {
+    "filename": "role-detection-in-bicycle-sharing-networks-using-multilayer-stochastic-block-models.png",
+    "path": "/img/papers/role-detection-in-bicycle-sharing-networks-using-multilayer-stochastic-block-models.png",
+    "alt": "Role Detection in Bicycle-Sharing Networks Using Multilayer Stochastic Block Models",
+    "original_url": "https://jaume.dedios.cat/publication/bikes2019/featured_hu14834964260493575421.png"
+  }
+}

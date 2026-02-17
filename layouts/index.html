@@ -1,0 +1,44 @@
+{{ define "main" }}
+<div class="profile">
+  <div class="profile-photo">
+    {{ if .Site.Params.profileImage }}
+    <img src="{{ .Site.Params.profileImage | absURL }}" alt="{{ .Site.Params.author }}">
+    {{ end }}
+  </div>
+  <div class="profile-info">
+    <h1>{{ .Site.Params.author }}</h1>
+    <p class="subtitle">{{ .Site.Params.description }}</p>
+    <div class="profile-links">
+      {{ with .Site.Params.email }}
+      <a href="mailto:{{ . }}" title="Email">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+      </a>
+      {{ end }}
+      {{ with .Site.Params.scholar }}
+      <a href="{{ . }}" target="_blank" title="Google Scholar">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+      </a>
+      {{ end }}
+      {{ with .Site.Params.arxiv }}
+      <a href="{{ . }}" target="_blank" title="arXiv">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M2.1 4.3L6.5 12l-4.4 7.7h3.3L9.5 12 5.4 4.3zm8.4 0L6.4 12l4.1 7.7h3.3L9.7 12l4.1-7.7zm5.1 0L11.5 12l4.1 7.7h3.3L14.8 12l4.1-7.7z"/></svg>
+      </a>
+      {{ end }}
+      {{ with .Site.Params.github }}
+      <a href="{{ . }}" target="_blank" title="GitHub">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+      </a>
+      {{ end }}
+      {{ with .Site.Params.cv_pdf }}
+      <a href="{{ . | absURL }}" target="_blank" title="CV">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm-1 2l5 5h-5V4zM6 20V4h5v7h7v9H6z"/></svg>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+<section class="about">
+  {{ .Content }}
+</section>
+{{ end }}

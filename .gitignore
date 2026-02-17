@@ -1,0 +1,6 @@
+public/
+resources/
+cv/output/*.aux
+cv/output/*.log
+cv/output/*.out
+.hugo_build.lock

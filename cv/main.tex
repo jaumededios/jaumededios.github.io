@@ -1,0 +1,72 @@
+%----------------------------------------------------------------------------------------
+%   CV of Jaume de Dios Pont
+%   Generated from Google Sheets via cv-pipeline
+%   Template: moderncv classic
+%----------------------------------------------------------------------------------------
+\documentclass[10pt,letter,sans]{moderncv}
+\moderncvstyle{classic}
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.75, bottom=1in, top=1.1in, left=1in, right=1in]{geometry}
+\usepackage{multicol}
+\usepackage{soul}
+\usepackage{amsmath}
+\setlength{\hintscolumnwidth}{1.8cm}
+\sectionColor{0.2,0.3,0.65}
+\bibColor{0,0,0}
+\titleColor{.3,.3,.3}
+\highlightColor{0.2,.3,.65}
+
+%----------------------------------------------------------------------------------------
+%   NAME AND CONTACT
+%----------------------------------------------------------------------------------------
+\firstname{Jaume}
+\familyname{de Dios Pont}
+\title{Curriculum Vitae}
+\address{60 5th Avenue}{New York, NY 10011}
+\email{jdedios@nyu.edu}
+
+%----------------------------------------------------------------------------------------
+%   CUSTOM COMMANDS
+%----------------------------------------------------------------------------------------
+\newcommand{\me}{\textbf{\color{color1} de Dios Pont, J.}}
+\newcommand{\talkplace}[2]{#1 (#2),}
+
+%----------------------------------------------------------------------------------------
+\begin{document}
+\makecvtitle
+
+% All sections below are auto-generated from the spreadsheet.
+% To regenerate: python3 scripts/generate_cv.py && cd tex && pdflatex main.tex
+
+\input{gen_positions}
+\input{gen_education}
+\input{gen_awards}
+\input{gen_publications}
+\input{gen_talks}
+\input{gen_travel}
+\input{gen_teaching}
+\input{gen_service}
+
+\section{Misc.\ Coding Skills}
+\begin{multicols}{2}
+\begin{itemize}
+\item Proficient in Python
+
+(incl.\ Jax, NumPy/SciPy/Matplotlib)
+\item Git/Version Control
+\item \LaTeX
+\end{itemize}
+\end{multicols}
+
+\vspace{1em}
+
+\section{Undergraduate Research Experience}
+  \medskip
+  \cventry{show}{2017}{GNAM}{Grup de Nanomaterials, UAB}{}{}{
+    Research on heat conduction beyond the Fourier equations at the nanoscale, with a focus on the KCM diffusion model.}
+  \cventry{show}{2016}{ICFO}{Summer Fellowship of the Institute of Photonic Sciences}{}{}{
+    Research fellow in the group of Antonio Ac\'in (Quantum Information). Proved impossibility results on the creation of superpositions of unknown quantum states. Supervisor: Dr.\ Micha\l{} Oszmaniec.}
+  \cventry{show}{2015}{The Dark Energy Survey Project}{IFAE -- Institute for High Energy Physics}{}{}{
+    Study of theoretical models regarding the harmonic spectrum of galaxy density distributions. Supervisor: Dr.\ Ramon Miquel.}
+
+\end{document}
