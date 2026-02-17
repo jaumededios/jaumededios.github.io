@@ -21,6 +21,10 @@ If you're in the New York area and would like to chat, feel free to send me an e
 <div class="section-header"><h2>Upcoming Talks & Travel</h2></div>
 
 <div class="upcoming-compact">
+  <div class="upcoming-row">
+    <span class="upcoming-row-title"><a href="https://www.simonsfoundation.org/event/simons-collaboration-on-the-localization-of-waves-annual-meeting-2026/" target="_blank">2026 Simons Collaboration on Localization of Waves Annual Meeting</a></span>
+    <span class="upcoming-row-meta">Simons Foundation, New York, NY · Feb 19–20</span>
+  </div>
   <div class="upcoming-row upcoming-talk">
     <span class="upcoming-row-title">Talk: <a href="https://www.simonsfoundation.org/event/simons-collaboration-on-the-localization-of-waves-annual-meeting-2026/" target="_blank">Some Extreme Regimes of the Laplace Operator</a></span>
     <span class="upcoming-row-meta">Simons Foundation · Feb 19</span>

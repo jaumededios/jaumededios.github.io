@@ -9,6 +9,14 @@ date: 2024-01-01
   <h2>Upcoming</h2>
 
 <div class="travel-item">
+  <h3><a href="https://www.simonsfoundation.org/event/simons-collaboration-on-the-localization-of-waves-annual-meeting-2026/" target="_blank">2026 Simons Collaboration on Localization of Waves Annual Meeting</a></h3>
+  <div class="travel-meta">
+    <span class="travel-location">Simons Foundation, New York, NY</span>
+    <span class="travel-date">Feb 19–20, 2026</span>
+  </div>
+</div>
+
+<div class="travel-item">
   <h3><a href="https://www.newton.ac.uk/event/sgc/" target="_blank">Isaac Newton Institute - Geometric Spectral theory and Applications</a></h3>
   <div class="travel-meta">
     <span class="travel-location">Cambridge, UK</span>
