@@ -601,3 +601,23 @@ article em { font-style: italic; }
   .upcoming-row { flex-direction: column; gap: 0; }
   .upcoming-row-title { white-space: normal; }
 }
+
+.bibtex-btn {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.15rem 0.5rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  color: var(--accent);
+  transition: all 0.2s;
+}
+.bibtex-btn:hover {
+  background: var(--accent);
+  color: white;
+}
+.bibtex-btn.copied {
+  background: #2d8a4e;
+  color: white;
+  border-color: #2d8a4e;
+}

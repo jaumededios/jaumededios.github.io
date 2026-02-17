@@ -8,6 +8,7 @@ arxiv: "1908.09440"
 description: "Urban spatial networks are complex systems with interdependent roles of neighborhoods and methods of transportation between them. In this paper, we classify docking stations in bicycle-sharing networks to gain insight into the spatial delineations of three major United States cities from human..."
 paper_url: "https://arxiv.org/abs/1908.09440"
 featured_image: "/images/papers/bike-preprint.png"
+
 ---
 
 ![Featured Image](/images/papers/role-detection-in-bicycle-sharing-networks-using-multilayer-stochastic-block-models.png)

@@ -8,6 +8,7 @@ arxiv: "2304.02599"
 description: "Log-concave sampling has witnessed remarkable algorithmic advances in recent years, but the corresponding problem of proving lower bounds for this task has remained elusive, with lower bounds previously known only in dimension one. In this work, we establish the following query lower bounds: (1)..."
 paper_url: "https://arxiv.org/abs/2304.02599"
 featured_image: "/images/papers/query-lower-bounds-for-log-concave-sampling.png"
+
 ---
 
 ![Featured Image](/images/papers/query-lower-bounds-for-log-concave-sampling.png)

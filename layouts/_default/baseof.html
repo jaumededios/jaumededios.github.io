@@ -83,5 +83,21 @@
       document.getElementById('navLinks').classList.toggle('open');
     });
   </script>
+  <script>
+  function copyBibtex(btn, arxivId) {
+    fetch('/bib/' + arxivId + '.bib')
+      .then(function(r) { return r.text(); })
+      .then(function(bib) {
+        navigator.clipboard.writeText(bib.trim()).then(function() {
+          btn.textContent = 'Copied!';
+          btn.classList.add('copied');
+          setTimeout(function() {
+            btn.textContent = 'BibTeX';
+            btn.classList.remove('copied');
+          }, 2000);
+        });
+      });
+  }
+  </script>
 </body>
 </html>

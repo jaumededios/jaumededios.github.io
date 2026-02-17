@@ -8,6 +8,7 @@ arxiv: "2201.12932"
 description: "We give new proofs of the description convex hulls of space curves $\\gamma : [a,b] \\mapsto \\mathbb{R}^{d}$ having totally positive torsion. These are curves such that all the leading principal minors of $d\\times d$ matrix $(\\gamma', \\gamma'', \\ldots, \\gamma^{(d)})$ are positive. In particular, we..."
 paper_url: "https://arxiv.org/abs/2201.12932"
 featured_image: "/images/papers/a-new-proof-of-the-description-of-the-convex-hull-of-space-curves-with-totally-positive-torsion.png"
+
 ---
 
 ![Featured Image](/images/papers/a-new-proof-of-the-description-of-the-convex-hull-of-space-curves-with-totally-positive-torsion.png)

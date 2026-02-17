@@ -8,6 +8,7 @@ arxiv: "2303.11693"
 description: "In this paper we prove a uniform Fourier restriction estimate over the class of simple curves where the last coordinate function can be extended to a holomorphic function of bounded frequency in a sufficiently large disc. The proof is based on a decomposition scheme for this class of functions."
 paper_url: "https://arxiv.org/abs/2303.11693"
 featured_image: "/images/papers/uniform-restriction-v1.png"
+
 ---
 
 **Authors:** Jaume de Dios, Helge Jørgen Samuelsen

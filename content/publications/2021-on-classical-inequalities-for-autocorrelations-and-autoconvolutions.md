@@ -8,6 +8,7 @@ arxiv: "2106.13873"
 description: "In this paper we study an autocorrelation inequality proposed by Barnard and Steinerberger. The study of these problems is motivated by a classical problem in additive combinatorics. We establish the existence of extremizers to this inequality, for a general class of weights, including Gaussian..."
 paper_url: "https://arxiv.org/abs/2106.13873"
 featured_image: "/images/papers/acorr2021.png"
+
 ---
 
 ![Featured Image](/images/papers/acorr2021.png)
