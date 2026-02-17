@@ -23,7 +23,7 @@ If you're in the New York area and would like to chat, feel free to send me an e
 <div class="upcoming-compact">
   <div class="upcoming-row">
     <span class="upcoming-row-title"><a href="https://www.simonsfoundation.org/event/simons-collaboration-on-the-localization-of-waves-annual-meeting-2026/" target="_blank">2026 Simons Collaboration on Localization of Waves Annual Meeting</a></span>
-    <span class="upcoming-row-meta">Simons Foundation, New York, NY · Feb 19–20</span>
+    <span class="upcoming-row-meta">New York · Feb 19–20</span>
   </div>
   <div class="upcoming-row upcoming-talk">
     <span class="upcoming-row-title">Talk: <a href="https://www.simonsfoundation.org/event/simons-collaboration-on-the-localization-of-waves-annual-meeting-2026/" target="_blank">Some Extreme Regimes of the Laplace Operator</a></span>
@@ -35,7 +35,7 @@ If you're in the New York area and would like to chat, feel free to send me an e
   </div>
   <div class="upcoming-row">
     <span class="upcoming-row-title"><a href="https://sites.google.com/view/mspacekickoff/" target="_blank">COST mSPACE Kick-off Meeting</a></span>
-    <span class="upcoming-row-meta">Milan, Italy · Mar 16–19</span>
+    <span class="upcoming-row-meta">Milan · Mar 16–19</span>
   </div>
   <div class="upcoming-row upcoming-talk">
     <span class="upcoming-row-title">Talk: Recent progress on the hot spots conjecture</span>
@@ -43,7 +43,7 @@ If you're in the New York area and would like to chat, feel free to send me an e
   </div>
   <div class="upcoming-row">
     <span class="upcoming-row-title"><a href="https://unidistance.ch/en/mathematics-and-computer-science/event/sms-spring-meeting-formalization-and-proof-assistants" target="_blank">SMS Spring Meeting: Formalization and Proof Assistants</a></span>
-    <span class="upcoming-row-meta">UniDistance Suisse, Brig, Switzerland · Mar 25–27</span>
+    <span class="upcoming-row-meta">Brig, Switzerland · Mar 25–27</span>
   </div>
   <div class="upcoming-row upcoming-talk">
     <span class="upcoming-row-title">Talk: TBD</span>
@@ -51,7 +51,7 @@ If you're in the New York area and would like to chat, feel free to send me an e
   </div>
   <div class="upcoming-row">
     <span class="upcoming-row-title">Visit to Brown University</span>
-    <span class="upcoming-row-meta">Brown University, Providence, RI · May 01–02</span>
+    <span class="upcoming-row-meta">Providence, RI · May 01–02</span>
   </div>
   <div class="upcoming-row upcoming-talk">
     <span class="upcoming-row-title">Talk: Recent progress on the hot spots conjecture</span>
@@ -59,7 +59,7 @@ If you're in the New York area and would like to chat, feel free to send me an e
   </div>
   <div class="upcoming-row">
     <span class="upcoming-row-title"><a href="https://icerm.brown.edu/program/topical_workshop/tw-26-ttfa" target="_blank">ICERM: Techniques and Tools for the Formalization of Analysis</a></span>
-    <span class="upcoming-row-meta">ICERM, Providence, RI · May 11–15</span>
+    <span class="upcoming-row-meta">Providence, RI · May 11–15</span>
   </div>
 </div>
 <!-- END UPCOMING_TALKS -->

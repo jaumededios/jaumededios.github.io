@@ -161,6 +161,7 @@ def build_cv_json(publications, talks, travel):
             "title": r.get("title", "").strip(),
             "url": r.get("url", "").strip(),
             "location": r.get("location", "").strip(),
+            "short_location": r.get("short_location", "").strip(),
             "tags": tags,
             "date": r.get("date", "").strip(),
             "date_end": r.get("date_end", "").strip(),
@@ -246,7 +247,7 @@ def gen_upcoming_combined_html(talks, travel):
         if item_type == "travel":
             title = r.get("title", "").strip()
             url = r.get("url", "").strip()
-            location = r.get("location", "").strip()
+            location = r.get("short_location", "").strip() or r.get("location", "").strip()
             d_end = parse_date(r.get("date_end", ""))
 
             if url:

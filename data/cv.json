@@ -150,6 +150,7 @@
       "title": "UK Spectral Theory Network Workshop",
       "url": "https://sites.google.com/view/uk-st/events/workshop-4-reading",
       "location": "University of Reading",
+      "short_location": "Reading, UK",
       "tags": "Past",
       "date": "2025-08-26",
       "date_end": "2025-08-29"
@@ -159,6 +160,7 @@
       "title": "Workshop on spectral geometry, PDEs and mathematical physics",
       "url": "",
       "location": "FernUni Hagen",
+      "short_location": "Hagen, Germany",
       "tags": "Past",
       "date": "2025-07-28",
       "date_end": "2025-07-30"
@@ -168,6 +170,7 @@
       "title": "Flatiron Institute",
       "url": "",
       "location": "New York",
+      "short_location": "New York",
       "tags": "Past",
       "date": "2025-07-14",
       "date_end": "2025-07-25"
@@ -177,6 +180,7 @@
       "title": "Fourier Analysis and Beyond I",
       "url": "https://impa.br/evento/fourier-analysis-beyond-i/",
       "location": "IMPA",
+      "short_location": "Rio de Janeiro",
       "tags": "Past",
       "date": "2025-06-30",
       "date_end": "2025-07-04"
@@ -186,6 +190,7 @@
       "title": "Summer school in PDE and Probability",
       "url": "",
       "location": "Sorbonne Université",
+      "short_location": "Paris",
       "tags": "Past",
       "date": "2025-06-23",
       "date_end": "2025-06-27"
@@ -195,6 +200,7 @@
       "title": "Valentia Matematica",
       "url": "",
       "location": "Valencia",
+      "short_location": "Valencia",
       "tags": "Past",
       "date": "2025-06-16",
       "date_end": "2025-06-19"
@@ -204,6 +210,7 @@
       "title": "Modern trends in Fourier Analysis",
       "url": "https://www.crm.cat/conference-modern-trends-in-fourier-analysis/",
       "location": "CRM Barcelona",
+      "short_location": "Barcelona",
       "tags": "Past",
       "date": "2025-06-02",
       "date_end": "2025-06-06"
@@ -213,6 +220,7 @@
       "title": "Camille Jordan Institute in Lyon (Analysis Seminar)",
       "url": "https://indico.math.cnrs.fr/event/12874/",
       "location": "Lyon",
+      "short_location": "Lyon",
       "tags": "Past",
       "date": "2025-03-10",
       "date_end": "2025-03-12"
@@ -222,6 +230,7 @@
       "title": "University of Edinburgh (Analysis Seminar)",
       "url": "https://blogs.ed.ac.uk/analysis/analysis-seminar/",
       "location": "University of Edinburgh",
+      "short_location": "Edinburgh",
       "tags": "Past",
       "date": "2025-03-01",
       "date_end": "2025-03-04"
@@ -231,6 +240,7 @@
       "title": "Virginia Tech (Analysis Seminar)",
       "url": "https://math.vt.edu/calendar.html",
       "location": "Virginia Tech",
+      "short_location": "Blacksburg, VA",
       "tags": "Past",
       "date": "2025-02-23",
       "date_end": "2025-02-27"
@@ -240,6 +250,7 @@
       "title": "Simon's collaboration on wave localization: Annual Meeting.",
       "url": "https://cse.umn.edu/wave/events/2025-simons-collaboration-localization-waves-annual-meeting",
       "location": "Flatiron Institute, NY",
+      "short_location": "New York",
       "tags": "Past",
       "date": "2025-02-20",
       "date_end": "2025-02-21"
@@ -249,6 +260,7 @@
       "title": "MPS Workshop on Computation in Mathematics",
       "url": "https://www.simonsfoundation.org",
       "location": "Flatiron Institute, NY",
+      "short_location": "New York",
       "tags": "Past",
       "date": "2025-02-18",
       "date_end": "2025-02-18"
@@ -258,6 +270,7 @@
       "title": "Seminari d'Analisi UAB-UB",
       "url": "#",
       "location": "Universitat Autonoma de Barcelona",
+      "short_location": "Barcelona",
       "tags": "Past",
       "date": "2025-01-13",
       "date_end": "2025-01-17"
@@ -267,6 +280,7 @@
       "title": "Boolean Analysis in Computer Science",
       "url": "https://www.mathematics.uni-bonn.de/him/programs/current-trimester-program/him-dual-trimester-program-boolean-analysis-in-computer-science",
       "location": "Hausdorff Institute of Mathematics, Bonn",
+      "short_location": "Bonn",
       "tags": "Past",
       "date": "2024-10-11",
       "date_end": "2024-10-25"
@@ -276,6 +290,7 @@
       "title": "Quantum Signal Processing",
       "url": "https://www.mfo.de/occasion/2441",
       "location": "MFO Oberwolfach",
+      "short_location": "Oberwolfach",
       "tags": "Past",
       "date": "2024-10-06",
       "date_end": "2024-10-11"
@@ -285,6 +300,7 @@
       "title": "Uniformity and Stability of Oscillatory Integrals",
       "url": "#",
       "location": "Hausdorff Center for Mathematics, Bonn",
+      "short_location": "Bonn",
       "tags": "Past",
       "date": "2024-07-08",
       "date_end": "2024-07-12"
@@ -294,6 +310,7 @@
       "title": "Barcelona Analysis Conference",
       "url": "https://www.crm.cat/barcelona-analysis-conference-bac24/",
       "location": "Barcelona",
+      "short_location": "Barcelona",
       "tags": "Past",
       "date": "2024-06-03",
       "date_end": "2024-06-03"
@@ -303,6 +320,7 @@
       "title": "Dual Trimester Program: Synergies between modern probability, geometric analysis and stochastic geometry",
       "url": "#",
       "location": "Hausdorff Institute of Mathematics, Bonn",
+      "short_location": "Bonn",
       "tags": "Past",
       "date": "2024-01-08",
       "date_end": "2024-01-31"
@@ -312,6 +330,7 @@
       "title": "NTNU visit",
       "url": "",
       "location": "Hausdorff Institute of Mathematics, Bonn",
+      "short_location": "Bonn",
       "tags": "Past",
       "date": "2023-10-20",
       "date_end": "2023-11-03"
@@ -321,6 +340,7 @@
       "title": "Microsoft Research Internship",
       "url": "#",
       "location": "Seattle, WA",
+      "short_location": "Seattle",
       "tags": "Past",
       "date": "2023-05-30",
       "date_end": "2023-09-01"
@@ -330,6 +350,7 @@
       "title": "University of Rochester",
       "url": "#",
       "location": "Rochester, NY",
+      "short_location": "Rochester, NY",
       "tags": "Past",
       "date": "2023-05-22",
       "date_end": "2023-05-25"
@@ -339,6 +360,7 @@
       "title": "Stanford University",
       "url": "#",
       "location": "Palo Alto, California",
+      "short_location": "Palo Alto, CA",
       "tags": "Past",
       "date": "2022-10-17",
       "date_end": "2022-10-28"
@@ -348,6 +370,7 @@
       "title": "Nodal domains and landscape functions",
       "url": "https://www.math.uni-bonn.de/ag/ana/WiSe2223/summer_school/",
       "location": "Kopp, Germany",
+      "short_location": "Kopp, Germany",
       "tags": "Past",
       "date": "2022-10-02",
       "date_end": "2022-10-07"
@@ -357,6 +380,7 @@
       "title": "University of Minneapolis",
       "url": "#",
       "location": "UMN, Minneapolis",
+      "short_location": "Minneapolis",
       "tags": "Past",
       "date": "2022-09-07",
       "date_end": "2022-09-28"
@@ -366,6 +390,7 @@
       "title": "Harmonic analysis on manifolds summer school",
       "url": "https://sites.google.com/view/2022summerschool/main-page",
       "location": "UW Madison, WI",
+      "short_location": "Madison, WI",
       "tags": "Past",
       "date": "2022-08-01",
       "date_end": "2022-08-05"
@@ -375,6 +400,7 @@
       "title": "COLT",
       "url": "http://learningtheory.org/colt2022/",
       "location": "London",
+      "short_location": "London",
       "tags": "Past",
       "date": "2022-07-02",
       "date_end": "2022-07-05"
@@ -384,6 +410,7 @@
       "title": "Fourier Analysis @200",
       "url": "https://www.icms.org.uk/workshops/2022/fourier-analysis-200",
       "location": "ICMS, Edinburgh",
+      "short_location": "Edinburgh",
       "tags": "Past",
       "date": "2022-06-23",
       "date_end": "2022-07-01"
@@ -393,6 +420,7 @@
       "title": "Workshop on Analysis and PDEs",
       "url": "https://www.crm.cat/workshop-on-analysis-and-pdes//",
       "location": "CRM -  Barcelona",
+      "short_location": "Barcelona",
       "tags": "Past",
       "date": "2022-06-23",
       "date_end": "2022-06-23"
@@ -402,6 +430,7 @@
       "title": "Princeton Machine Learning Theory Summer School 2022",
       "url": "https://mlschool.princeton.edu/",
       "location": "Princeton",
+      "short_location": "Princeton",
       "tags": "Past",
       "date": "2022-06-13",
       "date_end": "2022-06-17"
@@ -411,6 +440,7 @@
       "title": "Analysis on the hypercube with applications to quantum computing",
       "url": "https://aimath.org/workshops/upcoming/hypercubequantum/",
       "location": "AIM, San Jose",
+      "short_location": "San Jose, CA",
       "tags": "Past",
       "date": "2022-06-06",
       "date_end": "2022-06-10"
@@ -420,6 +450,7 @@
       "title": "CBMS Conference",
       "url": "https://cbms2020.math.fsu.edu/",
       "location": "FSU, Tallahasee",
+      "short_location": "Tallahassee, FL",
       "tags": "Past",
       "date": "2022-05-21",
       "date_end": "2022-05-28"
@@ -429,6 +460,7 @@
       "title": "ETH Zurich",
       "url": "https://math.ethz.ch/",
       "location": "Visiting Joao P. Ramos",
+      "short_location": "Zurich",
       "tags": "Past",
       "date": "2022-03-14",
       "date_end": "2022-03-19"
@@ -438,6 +470,7 @@
       "title": "Basque Center for Applied Mathematics",
       "url": "http://www.bcamath.org/en/",
       "location": "Visiting Mateus Costa da Sousa.",
+      "short_location": "Zurich",
       "tags": "Past",
       "date": "2022-03-08",
       "date_end": "2022-03-14"
@@ -447,6 +480,7 @@
       "title": "Interactions between Geometric measure theory, Singular integrals, and PDE",
       "url": "https://www.him.uni-bonn.de/programs/current-trimester-program/harmonic-analysis-and-analytic-number-theory/description/",
       "location": "Hausdorff Institute of Mathematics, Bonn",
+      "short_location": "Bonn",
       "tags": "Past",
       "date": "2022-01-23",
       "date_end": "2022-03-05"
@@ -456,6 +490,7 @@
       "title": "Summer School on discrete analysis and complexity of quantum algorithms",
       "url": "https://sites.google.com/view/paata/quantum",
       "location": "Online",
+      "short_location": "Online",
       "tags": "Past",
       "date": "2021-10-11",
       "date_end": "2021-10-15"
@@ -465,6 +500,7 @@
       "title": "Brascamp-Lieb inequalities Summer School",
       "url": "https://www.math.uni-bonn.de/ag/ana/WiSe2122/BL-school/",
       "location": "Wolffhotel, Kopp, Germany",
+      "short_location": "Kopp, Germany",
       "tags": "Past",
       "date": "2021-09-26",
       "date_end": "2021-10-01"
@@ -474,6 +510,7 @@
       "title": "Harmonic Analysis and Analytic Number Theory, Dual trimester program",
       "url": "https://www.him.uni-bonn.de/programs/current-trimester-program/harmonic-analysis-and-analytic-number-theory/description/",
       "location": "Hausdorff Mathematical Institute, Bonn",
+      "short_location": "Bonn",
       "tags": "Past",
       "date": "2021-08-01",
       "date_end": "2021-08-20"
@@ -483,6 +520,7 @@
       "title": "Harmonic Analysis and Analytic Number Theory, Dual trimester program",
       "url": "https://www.him.uni-bonn.de/programs/current-trimester-program/harmonic-analysis-and-analytic-number-theory/description/",
       "location": "Hausdorff Mathematical Institute, Bonn",
+      "short_location": "Bonn",
       "tags": "Past",
       "date": "2021-05-03",
       "date_end": "2021-06-26"
@@ -492,6 +530,7 @@
       "title": "Visit to Brown University",
       "url": "",
       "location": "Brown University, Providence, RI",
+      "short_location": "Providence, RI",
       "tags": "Current",
       "date": "2026-05-01",
       "date_end": "2026-05-02"
@@ -501,6 +540,7 @@
       "title": "Isaac Newton Institute - Geometric Spectral theory and Applications",
       "url": "https://www.newton.ac.uk/event/sgc/",
       "location": "Cambridge, UK",
+      "short_location": "Cambridge, UK",
       "tags": "Current",
       "date": "2026-02-21",
       "date_end": "2026-03-08"
@@ -510,6 +550,7 @@
       "title": "COST mSPACE Kick-off Meeting",
       "url": "https://sites.google.com/view/mspacekickoff/",
       "location": "Milan, Italy",
+      "short_location": "Milan",
       "tags": "Current",
       "date": "2026-03-16",
       "date_end": "2026-03-19"
@@ -519,6 +560,7 @@
       "title": "SMS Spring Meeting: Formalization and Proof Assistants",
       "url": "https://unidistance.ch/en/mathematics-and-computer-science/event/sms-spring-meeting-formalization-and-proof-assistants",
       "location": "UniDistance Suisse, Brig, Switzerland",
+      "short_location": "Brig, Switzerland",
       "tags": "Current",
       "date": "2026-03-25",
       "date_end": "2026-03-27"
@@ -528,6 +570,7 @@
       "title": "ICERM: Techniques and Tools for the Formalization of Analysis",
       "url": "https://icerm.brown.edu/program/topical_workshop/tw-26-ttfa",
       "location": "ICERM, Providence, RI",
+      "short_location": "Providence, RI",
       "tags": "Current",
       "date": "2026-05-11",
       "date_end": "2026-05-15"
@@ -537,6 +580,7 @@
       "title": "2026 Simons Collaboration on Localization of Waves Annual Meeting",
       "url": "https://www.simonsfoundation.org/event/simons-collaboration-on-the-localization-of-waves-annual-meeting-2026/",
       "location": "Simons Foundation, New York, NY",
+      "short_location": "New York",
       "tags": "Current",
       "date": "2026-02-19",
       "date_end": "2026-02-20"
