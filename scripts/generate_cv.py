@@ -272,6 +272,9 @@ def gen_publications(records):
         title = tex_escape_light(r.get("title", ""))
         authors = format_authors(r.get("authors", ""))
         arxiv_raw = r.get("arxiv", "").strip()
+        # Strip "arXiv:" prefix if present
+        if arxiv_raw.lower().startswith("arxiv:"):
+            arxiv_raw = arxiv_raw.split(":", 1)[1].strip()
         pub_type = r.get("type", "").strip()
         date = r.get("date", "")
         url = r.get("url", "").strip()

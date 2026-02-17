@@ -127,7 +127,12 @@ def build_cv_json(publications, talks, travel):
     pubs = []
     for r in publications:
         url = r.get("url", "").strip()
-        arxiv_id = extract_arxiv_from_url(url)
+        # Get arxiv ID from column (strip "arXiv:" prefix) or fall back to URL
+        raw_arxiv = r.get("arxiv", "").strip()
+        if raw_arxiv.lower().startswith("arxiv:"):
+            arxiv_id = raw_arxiv.split(":", 1)[1].strip()
+        else:
+            arxiv_id = extract_arxiv_from_url(url) or raw_arxiv
         authors = r.get("authors", "").replace(";", ",").strip()
         # Clean up author formatting
         authors = re.sub(r'\s*,\s*', ', ', authors)
