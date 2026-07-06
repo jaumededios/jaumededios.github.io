@@ -17,6 +17,7 @@ import json
 import os
 import re
 import sys
+import unicodedata
 from datetime import datetime, date
 from pathlib import Path
 
@@ -37,8 +38,26 @@ TABS = {
     "service": "756633452",
 }
 
+REQUIRED_COLUMNS = {
+    "publications": {"title", "authors", "arxiv", "url", "date", "abstract", "type"},
+    "talks": {"title", "type", "event", "short_location", "url", "abstract", "date"},
+    "travel": {"title", "url", "location", "short_location", "date", "date_end"},
+}
+
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
           "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+
+
+def read_records(tab_name, text):
+    reader = csv.DictReader(io.StringIO(text))
+    fieldnames = set(reader.fieldnames or [])
+    missing = REQUIRED_COLUMNS.get(tab_name, set()) - fieldnames
+    if missing:
+        print(f"ERROR: {tab_name} sheet is missing expected columns: {', '.join(sorted(missing))}", file=sys.stderr)
+        print(f"  Exported columns: {', '.join(reader.fieldnames or [])}", file=sys.stderr)
+        print("  Check the first row of the Google Sheet tab; it must contain the column headers.", file=sys.stderr)
+        sys.exit(1)
+    return list(reader)
 
 
 def fetch_tab(tab_name):
@@ -49,7 +68,7 @@ def fetch_tab(tab_name):
 
     if "--cached" in sys.argv and cache_file.exists():
         with open(cache_file) as f:
-            return list(csv.DictReader(f))
+            return read_records(tab_name, f.read())
 
     gid = TABS[tab_name]
     url = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&gid={gid}"
@@ -63,10 +82,10 @@ def fetch_tab(tab_name):
         if cache_file.exists():
             print(f"  Falling back to cache", file=sys.stderr)
             with open(cache_file) as f:
-                return list(csv.DictReader(f))
+                return read_records(tab_name, f.read())
         sys.exit(1)
 
-    records = list(csv.DictReader(io.StringIO(text)))
+    records = read_records(tab_name, text)
 
     CACHE_DIR.mkdir(exist_ok=True)
     with open(cache_file, "w", newline="") as f:
@@ -118,6 +137,150 @@ def extract_arxiv_from_url(url):
         if m:
             return m.group(1)
     return ""
+
+
+def strip_arxiv_prefix(arxiv):
+    """Normalize arXiv IDs from either 'arXiv:1234.56789' or raw ID format."""
+    arxiv = (arxiv or "").strip()
+    if arxiv.lower().startswith("arxiv:"):
+        return arxiv.split(":", 1)[1].strip()
+    return arxiv
+
+
+def publication_arxiv_id(row):
+    return extract_arxiv_from_url(row.get("url", "").strip()) or strip_arxiv_prefix(row.get("arxiv", ""))
+
+
+def title_to_slug(title):
+    normalized = unicodedata.normalize("NFKD", title).encode("ascii", "ignore").decode("ascii")
+    slug = re.sub(r"[^\w\s-]", "", normalized.lower())
+    return re.sub(r"[-\s]+", "-", slug).strip("-")
+
+
+def publication_year(row, arxiv_id=""):
+    date_value = row.get("date", "").strip()
+    m = re.match(r"(\d{4})", date_value)
+    if m:
+        return m.group(1)
+    if re.match(r"\d{4}\.\d{4,5}$", arxiv_id):
+        return f"20{arxiv_id[:2]}"
+    return "unknown"
+
+
+def publication_date(row, arxiv_id=""):
+    date_value = row.get("date", "").strip()
+    if re.match(r"\d{4}-\d{2}-\d{2}$", date_value):
+        return date_value
+    if re.match(r"\d{4}-\d{2}$", date_value):
+        return f"{date_value}-01"
+    if re.match(r"\d{4}$", date_value):
+        if re.match(r"\d{4}\.\d{4,5}$", arxiv_id):
+            return f"20{arxiv_id[:2]}-{arxiv_id[2:4]}-01"
+        return f"{date_value}-01-01"
+    return "1900-01-01"
+
+
+def yaml_string(value):
+    return json.dumps(value or "", ensure_ascii=False)
+
+
+def description_from_abstract(abstract):
+    abstract = re.sub(r"\s+", " ", (abstract or "").strip())
+    if len(abstract) <= 280:
+        return abstract
+    return abstract[:277].rstrip() + "..."
+
+
+def read_existing_publication_metadata(pub_dir):
+    metadata = {}
+    for path in pub_dir.glob("*.md"):
+        if path.name == "_index.md":
+            continue
+        text = path.read_text(encoding="utf-8")
+        frontmatter = re.search(r"\A---\n(.*?)\n---", text, re.S)
+        if not frontmatter:
+            continue
+        fields = {}
+        for key in ("title", "arxiv", "featured_image", "description"):
+            m = re.search(rf'^{key}:\s*"?(.*?)"?\s*$', frontmatter.group(1), re.M)
+            if m:
+                fields[key] = m.group(1)
+        fields["path"] = path
+        if fields.get("arxiv"):
+            metadata[("arxiv", fields["arxiv"])] = fields
+        if fields.get("title"):
+            metadata[("title", fields["title"].lower())] = fields
+    return metadata
+
+
+def gen_publications_page(publications):
+    pub_dir = PROJECT_DIR / "content" / "publications"
+    pub_dir.mkdir(parents=True, exist_ok=True)
+    existing = read_existing_publication_metadata(pub_dir)
+
+    for path in pub_dir.glob("*.md"):
+        if path.name != "_index.md":
+            path.unlink()
+
+    for row in publications:
+        title = row.get("title", "").strip()
+        if not title:
+            continue
+
+        arxiv_id = publication_arxiv_id(row)
+        year = publication_year(row, arxiv_id)
+        slug = title_to_slug(title)
+        filename = f"{year}-{slug}.md"
+        path = pub_dir / filename
+
+        previous = existing.get(("arxiv", arxiv_id), {}) if arxiv_id else {}
+        if not previous:
+            previous = existing.get(("title", title.lower()), {})
+        path = previous.get("path")
+        if not path:
+            path = pub_dir / f"{year}-{slug}.md"
+
+        abstract = row.get("abstract", "").strip()
+        description = description_from_abstract(abstract) or previous.get("description", "")
+        authors = row.get("authors", "").replace(";", ",").strip()
+        authors = re.sub(r"\s*,\s*", ", ", authors)
+        pub_type = row.get("type", "").strip() or "Preprint"
+        paper_url = row.get("url", "").strip() or (f"https://arxiv.org/abs/{arxiv_id}" if arxiv_id else "")
+
+        lines = [
+            "---",
+            f"title: {yaml_string(title)}",
+            f"date: {publication_date(row, arxiv_id)}",
+            f"type: {yaml_string(pub_type.lower())}",
+            f"authors: {yaml_string(authors)}",
+            f"year: {yaml_string(year)}",
+        ]
+        if arxiv_id:
+            lines.append(f"arxiv: {yaml_string(arxiv_id)}")
+        if paper_url:
+            lines.append(f"paper_url: {yaml_string(paper_url)}")
+        if previous.get("featured_image"):
+            lines.append(f"featured_image: {yaml_string(previous['featured_image'])}")
+        if description:
+            lines.append(f"description: {yaml_string(description)}")
+        lines.extend(["", "---", ""])
+
+        if previous.get("featured_image"):
+            lines.extend([f"![Featured Image]({previous['featured_image']})", ""])
+        if authors:
+            lines.extend([f"**Authors:** {authors}", ""])
+        if pub_type:
+            lines.extend([f"**Type:** {pub_type} ({year})" if year != "unknown" else f"**Type:** {pub_type}", ""])
+        if arxiv_id:
+            lines.extend([f"[arXiv:{arxiv_id}](https://arxiv.org/abs/{arxiv_id})", ""])
+        if paper_url and "arxiv.org" not in paper_url:
+            lines.extend([f"[Publisher Link]({paper_url})", ""])
+        if abstract:
+            lines.extend(["## Abstract", "", abstract, ""])
+
+        path.write_text("\n".join(lines), encoding="utf-8")
+
+    print(f"  Updated {pub_dir}")
 
 
 # ─── cv.json generation ───
@@ -499,6 +662,10 @@ def main():
     with open(cv_path, "w", encoding="utf-8") as f:
         json.dump(cv, f, indent=2, ensure_ascii=False)
     print(f"  Updated {cv_path}")
+
+    # Update publications page
+    print("  Updating publications page...")
+    gen_publications_page(publications)
 
     # Update homepage upcoming sections
     print("  Updating homepage...")

@@ -38,6 +38,29 @@ TABS = {
     "service": "756633452",
 }
 
+REQUIRED_COLUMNS = {
+    "publications": {"title", "authors", "arxiv", "url", "date", "abstract", "type"},
+    "talks": {"title", "event", "date", "block"},
+    "travel": {"title", "location", "date", "date_end", "url"},
+    "teaching": {"course", "term", "role"},
+    "grants_awards": {"award", "year", "institution", "details"},
+    "education": {"degree", "institution", "year", "details", "rank"},
+    "positions": {"title", "institution", "start", "end", "details"},
+    "service": {"type", "details", "year"},
+}
+
+
+def read_records(tab_name, text):
+    reader = csv.DictReader(io.StringIO(text))
+    fieldnames = set(reader.fieldnames or [])
+    missing = REQUIRED_COLUMNS.get(tab_name, set()) - fieldnames
+    if missing:
+        print(f"ERROR: {tab_name} sheet is missing expected columns: {', '.join(sorted(missing))}", file=sys.stderr)
+        print(f"  Exported columns: {', '.join(reader.fieldnames or [])}", file=sys.stderr)
+        print("  Check the first row of the Google Sheet tab; it must contain the column headers.", file=sys.stderr)
+        sys.exit(1)
+    return list(reader)
+
 
 def fetch_tab(tab_name):
     """Fetch a tab from Google Sheets via public CSV export (no auth needed)."""
@@ -47,7 +70,7 @@ def fetch_tab(tab_name):
 
     if "--cached" in sys.argv and cache_file.exists():
         with open(cache_file) as f:
-            return list(csv.DictReader(f))
+            return read_records(tab_name, f.read())
 
     gid = TABS[tab_name]
     url = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&gid={gid}"
@@ -61,10 +84,10 @@ def fetch_tab(tab_name):
         if cache_file.exists():
             print(f"  Falling back to cache", file=sys.stderr)
             with open(cache_file) as f:
-                return list(csv.DictReader(f))
+                return read_records(tab_name, f.read())
         sys.exit(1)
 
-    records = list(csv.DictReader(io.StringIO(text)))
+    records = read_records(tab_name, text)
 
     # Cache locally
     CACHE_DIR.mkdir(exist_ok=True)

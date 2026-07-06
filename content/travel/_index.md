@@ -9,34 +9,39 @@ date: 2024-01-01
   <h2>Upcoming</h2>
 
 <div class="travel-item">
-  <h3><a href="https://www.simonsfoundation.org/event/simons-collaboration-on-the-localization-of-waves-annual-meeting-2026/" target="_blank">2026 Simons Collaboration on Localization of Waves Annual Meeting</a></h3>
+  <h3>Organizing Mathematical Knowledge in the Age of AI and Formalization</h3>
   <div class="travel-meta">
-    <span class="travel-location">Simons Foundation, New York, NY</span>
-    <span class="travel-date">Feb 19–20, 2026</span>
+    <span class="travel-location">National Academy of Sciences</span>
+    <span class="travel-date">Jul 20–21, 2026</span>
   </div>
 </div>
 
 <div class="travel-item">
-  <h3><a href="https://www.newton.ac.uk/event/sgc/" target="_blank">Isaac Newton Institute - Geometric Spectral theory and Applications</a></h3>
+  <h3><a href="https://www.mathunion.org/icm/icm-2026" target="_blank">International Congress of Mathematicians</a></h3>
   <div class="travel-meta">
-    <span class="travel-location">Cambridge, UK</span>
-    <span class="travel-date">Feb 21 – Mar 08, 2026</span>
+    <span class="travel-location">ICM</span>
+    <span class="travel-date">Jul 23–30, 2026</span>
+  </div>
+</div>
+
+</div>
+
+<div class="upcoming-past-section">
+  <h2>Past</h2>
+
+<div class="travel-item">
+  <h3>Visit to the University of Macau</h3>
+  <div class="travel-meta">
+    <span class="travel-location">University of Macau</span>
+    <span class="travel-date">Jun 07–14, 2026</span>
   </div>
 </div>
 
 <div class="travel-item">
-  <h3><a href="https://sites.google.com/view/mspacekickoff/" target="_blank">COST mSPACE Kick-off Meeting</a></h3>
+  <h3><a href="https://icerm.brown.edu/program/topical_workshop/tw-26-ttfa" target="_blank">ICERM: Techniques and Tools for the Formalization of Analysis</a></h3>
   <div class="travel-meta">
-    <span class="travel-location">Milan, Italy</span>
-    <span class="travel-date">Mar 16–19, 2026</span>
-  </div>
-</div>
-
-<div class="travel-item">
-  <h3><a href="https://unidistance.ch/en/mathematics-and-computer-science/event/sms-spring-meeting-formalization-and-proof-assistants" target="_blank">SMS Spring Meeting: Formalization and Proof Assistants</a></h3>
-  <div class="travel-meta">
-    <span class="travel-location">UniDistance Suisse, Brig, Switzerland</span>
-    <span class="travel-date">Mar 25–27, 2026</span>
+    <span class="travel-location">ICERM, Providence, RI</span>
+    <span class="travel-date">May 11–15, 2026</span>
   </div>
 </div>
 
@@ -49,17 +54,36 @@ date: 2024-01-01
 </div>
 
 <div class="travel-item">
-  <h3><a href="https://icerm.brown.edu/program/topical_workshop/tw-26-ttfa" target="_blank">ICERM: Techniques and Tools for the Formalization of Analysis</a></h3>
+  <h3><a href="https://unidistance.ch/en/mathematics-and-computer-science/event/sms-spring-meeting-formalization-and-proof-assistants" target="_blank">SMS Spring Meeting: Formalization and Proof Assistants</a></h3>
   <div class="travel-meta">
-    <span class="travel-location">ICERM, Providence, RI</span>
-    <span class="travel-date">May 11–15, 2026</span>
+    <span class="travel-location">UniDistance Suisse, Brig, Switzerland</span>
+    <span class="travel-date">Mar 25–27, 2026</span>
   </div>
 </div>
 
+<div class="travel-item">
+  <h3><a href="https://sites.google.com/view/mspacekickoff/" target="_blank">COST mSPACE Kick-off Meeting</a></h3>
+  <div class="travel-meta">
+    <span class="travel-location">Milan, Italy</span>
+    <span class="travel-date">Mar 16–19, 2026</span>
+  </div>
 </div>
 
-<div class="upcoming-past-section">
-  <h2>Past</h2>
+<div class="travel-item">
+  <h3><a href="https://www.newton.ac.uk/event/sgc/" target="_blank">Isaac Newton Institute - Geometric Spectral theory and Applications</a></h3>
+  <div class="travel-meta">
+    <span class="travel-location">Cambridge, UK</span>
+    <span class="travel-date">Feb 21 – Mar 08, 2026</span>
+  </div>
+</div>
+
+<div class="travel-item">
+  <h3><a href="https://www.simonsfoundation.org/event/simons-collaboration-on-the-localization-of-waves-annual-meeting-2026/" target="_blank">2026 Simons Collaboration on Localization of Waves Annual Meeting</a></h3>
+  <div class="travel-meta">
+    <span class="travel-location">Simons Foundation, New York, NY</span>
+    <span class="travel-date">Feb 19–20, 2026</span>
+  </div>
+</div>
 
 <div class="travel-item">
   <h3><a href="https://sites.google.com/view/uk-st/events/workshop-4-reading" target="_blank">UK Spectral Theory Network Workshop</a></h3>

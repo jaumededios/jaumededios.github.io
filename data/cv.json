@@ -1,6 +1,39 @@
 {
   "publications": [
     {
+      "id": "2606.30831",
+      "title": "Geometric Dyson Brownian Motions and the Free Log-Normal Limit for a Non-Square Product of Random Matrices",
+      "authors": "Mufan Li, Jaume de Dios Pont, Mihai Nica, Daniel M. Roy",
+      "journal": "Preprint",
+      "date": "2026",
+      "abstract": "We study the squared singular value spectrum of a product of non-square random matrices, a setting that also corresponds to the feature covariance eigenvalues of a deep linear neural network at initialization. We first take a proportional depth-width d,n limit with the number of data points m held fixed, and show that the resulting covariance eigenvalue process satisfies a geometric version of Dyson Brownian motion. We then take a second, sequential mean-field limit corresponding to the scaling dm/n→τ¯, and show that the limiting T-transform of the spectrum solves a Burgers equation. In the identity-start case this equation yields the free log-normal law, and the general limit is obtained by free multiplicative convolution with the free log-normal. We further obtain the free log-normal support formula, a fixed-point iteration for numerical evaluation, and a formal small-time Marchenko--Pastur approximation. We also use the limiting spectral law to predict a toy random-feature regression risk, finding close agreement with a finite-dimensional simulation.",
+      "description": "",
+      "arxiv_url": "https://arxiv.org/abs/2606.30831",
+      "pdf_url": "https://arxiv.org/pdf/2606.30831"
+    },
+    {
+      "id": "2606.26052",
+      "title": "On the existence problem of regular Gabor frames",
+      "authors": "Jaume de Dios Pont, Lukas Liehr, Mitchell A. Taylor",
+      "journal": "Preprint",
+      "date": "2026",
+      "abstract": "For every dimension d>1, we establish explicit criteria on lattices Λ⊂ℝ2d with density D(Λ)>1 such that no function with a continuous Zak transform generates a Gabor frame along Λ. In particular, this gives a negative answer to the existence problem of Gabor frames with window functions in the Schwartz space, the Feichtinger algebra, and the Fourier-invariant Wiener space. Our result is based on a characterization of when a collection of quasiperiodic functions admits a common zero, which may be of independent interest. We also include a formalization of our main result in Lean 4.",
+      "description": "",
+      "arxiv_url": "https://arxiv.org/abs/2606.26052",
+      "pdf_url": "https://arxiv.org/pdf/2606.26052"
+    },
+    {
+      "id": "2605.20527",
+      "title": "L2-Stability for STFT phase retrieval",
+      "authors": "Susanna Bertolini, Jaume de Dios Pont, Ben Pineau, Mitchell A. Taylor, João P. G. Ramos",
+      "journal": "Preprint",
+      "date": "2026",
+      "abstract": "",
+      "description": "",
+      "arxiv_url": "https://arxiv.org/abs/2605.20527",
+      "pdf_url": "https://arxiv.org/pdf/2605.20527"
+    },
+    {
       "id": "2508.16321",
       "title": "Sharp bounds on the failure of the hot spots conjecture",
       "authors": "Jaume de Dios Pont, Alexander W. Hsu, Mitchell A. Taylor",
@@ -531,7 +564,7 @@
       "url": "",
       "location": "Brown University, Providence, RI",
       "short_location": "Providence, RI",
-      "tags": "Current",
+      "tags": "Past",
       "date": "2026-05-01",
       "date_end": "2026-05-02"
     },
@@ -541,7 +574,7 @@
       "url": "https://www.newton.ac.uk/event/sgc/",
       "location": "Cambridge, UK",
       "short_location": "Cambridge, UK",
-      "tags": "Current",
+      "tags": "Past",
       "date": "2026-02-21",
       "date_end": "2026-03-08"
     },
@@ -551,7 +584,7 @@
       "url": "https://sites.google.com/view/mspacekickoff/",
       "location": "Milan, Italy",
       "short_location": "Milan",
-      "tags": "Current",
+      "tags": "Past",
       "date": "2026-03-16",
       "date_end": "2026-03-19"
     },
@@ -561,7 +594,7 @@
       "url": "https://unidistance.ch/en/mathematics-and-computer-science/event/sms-spring-meeting-formalization-and-proof-assistants",
       "location": "UniDistance Suisse, Brig, Switzerland",
       "short_location": "Brig, Switzerland",
-      "tags": "Current",
+      "tags": "Past",
       "date": "2026-03-25",
       "date_end": "2026-03-27"
     },
@@ -571,7 +604,7 @@
       "url": "https://icerm.brown.edu/program/topical_workshop/tw-26-ttfa",
       "location": "ICERM, Providence, RI",
       "short_location": "Providence, RI",
-      "tags": "Current",
+      "tags": "Past",
       "date": "2026-05-11",
       "date_end": "2026-05-15"
     },
@@ -581,9 +614,39 @@
       "url": "https://www.simonsfoundation.org/event/simons-collaboration-on-the-localization-of-waves-annual-meeting-2026/",
       "location": "Simons Foundation, New York, NY",
       "short_location": "New York",
-      "tags": "Current",
+      "tags": "Past",
       "date": "2026-02-19",
       "date_end": "2026-02-20"
+    },
+    {
+      "id": "",
+      "title": "Visit to the University of Macau",
+      "url": "",
+      "location": "University of Macau",
+      "short_location": "Macau",
+      "tags": "Past",
+      "date": "2026-06-07",
+      "date_end": "2026-06-14"
+    },
+    {
+      "id": "",
+      "title": "Organizing Mathematical Knowledge in the Age of AI and Formalization",
+      "url": "",
+      "location": "National Academy of Sciences",
+      "short_location": "NAS, DC",
+      "tags": "Current",
+      "date": "2026-07-20",
+      "date_end": "2026-07-21"
+    },
+    {
+      "id": "",
+      "title": "International Congress of Mathematicians",
+      "url": "https://www.mathunion.org/icm/icm-2026",
+      "location": "ICM",
+      "short_location": "Philadelphia, PA",
+      "tags": "Current",
+      "date": "2026-07-23",
+      "date_end": "2026-07-30"
     }
   ],
   "talks": [
@@ -592,10 +655,10 @@
       "title": "Some Extreme Regimes of the Laplace Operator",
       "type": "Workshop",
       "event": "2026 Simons Collaboration on Localization of Waves Annual Meeting",
-      "short_location": "Simons Foundation",
+      "short_location": "Simons \"Localization of Waves\" meeting",
       "url": "https://www.simonsfoundation.org/event/simons-collaboration-on-the-localization-of-waves-annual-meeting-2026/",
       "abstract": "",
-      "tags": "Current",
+      "tags": "Past",
       "date": "2026-02-19",
       "date_end": "",
       "time_zone": ""
@@ -1294,10 +1357,10 @@
       "title": "Recent progress on the hot spots conjecture",
       "type": "Seminar",
       "event": "Brown University",
-      "short_location": "Brown University",
+      "short_location": "Brown Analysis Seminar",
       "url": "",
       "abstract": "",
-      "tags": "Current",
+      "tags": "Past",
       "date": "2026-05-01",
       "date_end": "",
       "time_zone": ""
@@ -1310,7 +1373,7 @@
       "short_location": "SMS, Brig",
       "url": "https://unidistance.ch/en/mathematics-and-computer-science/event/sms-spring-meeting-formalization-and-proof-assistants",
       "abstract": "",
-      "tags": "Current",
+      "tags": "Past",
       "date": "2026-03-25",
       "date_end": "",
       "time_zone": ""
@@ -1320,11 +1383,89 @@
       "title": "Recent progress on the hot spots conjecture",
       "type": "Conference",
       "event": "COST mSPACE Kick-off Meeting (Milan)",
-      "short_location": "Milan",
+      "short_location": "COST mSPACE Kick-off Meeting",
       "url": "",
       "abstract": "",
-      "tags": "Current",
+      "tags": "Past",
       "date": "2026-03-16",
+      "date_end": "",
+      "time_zone": ""
+    },
+    {
+      "id": "",
+      "title": "Recent progress in the Hot Spots conjecture",
+      "type": "Seminar",
+      "event": "Isaac Newton Institute — Geometric Spectral Theory and Applications",
+      "short_location": "INI, Cambridge",
+      "url": "https://www.newton.ac.uk/event/sgc/",
+      "abstract": "",
+      "tags": "Past",
+      "date": "2026-02-25",
+      "date_end": "",
+      "time_zone": ""
+    },
+    {
+      "id": "",
+      "title": "Convex Sets can have interior hot spots",
+      "type": "Seminar",
+      "event": "NYU Convexity Seminar",
+      "short_location": "NYU",
+      "url": "https://math.nyu.edu/dynamic/calendars/seminars/convexity-seminar/4444/",
+      "abstract": "A homogeneous, insulated object with a non-uniform initial temperature will eventually reach thermal equilibrium. Which point in the object takes the longest to reach this equilibrium? Intuition tells us that points \"in the middle\" of the material will generically reach this equilibrium temperature faster, and points \"far from the middle\" (i.e. at the boundary) should take more time to reach this temperature. The hot spots conjecture is a formalization of this intuition.",
+      "tags": "Past",
+      "date": "2026-05-05",
+      "date_end": "",
+      "time_zone": ""
+    },
+    {
+      "id": "",
+      "title": "Some Extreme Regimes of the Laplace Operator",
+      "type": "Seminar",
+      "event": "Brown University PDE Seminar",
+      "short_location": "Barcelona",
+      "url": "https://events.brown.edu/event/332640-pde-seminar-presents-jaume-de-dios-pont-nyu",
+      "abstract": "",
+      "tags": "Past",
+      "date": "2026-05-01",
+      "date_end": "",
+      "time_zone": ""
+    },
+    {
+      "id": "",
+      "title": "Semiautomated discovery and verification of mathematical theorems",
+      "type": "Seminar",
+      "event": "La Salle University",
+      "short_location": "Barcelona",
+      "url": "",
+      "abstract": "Rauch initially conjectured that points attaining the maximum temperature in the material would approach the boundary as time goes to infinity. Burdzy and Werner later disproved the conjecture for planar domains with holes. The general consensus, however, was that the conjecture should still hold for convex sets of all dimensions.",
+      "tags": "Past",
+      "date": "2026-06-01",
+      "date_end": "",
+      "time_zone": ""
+    },
+    {
+      "id": "",
+      "title": "Semiautomated discovery and verification of mathematical theorems",
+      "type": "Seminar",
+      "event": "Universitat Autonoma de Barcelona",
+      "short_location": "",
+      "url": "",
+      "abstract": "",
+      "tags": "Past",
+      "date": "2026-06-01",
+      "date_end": "",
+      "time_zone": ""
+    },
+    {
+      "id": "",
+      "title": "TBD",
+      "type": "Seminar",
+      "event": "",
+      "short_location": "",
+      "url": "",
+      "abstract": "This talk will draw inspiration from a recurrent theme in convex analysis: most dimension-free results in convex analysis have a natural log-concave generalization. We will motivate and construct the log-concave analog of the Hot Spots conjecture, and then disprove it. Using this log-concave construction, we will argue that the hot spots conjecture for convex sets is false in high enough dimensions.",
+      "tags": "Past",
+      "date": "",
       "date_end": "",
       "time_zone": ""
     }

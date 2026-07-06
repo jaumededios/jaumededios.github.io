@@ -1,24 +1,24 @@
 ---
-title: "A new proof of the description of the convex hull of space curves with totally positive torsion"
+title: "A new proof of the convex hull of space curves with totally positive torsion"
 date: 2022-01-01
-type: "preprint"
-authors: "Jaume de Dios, Paata Ivanisvili, José Madrid"
-year: "2022"
+type: "michigan mathematical journal"
+authors: "Jaume de Dios Pont, Paata Ivanisvili, Jose Madrid"
+year: "2024"
 arxiv: "2201.12932"
-description: "We give new proofs of the description convex hulls of space curves $\\gamma : [a,b] \\mapsto \\mathbb{R}^{d}$ having totally positive torsion. These are curves such that all the leading principal minors of $d\\times d$ matrix $(\\gamma', \\gamma'', \\ldots, \\gamma^{(d)})$ are positive. In particular, we..."
 paper_url: "https://arxiv.org/abs/2201.12932"
 featured_image: "/images/papers/a-new-proof-of-the-description-of-the-convex-hull-of-space-curves-with-totally-positive-torsion.png"
+description: "We give new proofs of the description convex hulls of space curves $\\gamma : [a,b] \\mapsto \\mathbb{R}^{d}$ having totally positive torsion. These are curves such that all the leading principal minors of $d\\times d$ matrix $(\\gamma', \\gamma'', \\ldots, \\gamma^{(d)})$ are positiv..."
 
 ---
 
 ![Featured Image](/images/papers/a-new-proof-of-the-description-of-the-convex-hull-of-space-curves-with-totally-positive-torsion.png)
 
-**Authors:** Jaume de Dios, Paata Ivanisvili, José Madrid
+**Authors:** Jaume de Dios Pont, Paata Ivanisvili, Jose Madrid
 
-**Type:** Preprint (2022)
+**Type:** Michigan Mathematical Journal (2024)
 
 [arXiv:2201.12932](https://arxiv.org/abs/2201.12932)
 
 ## Abstract
 
-We give new proofs of the description convex hulls of space curves γ:[a,b]→R^d having totally positive torsion.
+We give new proofs of the description convex hulls of space curves $\gamma : [a,b] \mapsto \mathbb{R}^{d}$ having totally positive torsion. These are curves such that all the leading principal minors of $d\times d$ matrix $(\gamma', \gamma'', \ldots, \gamma^{(d)})$ are positive. In particular, we recover parametric representation of the boundary of the convex hull, different formulas for its surface area and the volume of the convex hull, and the solution to a general moment problem corresponding to $\gamma$.

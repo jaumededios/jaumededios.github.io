@@ -8,21 +8,53 @@ date: 2024-01-01
 <div class="upcoming-past-section">
   <h2>Upcoming</h2>
 
+</div>
+
+<div class="upcoming-past-section">
+  <h2>Past</h2>
+
 <div class="talk-item">
-  <h3><a href="https://www.simonsfoundation.org/event/simons-collaboration-on-the-localization-of-waves-annual-meeting-2026/" target="_blank">Some Extreme Regimes of the Laplace Operator</a></h3>
+  <h3>Semiautomated discovery and verification of mathematical theorems</h3>
   <div class="talk-meta">
-    <span class="talk-type">Workshop</span>
-    <span class="talk-event">2026 Simons Collaboration on Localization of Waves Annual Meeting</span>
-    <span class="talk-date">Feb 19, 2026</span>
+    <span class="talk-type">Seminar</span>
+    <span class="talk-event">La Salle University</span>
+    <span class="talk-date">Jun 01, 2026</span>
+  </div>
+</div>
+
+<div class="talk-item">
+  <h3>Semiautomated discovery and verification of mathematical theorems</h3>
+  <div class="talk-meta">
+    <span class="talk-type">Seminar</span>
+    <span class="talk-event">Universitat Autonoma de Barcelona</span>
+    <span class="talk-date">Jun 01, 2026</span>
+  </div>
+</div>
+
+<div class="talk-item">
+  <h3><a href="https://math.nyu.edu/dynamic/calendars/seminars/convexity-seminar/4444/" target="_blank">Convex Sets can have interior hot spots</a></h3>
+  <div class="talk-meta">
+    <span class="talk-type">Seminar</span>
+    <span class="talk-event">NYU Convexity Seminar</span>
+    <span class="talk-date">May 05, 2026</span>
   </div>
 </div>
 
 <div class="talk-item">
   <h3>Recent progress on the hot spots conjecture</h3>
   <div class="talk-meta">
-    <span class="talk-type">Conference</span>
-    <span class="talk-event">COST mSPACE Kick-off Meeting (Milan)</span>
-    <span class="talk-date">Mar 16, 2026</span>
+    <span class="talk-type">Seminar</span>
+    <span class="talk-event">Brown University</span>
+    <span class="talk-date">May 01, 2026</span>
+  </div>
+</div>
+
+<div class="talk-item">
+  <h3><a href="https://events.brown.edu/event/332640-pde-seminar-presents-jaume-de-dios-pont-nyu" target="_blank">Some Extreme Regimes of the Laplace Operator</a></h3>
+  <div class="talk-meta">
+    <span class="talk-type">Seminar</span>
+    <span class="talk-event">Brown University PDE Seminar</span>
+    <span class="talk-date">May 01, 2026</span>
   </div>
 </div>
 
@@ -38,16 +70,29 @@ date: 2024-01-01
 <div class="talk-item">
   <h3>Recent progress on the hot spots conjecture</h3>
   <div class="talk-meta">
-    <span class="talk-type">Seminar</span>
-    <span class="talk-event">Brown University</span>
-    <span class="talk-date">May 01, 2026</span>
+    <span class="talk-type">Conference</span>
+    <span class="talk-event">COST mSPACE Kick-off Meeting (Milan)</span>
+    <span class="talk-date">Mar 16, 2026</span>
   </div>
 </div>
 
+<div class="talk-item">
+  <h3><a href="https://www.newton.ac.uk/event/sgc/" target="_blank">Recent progress in the Hot Spots conjecture</a></h3>
+  <div class="talk-meta">
+    <span class="talk-type">Seminar</span>
+    <span class="talk-event">Isaac Newton Institute — Geometric Spectral Theory and Applications</span>
+    <span class="talk-date">Feb 25, 2026</span>
+  </div>
 </div>
 
-<div class="upcoming-past-section">
-  <h2>Past</h2>
+<div class="talk-item">
+  <h3><a href="https://www.simonsfoundation.org/event/simons-collaboration-on-the-localization-of-waves-annual-meeting-2026/" target="_blank">Some Extreme Regimes of the Laplace Operator</a></h3>
+  <div class="talk-meta">
+    <span class="talk-type">Workshop</span>
+    <span class="talk-event">2026 Simons Collaboration on Localization of Waves Annual Meeting</span>
+    <span class="talk-date">Feb 19, 2026</span>
+  </div>
+</div>
 
 <div class="talk-item">
   <h3><a href="https://cds.nyu.edu/mad/" target="_blank">Worst-case starts for diffusion processes: The hot spots conjecture</a></h3>
