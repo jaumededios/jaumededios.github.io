@@ -73,7 +73,8 @@ def fetch_tab(tab_name):
             return read_records(tab_name, f.read())
 
     gid = TABS[tab_name]
-    url = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&gid={gid}"
+    # Preserve literal dates and the single header row without gviz inference.
+    url = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid={gid}"
 
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
@@ -275,7 +276,7 @@ def gen_education(records):
 
 
 def gen_awards(records):
-    lines = ["\\vspace{.5em}", "\\section{Postgraduate Awards and Scholarships}", "  \\medskip"]
+    lines = ["\\vspace{.5em}", "\\section{Awards and Scholarships}", "  \\medskip"]
     for r in records:
         award = tex_escape_light(r.get("award", ""))
         year = r.get("year", "")
@@ -354,8 +355,11 @@ def gen_talks(records):
         blocks[block].append(r)
 
     # Separate research vs expository/minicourse
-    research_blocks = [b for b in block_order if b not in ("Expository", "Minicourse")]
-    expository_blocks = [b for b in block_order if b in ("Expository", "Minicourse")]
+    nonresearch = {"Expository", "Minicourse", "Short Courses and Workshops", "Panels"}
+    research_blocks = [b for b in block_order if b not in nonresearch]
+    expository_blocks = [b for b in block_order if b == "Expository"]
+    course_blocks = [b for b in block_order if b in ("Minicourse", "Short Courses and Workshops")]
+    panel_blocks = [b for b in block_order if b == "Panels"]
 
     # Map block names to display titles
     block_titles = {
@@ -386,13 +390,17 @@ def gen_talks(records):
         for b in research_blocks:
             emit_block(b, blocks[b])
 
-    if expository_blocks:
-        lines.append("\\subsection{\\textbf{\\color{color1} Expository talks}}")
+    # Keep distinct activities labeled honestly without changing list styling.
+    for heading, selected_blocks in (("Expository talks", expository_blocks),
+                                     ("Short Courses and Workshops", course_blocks),
+                                     ("Panels", panel_blocks)):
+        if not selected_blocks:
+            continue
+        lines.append(f"\\subsection{{\\textbf{{\\color{{color1}} {heading}}}}}")
         lines.append("")
-        # Expository: flat list with title, venue, date — no grouping by topic
         lines.append("\\begin{small}")
         lines.append("\\begin{itemize}\\setlength\\itemsep{0pt}")
-        for b in expository_blocks:
+        for b in selected_blocks:
             for t in blocks[b]:
                 title = tex_escape_light(t.get("title", ""))
                 event = tex_escape_light(t.get("event", ""))
@@ -411,6 +419,8 @@ def gen_talks(records):
 def gen_travel(records):
     from datetime import datetime, date as _date
     today = _date.today()
+    # Ignore blank/canceled source rows rather than emitting an empty entry.
+    records = [r for r in records if r.get("title", "").strip()]
     # Filter out future travel
     records = [r for r in records if not r.get("date", "") or r.get("date", "")[:10] <= today.isoformat()]
     lines = [
@@ -501,19 +511,29 @@ def gen_teaching(records):
 
 
 def gen_service(records):
-    lines = ["\\section{Reviewing}"]
-    # Service sheet has columns: type, details, year
-    # Filter out placeholder rows
-    skip_phrases = ["to be populated", "add reviewing", "(to be populated)"]
-    journals = [tex_escape_light(r.get("details", "")) for r in records
-                if r.get("details") and not any(p in r.get("details", "").lower() for p in skip_phrases)]
-    if journals:
+    # Service sheet: type, details, year. Never label organizer/board work as
+    # journal reviewing. Preserve the existing referee list if none is supplied.
+    skip_phrases = ("to be populated", "add reviewing")
+    entries = [r for r in records if r.get("details", "").strip()
+               and not any(p in r.get("details", "").lower() for p in skip_phrases)]
+    reviewers, other = [], []
+    for row in entries:
+        kind = row.get("type", "").strip().lower()
+        (reviewers if kind in ("reviewer", "reviewing", "referee", "refereeing") else other).append(row)
+    lines = ["\\section{Service}" if other else "\\section{Reviewing}"]
+    for row in other:
+        kind = tex_escape_light(row.get("type", "").strip())
+        details = tex_escape_light(row.get("details", "").strip())
+        year = tex_escape_light(row.get("year", "").strip())
+        label = f"\\textbf{{{kind}}}: " if kind else ""
+        lines.append(f"\\cvitem{{show}}{{{year}}}{{{label}{details}}}")
+    if reviewers:
+        journals = [tex_escape_light(r["details"].strip()) for r in reviewers]
         lines.append("Reviewer for: " + ", ".join(journals) + ".")
     else:
-        # Hardcode from known data since sheet may be sparse
         lines.append("Reviewer for: Transactions of the AMS, Proceedings of the AMS, "
-                      "Mathematical Statistics and Learning, Discrete Mathematics, "
-                      "Journal of the London Mathematical Society, AMS Contemporary Mathematics.")
+                     "Mathematical Statistics and Learning, Discrete Mathematics, "
+                     "Journal of the London Mathematical Society, AMS Contemporary Mathematics.")
     return "\n".join(lines) + "\n"
 
 

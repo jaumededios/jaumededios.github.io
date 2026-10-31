@@ -71,7 +71,9 @@ def fetch_tab(tab_name):
             return read_records(tab_name, f.read())
 
     gid = TABS[tab_name]
-    url = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&gid={gid}"
+    # Native CSV export preserves mixed date precision; gviz drops minority
+    # string dates (e.g. YYYY-MM) and may guess several header rows.
+    url = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid={gid}"
 
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
@@ -95,13 +97,22 @@ def fetch_tab(tab_name):
 
 
 def parse_date(s):
-    """Parse YYYY-MM-DD (possibly with time suffix) into a date object, or None."""
+    """Parse a day or month date for sorting; preserve source precision in display."""
     if not s:
         return None
     m = re.match(r"(\d{4})-(\d{2})-(\d{2})", s)
     if m:
         return date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+    if re.fullmatch(r"\d{4}-\d{2}", s):
+        return date(int(s[:4]), int(s[5:7]), 1)
     return None
+
+
+def format_event_date(d, raw, full=True):
+    """Never display a month-only talk as a known first-of-month date."""
+    if re.fullmatch(r"\d{4}-\d{2}", raw):
+        return f"{MONTHS[d.month - 1]} {d.year}" if full else MONTHS[d.month - 1]
+    return format_date_full(d) if full else format_month_day(d)
 
 
 def format_month_day(d):
@@ -433,7 +444,7 @@ def gen_upcoming_combined_html(talks, travel):
             title = r.get("title", "").strip() or "TBD"
             url = r.get("url", "").strip()
             short_loc = r.get("short_location", "").strip() or r.get("event", "").strip()
-            date_str = format_month_day(start_date)
+            date_str = format_event_date(start_date, r.get("date", ""), full=False)
 
             if title and title.upper() != "TBD" and url:
                 title_html = f'Talk: <a href="{url}" target="_blank">{title}</a>'
@@ -504,7 +515,7 @@ def gen_talks_page(talks):
         url = r.get("url", "").strip()
         talk_type = r.get("type", "").strip() or "Seminar"
         event = r.get("event", "").strip()
-        date_str = format_date_full(d)
+        date_str = format_event_date(d, r.get("date", ""))
 
         if url and title.upper() != "TBD":
             title_html = f'<a href="{url}" target="_blank">{title}</a>'
@@ -534,7 +545,7 @@ def gen_talks_page(talks):
         url = r.get("url", "").strip()
         talk_type = r.get("type", "").strip() or "Seminar"
         event = r.get("event", "").strip()
-        date_str = format_date_full(d)
+        date_str = format_event_date(d, r.get("date", ""))
 
         if url:
             title_html = f'<a href="{url}" target="_blank">{title}</a>'
